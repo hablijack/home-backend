@@ -35,9 +35,6 @@ class Configuration:
 
     def fritz_garage_solar_ain(self):
         return os.getenv('FRITZ_GARAGE_SOLAR_AIN')
-    
-    def fritz_balcony_solar_ain(self):
-        return os.getenv('FRITZ_BALCONY_SOLAR_AIN')
 
     def zoe_username(self):
         return os.getenv('ZOE_USERNAME')
