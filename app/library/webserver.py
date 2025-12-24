@@ -4,7 +4,6 @@
 import tornado
 from library.handler.homepage import Homepage
 from library.handler.api_zoe_battery import ApiZoeBattery
-from library.handler.api_house_power_current import ApiHousePowerCurrent
 from library.handler.api_house_temp_current import ApiHouseTempCurrent
 from library.handler.rhasspy_intent import RhasspyIntent
 from library.handler.health import Health
@@ -32,7 +31,6 @@ class Webserver():
             (r"/health", Health),
             (r"/api/zoe/battery/current.json", ApiZoeBattery, dict(database=self.database)),
             (r"/api/house/temp/current.json", ApiHouseTempCurrent, dict(database=self.database)),
-            (r"/api/house/power/current.json", ApiHousePowerCurrent, dict(database=self.database)),
             (r"/rhasspy_intent", RhasspyIntent, dict(database=self.database)),
         ], **settings)
 
