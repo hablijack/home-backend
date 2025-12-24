@@ -35,10 +35,18 @@ var Weatherstation = (function () {
         return hours + ':' + minutes;
     };
 
+    var formatDayName = function (timestamp) {
+        if (!timestamp) return '';
+        
+        var date = new Date(timestamp);
+        var days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
+        return days[date.getDay()];
+    };
+
     return {
         init: async function () {
             var weatherData = await fetchWeatherData();
-            Weatherstation.updateCurrentWeather(weatherData);
+            Weatherstation.updateAll(weatherData);
         },
 
         updateCurrentWeather: function (data) {
@@ -74,7 +82,7 @@ var Weatherstation = (function () {
                     var card = forecastCards[index];
                     
                     // Update headline (day name)
-                    updateElementInCard(card, '.forecast-headline', forecast.day || 'Tag ' + (index + 1));
+                    updateElementInCard(card, '.forecast-headline', formatDayName(forecast.day * 1000) || 'Tag ' + (index + 1));
                     
                     // Update condition image
                     updateImageInCard(card, '.forecast-image', "/static/img/weather/weather_icons/" + forecast.icon);

@@ -188,6 +188,7 @@ body {
 .temp-value {
     font-weight: bold;
     font-size: 24px;
+    margin-left: 3px;
 }
 
 /* Icon positioning */
@@ -233,6 +234,7 @@ body {
     position: absolute;
     bottom: 7px;
     left: 19px;
+    width: 150px;
 }
 
 #condition-name {
@@ -378,9 +380,10 @@ body {
 .condition-text {
     font-size: 13px;
     position: absolute;
-    top: 107px;
-    left: 3px;
+    top: 129px;
+    left: 0;
     hyphens: auto;
+    width: 100%;
     text-align: center;
 }
 

@@ -1342,3 +1342,746 @@
 24.12.2025 13:40:01 - INFO [E320] E320 data: E_in=170.6, E_out=1.961, Power=304
 24.12.2025 13:40:01 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:41:01 CET)" executed successfully
 24.12.2025 13:40:05 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:41:01 CET)" executed successfully
+24.12.2025 13:47:22 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:47:22 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:47:22 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:47:22 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:47:22 - INFO [apscheduler.scheduler] Added job "Fritzbox.fetch" to job store "default"
+24.12.2025 13:47:22 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+24.12.2025 13:47:22 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+24.12.2025 13:47:22 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+24.12.2025 13:47:22 - INFO [apscheduler.scheduler] Scheduler started
+24.12.2025 13:47:22 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+24.12.2025 13:47:23 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:47:23 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.46ms
+24.12.2025 13:47:25 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1367.86ms
+24.12.2025 13:47:25 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:47:25 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 0.83ms
+24.12.2025 13:47:25 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.02ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 2.75ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 1.06ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 1.13ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 1.23ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 1.27ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.30ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.23ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.42ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.69ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.85ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.99ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.35ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.35ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.42ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.40ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.81ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.92ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 1.02ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 1.14ms
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.38ms
+24.12.2025 13:47:25 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:47:25 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.13ms
+24.12.2025 13:47:26 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1313.93ms
+24.12.2025 13:47:26 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.92ms
+24.12.2025 13:47:26 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/clear-day.svg (127.0.0.1) 3.06ms
+24.12.2025 13:48:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:48:22 CET)" (scheduled at 2025-12-24 13:48:22.869622+01:00)
+24.12.2025 13:48:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:48:22 CET)" (scheduled at 2025-12-24 13:48:22.869846+01:00)
+24.12.2025 13:48:23 - INFO [E320] E320 data: E_in=170.748, E_out=1.961, Power=2382
+24.12.2025 13:48:23 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:49:22 CET)" executed successfully
+24.12.2025 13:48:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:49:22 CET)" executed successfully
+24.12.2025 13:48:38 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.45ms
+24.12.2025 13:49:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:50:22 CET)" (scheduled at 2025-12-24 13:49:22.869622+01:00)
+24.12.2025 13:49:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:50:22 CET)" (scheduled at 2025-12-24 13:49:22.869846+01:00)
+24.12.2025 13:49:22 - INFO [E320] E320 data: E_in=170.787, E_out=1.961, Power=2377
+24.12.2025 13:49:22 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:50:22 CET)" executed successfully
+24.12.2025 13:49:26 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:49:26 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.21ms
+24.12.2025 13:49:26 - INFO [tornado.access] 304 GET /static/js/weather.js (127.0.0.1) 0.38ms
+24.12.2025 13:49:26 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.95ms
+24.12.2025 13:49:26 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:49:26 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.16ms
+24.12.2025 13:49:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:50:22 CET)" executed successfully
+24.12.2025 13:49:27 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1256.83ms
+24.12.2025 13:49:29 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.18ms
+24.12.2025 13:49:29 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.99ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.42ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.50ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.38ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.87ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 1.00ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 1.28ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 1.42ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.69ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.42ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.90ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 1.00ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 1.12ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.34ms
+24.12.2025 13:49:29 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.22ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.55ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.65ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.41ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.59ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.67ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.44ms
+24.12.2025 13:49:29 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.33ms
+24.12.2025 13:49:30 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1289.56ms
+24.12.2025 13:49:30 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.93ms
+24.12.2025 13:49:31 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.15ms
+24.12.2025 13:49:31 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.92ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.37ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.52ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.40ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.45ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.57ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.45ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.60ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.52ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.86ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 1.02ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 1.14ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 1.63ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 1.75ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.54ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.84ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.82ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.52ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.62ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.69ms
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.45ms
+24.12.2025 13:49:31 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:49:31 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.20ms
+24.12.2025 13:49:32 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1250.75ms
+24.12.2025 13:49:32 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.03ms
+24.12.2025 13:49:33 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.13ms
+24.12.2025 13:49:33 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.90ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.38ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.53ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.63ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.63ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.48ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.60ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.36ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.91ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 1.00ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.44ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.32ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.52ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.83ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.44ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.51ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.45ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.90ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 1.08ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 1.05ms
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 1.17ms
+24.12.2025 13:49:33 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:49:33 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.24ms
+24.12.2025 13:49:35 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1315.67ms
+24.12.2025 13:49:35 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.00ms
+24.12.2025 13:50:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:51:22 CET)" (scheduled at 2025-12-24 13:50:22.869622+01:00)
+24.12.2025 13:50:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:51:22 CET)" (scheduled at 2025-12-24 13:50:22.869846+01:00)
+24.12.2025 13:50:23 - INFO [E320] E320 data: E_in=170.827, E_out=1.961, Power=2396
+24.12.2025 13:50:23 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:51:22 CET)" executed successfully
+24.12.2025 13:50:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:51:22 CET)" executed successfully
+24.12.2025 13:50:43 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.14ms
+24.12.2025 13:50:43 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.95ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.36ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.40ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.30ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.49ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.30ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.43ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.28ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.55ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.46ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.30ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.47ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.32ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.39ms
+24.12.2025 13:50:43 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.09ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.43ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 1.00ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.53ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.52ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.74ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.88ms
+24.12.2025 13:50:43 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 1.00ms
+24.12.2025 13:50:44 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1251.36ms
+24.12.2025 13:50:44 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.01ms
+24.12.2025 13:51:15 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.60ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.48ms
+24.12.2025 13:51:15 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.81ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.37ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.28ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.56ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.31ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.39ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.54ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.66ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.90ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.53ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.53ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.92ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.49ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.55ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.36ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.58ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.44ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.29ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.51ms
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.61ms
+24.12.2025 13:51:15 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:51:15 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.42ms
+24.12.2025 13:51:16 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1313.97ms
+24.12.2025 13:51:16 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.95ms
+24.12.2025 13:51:17 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.10ms
+24.12.2025 13:51:17 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.25ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.46ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.54ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.28ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.52ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.51ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.66ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.41ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.40ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.78ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.45ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.34ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.36ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.53ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.69ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.82ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.46ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.42ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.50ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.35ms
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.50ms
+24.12.2025 13:51:17 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:51:17 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.30ms
+24.12.2025 13:51:18 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1248.54ms
+24.12.2025 13:51:18 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.01ms
+24.12.2025 13:51:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:52:22 CET)" (scheduled at 2025-12-24 13:51:22.869622+01:00)
+24.12.2025 13:51:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:52:22 CET)" (scheduled at 2025-12-24 13:51:22.869846+01:00)
+24.12.2025 13:51:23 - INFO [E320] E320 data: E_in=170.874, E_out=1.961, Power=3353
+24.12.2025 13:51:23 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:52:22 CET)" executed successfully
+24.12.2025 13:51:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:52:22 CET)" executed successfully
+24.12.2025 13:51:43 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:51:43 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.58ms
+24.12.2025 13:51:43 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 0.45ms
+24.12.2025 13:51:43 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.87ms
+24.12.2025 13:51:43 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:51:43 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.19ms
+24.12.2025 13:51:44 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1307.73ms
+24.12.2025 13:52:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:53:22 CET)" (scheduled at 2025-12-24 13:52:22.869622+01:00)
+24.12.2025 13:52:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:53:22 CET)" (scheduled at 2025-12-24 13:52:22.869846+01:00)
+24.12.2025 13:52:22 - INFO [E320] E320 data: E_in=170.914, E_out=1.961, Power=2355
+24.12.2025 13:52:22 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:53:22 CET)" executed successfully
+24.12.2025 13:52:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:53:22 CET)" executed successfully
+24.12.2025 13:53:12 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:53:12 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.42ms
+24.12.2025 13:53:12 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.33ms
+24.12.2025 13:53:12 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.37ms
+24.12.2025 13:53:12 - INFO [tornado.access] 304 GET /static/js/weather.js (127.0.0.1) 0.38ms
+24.12.2025 13:53:12 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:53:12 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.17ms
+24.12.2025 13:53:14 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1250.06ms
+24.12.2025 13:53:14 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.11ms
+24.12.2025 13:53:14 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.88ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.31ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.51ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.66ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 1.29ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.44ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.52ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.63ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.51ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.43ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.59ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.51ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.68ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.85ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 1.22ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.51ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.64ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.61ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.73ms
+24.12.2025 13:53:14 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.62ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.45ms
+24.12.2025 13:53:14 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.25ms
+24.12.2025 13:53:16 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1308.51ms
+24.12.2025 13:53:16 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.94ms
+24.12.2025 13:53:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:54:22 CET)" (scheduled at 2025-12-24 13:53:22.869622+01:00)
+24.12.2025 13:53:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:54:22 CET)" (scheduled at 2025-12-24 13:53:22.869846+01:00)
+24.12.2025 13:53:23 - INFO [E320] E320 data: E_in=170.954, E_out=1.961, Power=2353
+24.12.2025 13:53:23 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:54:22 CET)" executed successfully
+24.12.2025 13:53:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:54:22 CET)" executed successfully
+24.12.2025 13:54:12 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:54:12 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.26ms
+24.12.2025 13:54:12 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 0.65ms
+24.12.2025 13:54:12 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.74ms
+24.12.2025 13:54:12 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.62ms
+24.12.2025 13:54:12 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:54:12 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.22ms
+24.12.2025 13:54:13 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1306.45ms
+24.12.2025 13:54:15 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.07ms
+24.12.2025 13:54:15 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.87ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.33ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.46ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.35ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.35ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.52ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.62ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.74ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.51ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.37ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.51ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.73ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.42ms
+24.12.2025 13:54:15 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.45ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.49ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.26ms
+24.12.2025 13:54:15 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.47ms
+24.12.2025 13:54:17 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1330.94ms
+24.12.2025 13:54:17 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.02ms
+24.12.2025 13:54:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:55:22 CET)" (scheduled at 2025-12-24 13:54:22.869622+01:00)
+24.12.2025 13:54:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:55:22 CET)" (scheduled at 2025-12-24 13:54:22.869846+01:00)
+24.12.2025 13:54:23 - INFO [E320] E320 data: E_in=170.993, E_out=1.961, Power=2345
+24.12.2025 13:54:23 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:55:22 CET)" executed successfully
+24.12.2025 13:54:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:55:22 CET)" executed successfully
+24.12.2025 13:54:31 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:54:31 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.20ms
+24.12.2025 13:54:31 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 0.40ms
+24.12.2025 13:54:31 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.80ms
+24.12.2025 13:54:31 - INFO [tornado.access] 304 GET /static/js/weather.js (127.0.0.1) 0.42ms
+24.12.2025 13:54:31 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:54:31 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.38ms
+24.12.2025 13:54:32 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1321.65ms
+24.12.2025 13:54:47 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.27ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.73ms
+24.12.2025 13:54:47 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.70ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.55ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.30ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.57ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.34ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.64ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.84ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.98ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 1.13ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.47ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.50ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.63ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.34ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.44ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.59ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.63ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.54ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.91ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 1.04ms
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 1.19ms
+24.12.2025 13:54:47 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:54:47 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 2.15ms
+24.12.2025 13:54:49 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1313.94ms
+24.12.2025 13:54:49 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.95ms
+24.12.2025 13:55:01 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.15ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.44ms
+24.12.2025 13:55:01 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.98ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.42ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.54ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.67ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.46ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.38ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.44ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.56ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.63ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.72ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.53ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.47ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.55ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.39ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.51ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.60ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.56ms
+24.12.2025 13:55:01 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.18ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 1.29ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.38ms
+24.12.2025 13:55:01 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.48ms
+24.12.2025 13:55:02 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1311.64ms
+24.12.2025 13:55:02 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.90ms
+24.12.2025 13:55:03 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.26ms
+24.12.2025 13:55:03 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.86ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.34ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.42ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.33ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.59ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.81ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.89ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.42ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.33ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.36ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.47ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.62ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.42ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.57ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.48ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.84ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 1.05ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 1.16ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 1.24ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.27ms
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.36ms
+24.12.2025 13:55:03 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:03 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.02ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1252.91ms
+24.12.2025 13:55:04 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.04ms
+24.12.2025 13:55:04 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 2.10ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.46ms
+24.12.2025 13:55:04 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.73ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.39ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.51ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.45ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.44ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.51ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.58ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.66ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.40ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.48ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.53ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.70ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.59ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.69ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.80ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.47ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.31ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.33ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.51ms
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.66ms
+24.12.2025 13:55:04 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.60ms
+24.12.2025 13:55:04 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:04 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.07ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1307.84ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 3.12ms
+24.12.2025 13:55:06 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.54ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 1.70ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 1.85ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 1.98ms
+24.12.2025 13:55:06 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.90ms
+24.12.2025 13:55:06 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.27ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.49ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.56ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.49ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.62ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.73ms
+24.12.2025 13:55:06 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.14ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.46ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.60ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.55ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.67ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.79ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.50ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.50ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.59ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.66ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.38ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.48ms
+24.12.2025 13:55:06 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.87ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.39ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.56ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.69ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.45ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.37ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.36ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.72ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.86ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 1.06ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.53ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.70ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.90ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 1.00ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 1.12ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.34ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.65ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.38ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.50ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.46ms
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.39ms
+24.12.2025 13:55:06 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:06 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.43ms
+24.12.2025 13:55:07 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1249.34ms
+24.12.2025 13:55:07 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.00ms
+24.12.2025 13:55:15 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:15 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.17ms
+24.12.2025 13:55:15 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.92ms
+24.12.2025 13:55:15 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.40ms
+24.12.2025 13:55:15 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.49ms
+24.12.2025 13:55:15 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.75ms
+24.12.2025 13:55:15 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.49ms
+24.12.2025 13:55:15 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.51ms
+24.12.2025 13:55:15 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.63ms
+24.12.2025 13:55:15 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.55ms
+24.12.2025 13:55:15 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.65ms
+24.12.2025 13:55:15 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.80ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.46ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.40ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.41ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.51ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.61ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.74ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.35ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.29ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.65ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.76ms
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 1.09ms
+24.12.2025 13:55:16 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:16 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 2.13ms
+24.12.2025 13:55:17 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1316.10ms
+24.12.2025 13:55:17 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.00ms
+24.12.2025 13:55:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:56:22 CET)" (scheduled at 2025-12-24 13:55:22.869622+01:00)
+24.12.2025 13:55:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:56:22 CET)" (scheduled at 2025-12-24 13:55:22.869846+01:00)
+24.12.2025 13:55:22 - INFO [E320] E320 data: E_in=171.032, E_out=1.961, Power=2327
+24.12.2025 13:55:22 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:56:22 CET)" executed successfully
+24.12.2025 13:55:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:56:22 CET)" executed successfully
+24.12.2025 13:55:29 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:29 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.59ms
+24.12.2025 13:55:33 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.40ms
+24.12.2025 13:55:33 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.98ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.39ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.43ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.53ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.55ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.48ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.64ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.78ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.90ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.37ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.47ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.66ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 1.06ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 1.36ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 1.53ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.32ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.57ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.35ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.73ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.85ms
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 1.01ms
+24.12.2025 13:55:33 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:33 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.97ms
+24.12.2025 13:55:34 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1252.73ms
+24.12.2025 13:55:34 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.09ms
+24.12.2025 13:55:42 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.58ms
+24.12.2025 13:55:42 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.97ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.74ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.88ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 1.05ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.96ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.58ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.85ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.58ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.99ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 1.18ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.49ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.47ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.58ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.49ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.26ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.33ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.39ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.50ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.29ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.47ms
+24.12.2025 13:55:42 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.24ms
+24.12.2025 13:55:42 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.26ms
+24.12.2025 13:55:43 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1252.00ms
+24.12.2025 13:55:43 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.97ms
+24.12.2025 13:55:44 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.18ms
+24.12.2025 13:55:44 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.91ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.33ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.41ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.62ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.49ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.56ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.66ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.29ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.41ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.33ms
+24.12.2025 13:55:44 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.32ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.49ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.35ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.96ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 1.11ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.83ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.48ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.46ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.81ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.55ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.69ms
+24.12.2025 13:55:44 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.73ms
+24.12.2025 13:55:46 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1251.15ms
+24.12.2025 13:55:46 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.83ms
+24.12.2025 13:56:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:57:22 CET)" (scheduled at 2025-12-24 13:56:22.869622+01:00)
+24.12.2025 13:56:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:57:22 CET)" (scheduled at 2025-12-24 13:56:22.869846+01:00)
+24.12.2025 13:56:23 - INFO [E320] E320 data: E_in=171.071, E_out=1.961, Power=2334
+24.12.2025 13:56:23 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:57:22 CET)" executed successfully
+24.12.2025 13:56:25 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:56:25 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.21ms
+24.12.2025 13:56:25 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.06ms
+24.12.2025 13:56:25 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 0.41ms
+24.12.2025 13:56:25 - INFO [tornado.access] 304 GET /static/js/weather.js (127.0.0.1) 0.33ms
+24.12.2025 13:56:25 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:56:25 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.14ms
+24.12.2025 13:56:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:57:22 CET)" executed successfully
+24.12.2025 13:56:27 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1313.88ms
+24.12.2025 13:56:34 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:56:34 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.07ms
+24.12.2025 13:56:34 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.84ms
+24.12.2025 13:56:34 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.36ms
+24.12.2025 13:56:34 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:56:34 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.22ms
+24.12.2025 13:56:36 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1311.37ms
+24.12.2025 13:57:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:58:22 CET)" (scheduled at 2025-12-24 13:57:22.869622+01:00)
+24.12.2025 13:57:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:58:22 CET)" (scheduled at 2025-12-24 13:57:22.869846+01:00)
+24.12.2025 13:57:23 - INFO [E320] E320 data: E_in=171.117, E_out=1.961, Power=2327
+24.12.2025 13:57:23 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:58:22 CET)" executed successfully
+24.12.2025 13:57:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:58:22 CET)" executed successfully
+24.12.2025 13:58:19 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:58:19 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.14ms
+24.12.2025 13:58:19 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.88ms
+24.12.2025 13:58:19 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 0.31ms
+24.12.2025 13:58:19 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.44ms
+24.12.2025 13:58:19 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:58:19 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.12ms
+24.12.2025 13:58:20 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1308.73ms
+24.12.2025 13:58:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:59:22 CET)" (scheduled at 2025-12-24 13:58:22.869622+01:00)
+24.12.2025 13:58:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:59:22 CET)" (scheduled at 2025-12-24 13:58:22.869846+01:00)
+24.12.2025 13:58:22 - INFO [E320] E320 data: E_in=171.156, E_out=1.961, Power=2368
+24.12.2025 13:58:22 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:59:22 CET)" executed successfully
+24.12.2025 13:58:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:59:22 CET)" executed successfully
+24.12.2025 13:59:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:00:22 CET)" (scheduled at 2025-12-24 13:59:22.869622+01:00)
+24.12.2025 13:59:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:00:22 CET)" (scheduled at 2025-12-24 13:59:22.869846+01:00)
+24.12.2025 13:59:23 - INFO [E320] E320 data: E_in=171.195, E_out=1.961, Power=2347
+24.12.2025 13:59:23 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:00:22 CET)" executed successfully
+24.12.2025 13:59:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:00:22 CET)" executed successfully
+24.12.2025 13:59:46 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.17ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.49ms
+24.12.2025 13:59:46 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.01ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 1.17ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.27ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.49ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.42ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.75ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.82ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.90ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.35ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.41ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.66ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.68ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 1.01ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 1.25ms
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 1.43ms
+24.12.2025 13:59:46 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:59:46 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.29ms
+24.12.2025 13:59:48 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1303.72ms
+24.12.2025 13:59:48 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.98ms
+24.12.2025 13:59:49 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.58ms
+24.12.2025 13:59:49 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.09ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.40ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.46ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.45ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.64ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.82ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 1.04ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 1.16ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.43ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.40ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.88ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 1.03ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 1.24ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 1.31ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.43ms
+24.12.2025 13:59:49 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.07ms
+24.12.2025 13:59:49 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.45ms
+24.12.2025 13:59:50 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1258.04ms
+24.12.2025 13:59:50 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.17ms
+24.12.2025 13:59:51 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.15ms
+24.12.2025 13:59:51 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.02ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.33ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.51ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.68ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.49ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.42ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.72ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.89ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 1.04ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 1.21ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.64ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.75ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.97ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 1.12ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 1.23ms
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.55ms
+24.12.2025 13:59:51 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:59:51 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.18ms
+24.12.2025 13:59:52 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1298.32ms
+24.12.2025 13:59:52 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.02ms
+24.12.2025 14:00:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:01:22 CET)" (scheduled at 2025-12-24 14:00:22.869622+01:00)
+24.12.2025 14:00:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:01:22 CET)" (scheduled at 2025-12-24 14:00:22.869846+01:00)
+24.12.2025 14:00:23 - INFO [E320] E320 data: E_in=171.234, E_out=1.961, Power=2290
+24.12.2025 14:00:23 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:01:22 CET)" executed successfully
+24.12.2025 14:00:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:01:22 CET)" executed successfully
+24.12.2025 14:01:07 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.14ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.36ms
+24.12.2025 14:01:07 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.84ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.57ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.35ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.73ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.84ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 1.00ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 1.17ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.47ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.45ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.58ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.35ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.43ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.58ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.43ms
+24.12.2025 14:01:07 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.27ms
+24.12.2025 14:01:07 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.41ms
+24.12.2025 14:01:09 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1326.02ms
+24.12.2025 14:01:09 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.14ms
+24.12.2025 14:01:22 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:02:22 CET)" (scheduled at 2025-12-24 14:01:22.869622+01:00)
+24.12.2025 14:01:22 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:02:22 CET)" (scheduled at 2025-12-24 14:01:22.869846+01:00)
+24.12.2025 14:01:23 - INFO [E320] E320 data: E_in=171.27, E_out=1.961, Power=305
+24.12.2025 14:01:23 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:02:22 CET)" executed successfully
+24.12.2025 14:01:26 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 14:02:22 CET)" executed successfully
