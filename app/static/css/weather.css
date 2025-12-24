@@ -1,0 +1,435 @@
+body {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#display-frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 798px;
+    height: 478px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+#current-inside {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 254px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: white;
+}
+
+#current-outside {
+    position: absolute;
+    top: 30px;
+    left: 542px;
+    width: 254px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: white;
+}
+
+#current-prec {
+    position: absolute;
+    top: 197px;
+    left: 543px;
+    width: 254px;
+    height: 47px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: white;
+}
+
+#uv-index {
+    position: absolute;
+    top: 197px;
+    left: 0;
+    width: 254px;
+    height: 47px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: white;
+}
+
+#feels-like {
+    position: absolute;
+    top: 197px;
+    left: 260px;
+    width: 277px;
+    height: 47px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: white;
+}
+
+#feels-like-text {
+    position: absolute;
+    top: 13px;
+    left: 55px;
+    font-size: 19px;
+}
+
+#feels-like-value {
+    position: absolute;
+    top: 7px;
+    right: 35px;
+    font-size: 28px;
+    font-weight: bold;
+}
+#feels-like-value span {
+    font-weight: normal;
+}
+
+#current-image {
+    position: absolute;
+    top: 0;
+    left: 260px;
+    width: 276px;
+    height: 190px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: white;
+}
+
+#current-inside-headline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    width: 254px;
+    height: 22px;
+    padding-top: 3px;
+    text-align: center;
+    border-radius: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+}
+
+#current-outside-headline {
+    position: absolute;
+    top: 0;
+    border: 1px solid black;
+    left: 542px;
+    width: 254px;
+    height: 22px;
+    padding-top: 3px;
+    text-align: center;
+    border-radius: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+}
+
+#current-outside-headline img {
+    height: 20px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+}
+
+#current-inside-headline img {
+    height: 20px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+}
+
+.temperature_unit {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+
+.temperature {
+    position: absolute;
+    top: -12px;
+    right: 5px;
+    font-size: 88px;
+    font-weight: bold;
+}
+
+.humidity {
+    position: absolute;
+    bottom: -7px;
+    right: 37px;
+    font-size: 66px;
+    font-weight: bold;
+}
+
+.humidity_icon {
+    position: absolute;
+    right: 6px;
+    bottom: 38px;
+}
+
+.percent {
+    position: absolute;
+    bottom: 2px;
+    right: 6px;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+#condition-image {
+    position: absolute;
+    bottom: 7px;
+    left: 19px;
+}
+
+#condition-name {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    hyphens: auto;
+    width: 175px;
+}
+
+#sunrise-image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#sunset-image {
+    position: absolute;
+    top: 42px;
+    right: 0px;
+}
+
+#sunrise-text {
+    position: absolute;
+    font-size: 27px;
+    top: 0px;
+    right: 36px;
+}
+
+#sunset-text {
+    position: absolute;
+    font-size: 27px;
+    top: 42px;
+    right: 36px;
+}
+
+#forcast-1 {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    width: 153px;
+    height: 228px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: white;
+}
+
+#forcast-2 {
+    position: absolute;
+    top: 250px;
+    left: 161px;
+    width: 153px;
+    height: 228px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: white;
+}
+
+#forcast-3 {
+    position: absolute;
+    top: 250px;
+    left: 322px;
+    width: 153px;
+    height: 228px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: white;
+}
+
+#forcast-4 {
+    position: absolute;
+    top: 250px;
+    left: 483px;
+    width: 153px;
+    height: 228px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: white;
+}
+
+#forcast-5 {
+    position: absolute;
+    top: 250px;
+    left: 644px;
+    width: 153px;
+    height: 228px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.min-temp {
+    position: absolute;
+    top: 95px;
+    left: 11px;
+    font-size: 21px;
+}
+
+.min-temp-value {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.min-temp-icon {
+    position: relative;
+    left: 4px;
+    top: 2px;
+}
+
+.max-temp {
+    position: absolute;
+    top: 129px;
+    left: 11px;
+    font-size: 21px;
+}
+
+.max-temp-value {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.max-temp-icon {
+    position: relative;
+    left: 4px;
+    top: 2px;
+}
+
+.moon-icon {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    font-size: 13px;
+    line-height: 11px;
+}
+
+#moon-phase-text {
+    position: absolute;
+    bottom: 83px;
+    right: 29px;
+    font-size: 13px;
+    line-height: 11px;
+    text-align: center;
+}
+
+.forecast-headline {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.forecast-image {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    text-align: center;
+}
+
+.condition-text {
+    font-size: 13px;
+    position: absolute;
+    top: 107px;
+    left: 3px;
+    hyphens: auto;
+    text-align: center;
+}
+
+.min-forecast {
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+}
+
+.max-forecast {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+
+.prec-forecast {
+    position: absolute;
+    bottom: 41px;
+    right: 5px;
+}
+
+.prec-perc-forecast {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+.prec-value {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.prec-perc-value {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.prec-perc-icon {
+    position: relative;
+    left: 4px;
+    top: 0;
+}
+
+.prec-icon {
+    position: relative;
+    left: 4px;
+    top: 0;
+}
+
+#current-prec-text {
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    font-size: 19px;
+}
+
+#current-prec-perc-value {
+    font-weight: bold;
+}
+
+.today-prec-icon {
+    position: absolute;
+    left: 15px;
+    top: 6px;
+}
+
+.uv-icon {
+    position: absolute;
+    left: 7px;
+    top: 3px;
+}
+
+#uv-index-value {
+    position: absolute;
+    top: 8px;
+    left: 97px;
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,0 +1,193 @@
+<!doctype html>  
+<html lang="de">  
+    <head>
+        <meta charset="utf-8">
+        <title>Weather</title>
+        <link rel="stylesheet" href="/static/css/weather.css" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="display-frame">
+            <div id="first-row">
+                <div id="current-inside-headline">
+                    <img src="/static/img/weather/inside.png"/>
+                    Innentemperatur
+                </div>
+                <div id="current-inside">
+                    <div class="temperature_unit">°C</div>
+                    <div class="temperature">█</div>
+                    <img width="30" src="/static/img/weather/thermometre.png"/>
+                    <img width="30" class="humidity_icon" src="/static/img/weather/humidity.png"/>
+                    <div class="humidity">█</div>
+                    <div class="percent">%</div>
+                </div>
+                <div id="current-image">
+                    <div id="condition-name">█</div>
+                    <img width="140" id="condition-image" src="#"/>
+                    <div id="sunrise-text">█:█</div>
+                    <img width="35" id="sunrise-image" src="/static/img/weather/sunrise.png"/>
+                    <div id="sunset-text">█:█</div>
+                    <img width="35" id="sunset-image" src="/static/img/weather/sunset.png"/>
+                    <div id="moon-phase-text">Mond<br/>Phase</div>
+                    <img class="moon-icon" width="70" src="/static/img/moon_phase/6.png"/>
+                </div>
+                <div id="current-outside-headline">
+                    <img src="/static/img/weather/outside.png"/>
+                    Außentemperatur
+                </div>
+                <div id="current-outside">
+                    <div class="temperature_unit">°C</div>
+                    <div class="temperature">█</div>
+                    <img width="30" class="icon" src="/static/img/weather/thermometre.png"/>
+                    <img class="humidity_icon" width="30" src="/static/img/weather/humidity.png"/>
+                    <div class="humidity">█</div>
+                    <div class="percent">%</div>
+                    <div class="min-temp">
+                        min:
+                        <span class="min-temp-value">█</span><span>°C</span>
+                    </div>
+                    <div class="max-temp">
+                        max:
+                        <span class="max-temp-value">█</span><span>°C</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="second-row">
+            <div id="current-prec">
+                 <img class="today-prec-icon" width="30" src="/static/img/weather/umbrella.png"/>
+                <div id="current-prec-text">
+                    zu <span id="current-prec-perc-value">█</span>%
+                    <span id="current-prec-value">█</span>
+                </div>
+            </div>
+            <div id="feels-like">
+                <img class="uv-icon" width="40" src="/static/img/weather/feeling.png"/>
+                <div id="feels-like-text">
+                    gefühlt wie
+                </div>
+                <div id="feels-like-value">
+                    █<span>°C</span>
+                </div>
+            </div>
+            <div id="uv-index">
+                <img class="uv-icon" width="40" src="/static/img/weather/uvindex.png"/>
+                <div id="uv-index-value">
+                    █
+                </div>
+            </div>
+        </div>
+         <div id="third-row">
+            <div id="forcast-1">
+                <div class="forecast-headline">Montag</div>
+                <img width="100" class="forecast-image" src="/static/img/weather/weather_icons/rain.svg"/>
+                <div class="condition-text">wechselnd bewölkt mit Regenschauern</div>
+                <div class="min-forecast">
+                    <img class="min-temp-icon" width="20" src="/static/img/weather/arrow_down.png"/>
+                    <span class="min-temp-value">15</span><span>°C</span>
+                </div>
+                <div class="max-forecast">
+                    <img class="min-temp-icon" width="20" src="/static/img/weather/arrow_up.png"/>
+                    <span class="max-temp-value">20</span><span>°C</span>
+                </div>
+                <div class="prec-forecast">
+                    <img class="prec-icon" width="20" src="/static/img/weather/umbrella.png"/>
+                    <span class="prec-value">40</span><span>%</span>
+                </div>
+                <div class="prec-perc-forecast">
+                    <img class="prec-perc-icon" width="20" src="/static/img/weather/prec.png"/>
+                    <span class="prec-perc-value">13</span><span>mm</span>
+                </div>
+            </div>
+            <div id="forcast-2">
+                <div class="forecast-headline">Dienstag</div>
+                <img width="100" class="forecast-image" src="/static/img/weather/weather_icons/cloudy.svg"/>
+                <div class="condition-text">wechselnd bewölkt mit Regenschauern</div>
+                <div class="min-forecast">
+                    <img class="min-temp-icon" width="20" src="/static/img/weather/arrow_down.png"/>
+                    <span class="min-temp-value">15</span><span>°C</span>
+                </div>
+                <div class="max-forecast">
+                    <img class="min-temp-icon" width="20" src="/static/img/weather/arrow_up.png"/>
+                    <span class="max-temp-value">20</span><span>°C</span>
+                </div>
+                <div class="prec-forecast">
+                    <img class="prec-icon" width="20" src="/static/img/weather/umbrella.png"/>
+                    <span class="prec-value">40</span><span>%</span>
+                </div>
+                <div class="prec-perc-forecast">
+                    <img class="prec-perc-icon" width="20" src="/static/img/weather/prec.png"/>
+                    <span class="prec-perc-value">13</span><span>mm</span>
+                </div>
+            </div>
+            <div id="forcast-3">
+                <div class="forecast-headline">Mittwoch</div>
+                <img width="100" class="forecast-image" src="/static/img/weather/weather_icons/snow.svg"/>
+                <div class="condition-text">wechselnd bewölkt mit Regenschauern</div>
+                <div class="min-forecast">
+                    <img class="min-temp-icon" width="20" src="/static/img/weather/arrow_down.png"/>
+                    <span class="min-temp-value">15</span><span>°C</span>
+                </div>
+                <div class="max-forecast">
+                    <img class="min-temp-icon" width="20" src="/static/img/weather/arrow_up.png"/>
+                    <span class="max-temp-value">20</span><span>°C</span>
+                </div>
+                <div class="prec-forecast">
+                    <img class="prec-icon" width="20" src="/static/img/weather/umbrella.png"/>
+                    <span class="prec-value">40</span><span>%</span>
+                </div>
+                <div class="prec-perc-forecast">
+                    <img class="prec-perc-icon" width="20" src="/static/img/weather/prec.png"/>
+                    <span class="prec-perc-value">13</span><span>mm</span>
+                </div>
+            </div>
+            <div id="forcast-4">
+                <div class="forecast-headline">Donnerstag</div>
+                <img width="100" class="forecast-image" src="/static/img/weather/weather_icons/showers-day.svg"/>
+                <div class="condition-text">wechselnd bewölkt mit Regenschauern</div>
+                <div class="min-forecast">
+                    <img class="min-temp-icon" width="20" src="/static/img/weather/arrow_down.png"/>
+                    <span class="min-temp-value">15</span><span>°C</span>
+                </div>
+                <div class="max-forecast">
+                    <img class="min-temp-icon" width="20" src="/static/img/weather/arrow_up.png"/>
+                    <span class="max-temp-value">20</span><span>°C</span>
+                </div>
+                <div class="prec-forecast">
+                    <img class="prec-icon" width="20" src="/static/img/weather/umbrella.png"/>
+                    <span class="prec-value">40</span><span>%</span>
+                </div>
+                <div class="prec-perc-forecast">
+                    <img class="prec-perc-icon" width="20" src="/static/img/weather/prec.png"/>
+                    <span class="prec-perc-value">13</span><span>mm</span>
+                </div>
+            </div>
+            <div id="forcast-5">
+                <div class="forecast-headline">Freitag</div>
+                <img width="100" class="forecast-image" src="/static/img/weather/weather_icons/fog.svg"/>
+                <div class="condition-text">wechselnd bewölkt mit Regenschauern</div>
+                <div class="min-forecast">
+                    <img class="min-temp-icon" width="20" src="/static/img/weather/arrow_down.png"/>
+                    <span class="min-temp-value">15</span><span>°C</span>
+                </div>
+                <div class="max-forecast">
+                    <img class="min-temp-icon" width="20" src="/static/img/weather/arrow_up.png"/>
+                    <span class="max-temp-value">20</span><span>°C</span>
+                </div>
+                <div class="prec-forecast">
+                    <img class="prec-icon" width="20" src="/static/img/weather/umbrella.png"/>
+                    <span class="prec-value">40</span><span>%</span>
+                </div>
+                <div class="prec-perc-forecast">
+                    <img class="prec-perc-icon" width="20" src="/static/img/weather/prec.png"/>
+                    <span class="prec-perc-value">13</span><span>mm</span>
+                </div>
+            </div>
+         </div>
+        <script src="/static/js/weather.js"></script>
+    </body>
+</html>  
+
