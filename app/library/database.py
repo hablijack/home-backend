@@ -53,7 +53,31 @@ class Database():
             database.execute(cleanup_statement)
             cleanup_statement = sql.generate_zoe_cleanup_stmt()
             database.execute(cleanup_statement)
-            cleanup_statement = sql.generate_poweropti_cleanup_stmt()
+            cleanup_statement = sql.generate_e320_cleanup_stmt()
             database.execute(cleanup_statement)
         except Exception as error:
             logger.error(f"Error: '{error}'")
+
+    @staticmethod
+    def initialize_tables(database):
+        sql = Sql()
+        logger = logging.getLogger("Database")
+        try:
+            table_statement = sql.generate_solarpanel_table_stmt()
+            database.execute(table_statement)
+            index_statement = sql.generate_solarpanel_index_stmt()
+            database.execute(index_statement)
+            
+            table_statement = sql.generate_zoe_table_stmt()
+            database.execute(table_statement)
+            index_statement = sql.generate_zoe_index_stmt()
+            database.execute(index_statement)
+            
+            table_statement = sql.generate_e320_table_stmt()
+            database.execute(table_statement)
+            index_statement = sql.generate_e320_index_stmt()
+            database.execute(index_statement)
+            
+            logger.info("Database tables initialized successfully")
+        except Exception as error:
+            logger.error(f"Error initializing tables: '{error}'")

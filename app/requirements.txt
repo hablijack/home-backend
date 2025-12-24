@@ -1,6 +1,6 @@
-tornado
-fritzconnection
-apscheduler
-python-dotenv
-renault-api
-psycopg2-binary
+tornado==6.5.4
+fritzconnection==1.15.0
+APScheduler==3.11.2
+python-dotenv==1.2.1
+renault-api==0.5.2
+psycopg2-binary==2.9.11

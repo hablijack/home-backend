@@ -12,12 +12,6 @@ class Configuration:
     def scheduler_active(self):
         return os.getenv('SCHEDULER_ACTIVE') == "true"
 
-    def poweropti_user(self):
-        return os.getenv('POWEROPTI_USER')
-
-    def poweropti_password(self):
-        return os.getenv('POWEROPTI_PASSWORD')
-
     def postgres_password(self):
         return os.getenv('POSTGRES_PASSWORD')
 

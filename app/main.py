@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 database = Database()
+Database.initialize_tables(database)
 
 def signal_handler(signal, frame):
   sys.exit(0)
