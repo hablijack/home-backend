@@ -2,9 +2,24 @@ body {
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
-
 }
 
+/* Base card styles */
+.card {
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.card-rounded {
+    border-radius: 12px;
+}
+
+.card-rounded-small {
+    border-radius: 9px;
+}
+
+/* Layout containers */
 #display-frame {
     position: absolute;
     left: 0;
@@ -15,140 +30,108 @@ body {
     background-color: lightgray;
 }
 
-#current-inside {
+#first-row {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 190px;
+}
+
+#second-row {
+    position: absolute;
+    top: 197px;
+    left: 0;
+    width: 100%;
+    height: 47px;
+}
+
+#third-row {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    height: 228px;
+}
+
+/* Current weather cards */
+#current-inside {
     top: 30px;
     left: 0;
     width: 254px;
     height: 160px;
-    border: 1px solid black;
-    border-radius: 9px;
-    background-color: white;
 }
 
 #current-outside {
-    position: absolute;
     top: 30px;
     left: 542px;
     width: 254px;
     height: 160px;
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: white;
-}
-
-#current-prec {
-    position: absolute;
-    top: 197px;
-    left: 543px;
-    width: 254px;
-    height: 47px;
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: white;
-}
-
-#uv-index {
-    position: absolute;
-    top: 197px;
-    left: 0;
-    width: 254px;
-    height: 47px;
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: white;
-}
-
-#feels-like {
-    position: absolute;
-    top: 197px;
-    left: 260px;
-    width: 277px;
-    height: 47px;
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: white;
-}
-
-#feels-like-text {
-    position: absolute;
-    top: 13px;
-    left: 55px;
-    font-size: 19px;
-}
-
-#feels-like-value {
-    position: absolute;
-    top: 7px;
-    right: 35px;
-    font-size: 28px;
-    font-weight: bold;
-}
-#feels-like-value span {
-    font-weight: normal;
 }
 
 #current-image {
-    position: absolute;
     top: 0;
     left: 260px;
     width: 276px;
     height: 190px;
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: white;
 }
 
-#current-inside-headline {
-    position: absolute;
+#current-prec {
+    top: 0;
+    left: 543px;
+    width: 254px;
+    height: 47px;
+}
+
+#uv-index {
     top: 0;
     left: 0;
-    border: 1px solid black;
     width: 254px;
-    height: 22px;
-    padding-top: 3px;
-    text-align: center;
-    border-radius: 9px;
-    text-transform: uppercase;
-    font-weight: bold;
-    background-color: white;
+    height: 47px;
 }
 
-#current-outside-headline {
+#feels-like {
+    top: 0;
+    left: 260px;
+    width: 277px;
+    height: 47px;
+}
+
+/* Headlines */
+.headline {
     position: absolute;
     top: 0;
-    border: 1px solid black;
-    left: 542px;
-    width: 254px;
     height: 22px;
     padding-top: 3px;
     text-align: center;
-    border-radius: 9px;
     text-transform: uppercase;
     font-weight: bold;
     background-color: white;
+    border: 1px solid black;
 }
 
-#current-outside-headline img {
+.headline-left {
+    left: 0;
+    width: 254px;
+}
+
+.headline-right {
+    left: 542px;
+    width: 254px;
+}
+
+.headline img {
     height: 20px;
     position: absolute;
     left: 5px;
     top: 2px;
 }
 
-#current-inside-headline img {
-    height: 20px;
-    position: absolute;
-    left: 5px;
-    top: 2px;
+/* Temperature and humidity displays */
+.temp-display {
+    position: relative;
+    height: 100%;
 }
-
-.temperature_unit {
-    font-size: 35px;
-    font-weight: bold;
-    margin-left: 8px;
-}
-
 
 .temperature {
     position: absolute;
@@ -156,6 +139,12 @@ body {
     right: 5px;
     font-size: 88px;
     font-weight: bold;
+}
+
+.temperature_unit {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 8px;
 }
 
 .humidity {
@@ -180,6 +169,66 @@ body {
     font-weight: bold;
 }
 
+/* Min/max temperature displays */
+.temp-range {
+    position: absolute;
+    font-size: 21px;
+}
+
+.min-temp {
+    top: 95px;
+    left: 11px;
+}
+
+.max-temp {
+    top: 129px;
+    left: 11px;
+}
+
+.temp-value {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Icon positioning */
+.icon-absolute {
+    position: absolute;
+}
+
+.icon-top-right {
+    top: 0;
+    right: 0;
+}
+
+.icon-bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.icon-bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.icon-small {
+    width: 20px;
+}
+
+.icon-medium {
+    width: 30px;
+}
+
+.icon-large {
+    width: 40px;
+}
+
+.icon-positioned {
+    position: relative;
+    left: 4px;
+    top: 2px;
+}
+
+/* Current condition display */
 #condition-image {
     position: absolute;
     bottom: 7px;
@@ -188,7 +237,7 @@ body {
 
 #condition-name {
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 10px;
     font-size: 20px;
     font-weight: bold;
@@ -197,21 +246,19 @@ body {
 }
 
 #sunrise-image {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
 }
 
 #sunset-image {
-    position: absolute;
     top: 42px;
-    right: 0px;
+    right: 0;
 }
 
 #sunrise-text {
     position: absolute;
     font-size: 27px;
-    top: 0px;
+    top: 0;
     right: 36px;
 }
 
@@ -222,97 +269,7 @@ body {
     right: 36px;
 }
 
-#forcast-1 {
-    position: absolute;
-    top: 250px;
-    left: 0px;
-    width: 153px;
-    height: 228px;
-    border: 1px solid black;
-    border-radius: 9px;
-    background-color: white;
-}
-
-#forcast-2 {
-    position: absolute;
-    top: 250px;
-    left: 161px;
-    width: 153px;
-    height: 228px;
-    border: 1px solid black;
-    border-radius: 9px;
-    background-color: white;
-}
-
-#forcast-3 {
-    position: absolute;
-    top: 250px;
-    left: 322px;
-    width: 153px;
-    height: 228px;
-    border: 1px solid black;
-    border-radius: 9px;
-    background-color: white;
-}
-
-#forcast-4 {
-    position: absolute;
-    top: 250px;
-    left: 483px;
-    width: 153px;
-    height: 228px;
-    border: 1px solid black;
-    border-radius: 9px;
-    background-color: white;
-}
-
-#forcast-5 {
-    position: absolute;
-    top: 250px;
-    left: 644px;
-    width: 153px;
-    height: 228px;
-    border: 1px solid black;
-    border-radius: 9px;
-    background-color: white;
-}
-
-.min-temp {
-    position: absolute;
-    top: 95px;
-    left: 11px;
-    font-size: 21px;
-}
-
-.min-temp-value {
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.min-temp-icon {
-    position: relative;
-    left: 4px;
-    top: 2px;
-}
-
-.max-temp {
-    position: absolute;
-    top: 129px;
-    left: 11px;
-    font-size: 21px;
-}
-
-.max-temp-value {
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.max-temp-icon {
-    position: relative;
-    left: 4px;
-    top: 2px;
-}
-
+/* Moon phase */
 .moon-icon {
     position: absolute;
     bottom: 8px;
@@ -330,10 +287,80 @@ body {
     text-align: center;
 }
 
+/* Feels like display */
+#feels-like-text {
+    position: absolute;
+    top: 13px;
+    left: 55px;
+    font-size: 19px;
+}
+
+#feels-like-value {
+    position: absolute;
+    top: 7px;
+    right: 35px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#feels-like-value span {
+    font-weight: normal;
+}
+
+/* Current precipitation */
+#current-prec-text {
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    font-size: 19px;
+}
+
+#current-prec-perc-value {
+    font-weight: bold;
+}
+
+.today-prec-icon {
+    position: absolute;
+    left: 15px;
+    top: 6px;
+}
+
+/* UV index */
+.uv-icon {
+    position: absolute;
+    left: 7px;
+    top: 3px;
+}
+
+#uv-index-value {
+    position: absolute;
+    top: 8px;
+    left: 97px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Forecast cards */
+.forecast-card {
+    position: absolute;
+    top: 0;
+    width: 153px;
+    height: 228px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.forecast-card:nth-child(1) { left: 0; }
+.forecast-card:nth-child(2) { left: 161px; }
+.forecast-card:nth-child(3) { left: 322px; }
+.forecast-card:nth-child(4) { left: 483px; }
+.forecast-card:nth-child(5) { left: 644px; }
+
 .forecast-headline {
     position: absolute;
     top: 2px;
-    left: 0px;
+    left: 0;
     width: 100%;
     text-align: center;
     font-size: 16px;
@@ -357,16 +384,24 @@ body {
     text-align: center;
 }
 
+/* Forecast data positioning */
+.forecast-data {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
 .min-forecast {
     position: absolute;
     bottom: 40px;
-    left: 0px;
+    left: 0;
 }
 
 .max-forecast {
     position: absolute;
     bottom: 10px;
-    left: 0px;
+    left: 0;
 }
 
 .prec-forecast {
@@ -381,55 +416,36 @@ body {
     right: 5px;
 }
 
-.prec-value {
+.prec-value, .prec-perc-value {
     font-weight: bold;
     font-size: 21px;
 }
 
-.prec-perc-value {
-    font-weight: bold;
-    font-size: 21px;
+/* Loading states */
+.loading {
+    color: #666;
+    font-style: normal;
 }
 
-.prec-perc-icon {
-    position: relative;
-    left: 4px;
-    top: 0;
+.loading::before {
+    content: '⟳';
+    margin-right: 3px;
+    font-size: 0.8em;
 }
 
-.prec-icon {
-    position: relative;
-    left: 4px;
-    top: 0;
+/* For images, show a simple placeholder */
+img.loading {
+    background-color: #e0e0e0;
+    border: 1px dashed #999;
+    opacity: 0.7;
 }
 
-#current-prec-text {
+img.loading::after {
+    content: '⟳';
     position: absolute;
-    top: 13px;
-    right: 5px;
-    font-size: 19px;
-}
-
-#current-prec-perc-value {
-    font-weight: bold;
-}
-
-.today-prec-icon {
-    position: absolute;
-    left: 15px;
-    top: 6px;
-}
-
-.uv-icon {
-    position: absolute;
-    left: 7px;
-    top: 3px;
-}
-
-#uv-index-value {
-    position: absolute;
-    top: 8px;
-    left: 97px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 24px;
-    font-weight: bold;
+    color: #666;
 }

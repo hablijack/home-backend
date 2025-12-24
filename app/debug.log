@@ -1,1 +1,1344 @@
 
+24.12.2025 08:37:00 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:37:00 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:37:00 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:37:00 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:37:00 - INFO [apscheduler.scheduler] Added job "Fritzbox.fetch" to job store "default"
+24.12.2025 08:37:00 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+24.12.2025 08:37:00 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+24.12.2025 08:37:00 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+24.12.2025 08:37:00 - INFO [apscheduler.scheduler] Scheduler started
+24.12.2025 08:37:00 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+24.12.2025 08:37:02 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:37:02 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.38ms
+24.12.2025 08:37:02 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 4.16ms
+24.12.2025 08:37:02 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.94ms
+24.12.2025 08:37:02 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:37:02 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.16ms
+24.12.2025 08:37:04 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1283.58ms
+24.12.2025 08:38:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:38:00 CET)" (scheduled at 2025-12-24 08:38:00.239448+01:00)
+24.12.2025 08:38:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:38:00 CET)" (scheduled at 2025-12-24 08:38:00.239631+01:00)
+24.12.2025 08:38:00 - INFO [E320] E320 data: E_in=167.424, E_out=1.961, Power=413
+24.12.2025 08:38:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:39:00 CET)" executed successfully
+24.12.2025 08:38:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:39:00 CET)" executed successfully
+24.12.2025 08:39:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:40:00 CET)" (scheduled at 2025-12-24 08:39:00.239448+01:00)
+24.12.2025 08:39:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:40:00 CET)" (scheduled at 2025-12-24 08:39:00.239631+01:00)
+24.12.2025 08:39:00 - INFO [E320] E320 data: E_in=167.431, E_out=1.961, Power=414
+24.12.2025 08:39:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:40:00 CET)" executed successfully
+24.12.2025 08:39:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:40:00 CET)" executed successfully
+24.12.2025 08:40:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:41:00 CET)" (scheduled at 2025-12-24 08:40:00.239448+01:00)
+24.12.2025 08:40:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:41:00 CET)" (scheduled at 2025-12-24 08:40:00.239631+01:00)
+24.12.2025 08:40:00 - INFO [E320] E320 data: E_in=167.438, E_out=1.961, Power=407
+24.12.2025 08:40:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:41:00 CET)" executed successfully
+24.12.2025 08:40:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:41:00 CET)" executed successfully
+24.12.2025 08:41:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:42:00 CET)" (scheduled at 2025-12-24 08:41:00.239448+01:00)
+24.12.2025 08:41:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:42:00 CET)" (scheduled at 2025-12-24 08:41:00.239631+01:00)
+24.12.2025 08:41:00 - INFO [E320] E320 data: E_in=167.444, E_out=1.961, Power=418
+24.12.2025 08:41:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:42:00 CET)" executed successfully
+24.12.2025 08:41:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:42:00 CET)" executed successfully
+24.12.2025 08:41:47 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.12ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.43ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.55ms
+24.12.2025 08:41:47 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.08ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 1.23ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.34ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.28ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.38ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.47ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.25ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.27ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.24ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.35ms
+24.12.2025 08:41:47 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.29ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.44ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.28ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.29ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.43ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.60ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.33ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.27ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.33ms
+24.12.2025 08:41:47 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.31ms
+24.12.2025 08:41:48 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1299.12ms
+24.12.2025 08:41:48 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.14ms
+24.12.2025 08:41:48 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/partly-cloudy-day.svg (127.0.0.1) 0.33ms
+24.12.2025 08:42:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:43:00 CET)" (scheduled at 2025-12-24 08:42:00.239448+01:00)
+24.12.2025 08:42:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:43:00 CET)" (scheduled at 2025-12-24 08:42:00.239631+01:00)
+24.12.2025 08:42:00 - INFO [E320] E320 data: E_in=167.459, E_out=1.961, Power=400
+24.12.2025 08:42:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:43:00 CET)" executed successfully
+24.12.2025 08:42:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:43:00 CET)" executed successfully
+24.12.2025 08:43:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:44:00 CET)" (scheduled at 2025-12-24 08:43:00.239448+01:00)
+24.12.2025 08:43:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:44:00 CET)" (scheduled at 2025-12-24 08:43:00.239631+01:00)
+24.12.2025 08:43:00 - INFO [E320] E320 data: E_in=167.466, E_out=1.961, Power=423
+24.12.2025 08:43:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:44:00 CET)" executed successfully
+24.12.2025 08:43:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:44:00 CET)" executed successfully
+24.12.2025 08:44:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:45:00 CET)" (scheduled at 2025-12-24 08:44:00.239448+01:00)
+24.12.2025 08:44:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:45:00 CET)" (scheduled at 2025-12-24 08:44:00.239631+01:00)
+24.12.2025 08:44:00 - INFO [E320] E320 data: E_in=167.473, E_out=1.961, Power=420
+24.12.2025 08:44:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:45:00 CET)" executed successfully
+24.12.2025 08:44:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:45:00 CET)" executed successfully
+24.12.2025 08:44:25 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.30ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.47ms
+24.12.2025 08:44:25 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.91ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.41ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.75ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.66ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.49ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.58ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.55ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.64ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.73ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.53ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.42ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.57ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.50ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.62ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.73ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.50ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.37ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.63ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.67ms
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.74ms
+24.12.2025 08:44:25 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:44:25 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.23ms
+24.12.2025 08:44:26 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1300.33ms
+24.12.2025 08:44:26 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.96ms
+24.12.2025 08:45:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:46:00 CET)" (scheduled at 2025-12-24 08:45:00.239448+01:00)
+24.12.2025 08:45:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:46:00 CET)" (scheduled at 2025-12-24 08:45:00.239631+01:00)
+24.12.2025 08:45:00 - INFO [E320] E320 data: E_in=167.481, E_out=1.961, Power=454
+24.12.2025 08:45:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:46:00 CET)" executed successfully
+24.12.2025 08:45:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:46:00 CET)" executed successfully
+24.12.2025 08:46:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:47:00 CET)" (scheduled at 2025-12-24 08:46:00.239448+01:00)
+24.12.2025 08:46:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:47:00 CET)" (scheduled at 2025-12-24 08:46:00.239631+01:00)
+24.12.2025 08:46:00 - INFO [E320] E320 data: E_in=167.488, E_out=1.961, Power=496
+24.12.2025 08:46:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:47:00 CET)" executed successfully
+24.12.2025 08:46:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:47:00 CET)" executed successfully
+24.12.2025 08:46:23 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.32ms
+24.12.2025 08:46:23 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.07ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.39ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.40ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.52ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.50ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.30ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.43ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.62ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.79ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.91ms
+24.12.2025 08:46:23 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.30ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.53ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.59ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.47ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.57ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.33ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.55ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.58ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.73ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.36ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.48ms
+24.12.2025 08:46:23 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.59ms
+24.12.2025 08:46:24 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1334.85ms
+24.12.2025 08:46:24 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.91ms
+24.12.2025 08:47:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:48:00 CET)" (scheduled at 2025-12-24 08:47:00.239448+01:00)
+24.12.2025 08:47:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:48:00 CET)" (scheduled at 2025-12-24 08:47:00.239631+01:00)
+24.12.2025 08:47:00 - INFO [E320] E320 data: E_in=167.496, E_out=1.961, Power=488
+24.12.2025 08:47:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:48:00 CET)" executed successfully
+24.12.2025 08:47:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:48:00 CET)" executed successfully
+24.12.2025 08:48:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:49:00 CET)" (scheduled at 2025-12-24 08:48:00.239448+01:00)
+24.12.2025 08:48:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:49:00 CET)" (scheduled at 2025-12-24 08:48:00.239631+01:00)
+24.12.2025 08:48:00 - INFO [E320] E320 data: E_in=167.504, E_out=1.961, Power=469
+24.12.2025 08:48:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:49:00 CET)" executed successfully
+24.12.2025 08:48:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:49:00 CET)" executed successfully
+24.12.2025 08:48:32 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:48:32 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.26ms
+24.12.2025 08:48:32 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.40ms
+24.12.2025 08:48:32 - INFO [tornado.access] 304 GET /static/js/weather.js (127.0.0.1) 0.45ms
+24.12.2025 08:48:32 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:48:32 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.22ms
+24.12.2025 08:48:32 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.92ms
+24.12.2025 08:48:33 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1228.12ms
+24.12.2025 08:48:49 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.52ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.51ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.31ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.51ms
+24.12.2025 08:48:49 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.30ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.53ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.47ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.59ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.63ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.38ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.49ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.41ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.55ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.28ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.28ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.30ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.45ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.53ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.47ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.60ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.43ms
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.33ms
+24.12.2025 08:48:49 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:48:49 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.38ms
+24.12.2025 08:48:51 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1288.41ms
+24.12.2025 08:48:51 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.79ms
+24.12.2025 08:48:52 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.54ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.44ms
+24.12.2025 08:48:52 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.71ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.26ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.27ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.53ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.32ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.31ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.34ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.30ms
+24.12.2025 08:48:52 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.08ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.50ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.32ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.41ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.51ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.58ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.58ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.31ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.37ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.49ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.38ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.48ms
+24.12.2025 08:48:52 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.41ms
+24.12.2025 08:48:54 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1367.39ms
+24.12.2025 08:48:54 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.84ms
+24.12.2025 08:48:58 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.16ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.63ms
+24.12.2025 08:48:58 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.96ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.37ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.51ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.68ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.50ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.26ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.77ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.94ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 1.01ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 1.11ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.43ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.29ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.58ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.66ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.73ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.84ms
+24.12.2025 08:48:58 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 0.95ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.58ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.68ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.79ms
+24.12.2025 08:48:58 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.88ms
+24.12.2025 08:49:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:50:00 CET)" (scheduled at 2025-12-24 08:49:00.239448+01:00)
+24.12.2025 08:49:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:50:00 CET)" (scheduled at 2025-12-24 08:49:00.239631+01:00)
+24.12.2025 08:49:00 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1281.96ms
+24.12.2025 08:49:00 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.49ms
+24.12.2025 08:49:00 - INFO [E320] E320 data: E_in=167.512, E_out=1.961, Power=428
+24.12.2025 08:49:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:50:00 CET)" executed successfully
+24.12.2025 08:49:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:50:00 CET)" executed successfully
+24.12.2025 08:50:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:51:00 CET)" (scheduled at 2025-12-24 08:50:00.239448+01:00)
+24.12.2025 08:50:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:51:00 CET)" (scheduled at 2025-12-24 08:50:00.239631+01:00)
+24.12.2025 08:50:00 - INFO [E320] E320 data: E_in=167.52, E_out=1.961, Power=447
+24.12.2025 08:50:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:51:00 CET)" executed successfully
+24.12.2025 08:50:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:51:00 CET)" executed successfully
+24.12.2025 08:51:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:52:00 CET)" (scheduled at 2025-12-24 08:51:00.239448+01:00)
+24.12.2025 08:51:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:52:00 CET)" (scheduled at 2025-12-24 08:51:00.239631+01:00)
+24.12.2025 08:51:00 - INFO [E320] E320 data: E_in=167.527, E_out=1.961, Power=416
+24.12.2025 08:51:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:52:00 CET)" executed successfully
+24.12.2025 08:51:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:52:00 CET)" executed successfully
+24.12.2025 08:51:05 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.14ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.46ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.54ms
+24.12.2025 08:51:05 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.75ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.65ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.79ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.96ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 1.14ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.43ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.23ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.55ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.29ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.27ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.26ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.56ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.46ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.25ms
+24.12.2025 08:51:05 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.25ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 1.35ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 1.46ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.25ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.24ms
+24.12.2025 08:51:05 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.23ms
+24.12.2025 08:51:07 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1417.35ms
+24.12.2025 08:51:07 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.26ms
+24.12.2025 08:51:08 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.13ms
+24.12.2025 08:51:08 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.03ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.72ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.35ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.27ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.25ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.33ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.26ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.33ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.73ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.35ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.85ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.90ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 1.00ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 1.09ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.45ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.55ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.42ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.57ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.42ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.49ms
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.34ms
+24.12.2025 08:51:08 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:51:08 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.27ms
+24.12.2025 08:51:09 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1237.36ms
+24.12.2025 08:51:09 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.86ms
+24.12.2025 08:51:12 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.14ms
+24.12.2025 08:51:12 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.91ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.40ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.50ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.40ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.36ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.28ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.27ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.45ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.58ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.30ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.49ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.88ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 1.12ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 1.64ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 1.70ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 1.77ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.26ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.21ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.43ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.51ms
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.65ms
+24.12.2025 08:51:12 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:51:12 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.30ms
+24.12.2025 08:51:13 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1281.61ms
+24.12.2025 08:51:13 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.96ms
+24.12.2025 08:52:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:53:00 CET)" (scheduled at 2025-12-24 08:52:00.239448+01:00)
+24.12.2025 08:52:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:53:00 CET)" (scheduled at 2025-12-24 08:52:00.239631+01:00)
+24.12.2025 08:52:00 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 09:07:00 CET)" (scheduled at 2025-12-24 08:52:00.239721+01:00)
+24.12.2025 08:52:00 - INFO [E320] E320 data: E_in=167.542, E_out=1.961, Power=439
+24.12.2025 08:52:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:53:00 CET)" executed successfully
+24.12.2025 08:52:01 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2025-12-24 08:52:01.717287', 48, 74397.0);
+24.12.2025 08:52:01 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 09:07:00 CET)" executed successfully
+24.12.2025 08:52:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:53:00 CET)" executed successfully
+24.12.2025 08:52:24 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.16ms
+24.12.2025 08:52:24 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.20ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 0.33ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.46ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.32ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 0.81ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 0.43ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 0.40ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.38ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.37ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.38ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 0.39ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.39ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 0.41ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.42ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.54ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.29ms
+24.12.2025 08:52:24 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.17ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.50ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.61ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.70ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.38ms
+24.12.2025 08:52:24 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.47ms
+24.12.2025 08:52:26 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1290.03ms
+24.12.2025 08:52:26 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.97ms
+24.12.2025 08:53:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:54:00 CET)" (scheduled at 2025-12-24 08:53:00.239448+01:00)
+24.12.2025 08:53:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:54:00 CET)" (scheduled at 2025-12-24 08:53:00.239631+01:00)
+24.12.2025 08:53:00 - INFO [E320] E320 data: E_in=167.549, E_out=1.961, Power=419
+24.12.2025 08:53:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:54:00 CET)" executed successfully
+24.12.2025 08:53:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:54:00 CET)" executed successfully
+24.12.2025 08:54:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:55:00 CET)" (scheduled at 2025-12-24 08:54:00.239448+01:00)
+24.12.2025 08:54:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:55:00 CET)" (scheduled at 2025-12-24 08:54:00.239631+01:00)
+24.12.2025 08:54:00 - INFO [E320] E320 data: E_in=167.557, E_out=1.961, Power=485
+24.12.2025 08:54:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:55:00 CET)" executed successfully
+24.12.2025 08:54:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:55:00 CET)" executed successfully
+24.12.2025 08:54:19 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1288.88ms
+24.12.2025 08:54:19 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.48ms
+24.12.2025 08:54:45 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.51ms
+24.12.2025 08:54:45 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 0.45ms
+24.12.2025 08:54:45 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.33ms
+24.12.2025 08:55:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:56:00 CET)" (scheduled at 2025-12-24 08:55:00.239448+01:00)
+24.12.2025 08:55:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:56:00 CET)" (scheduled at 2025-12-24 08:55:00.239631+01:00)
+24.12.2025 08:55:00 - INFO [E320] E320 data: E_in=167.565, E_out=1.961, Power=456
+24.12.2025 08:55:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:56:00 CET)" executed successfully
+24.12.2025 08:55:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:56:00 CET)" executed successfully
+24.12.2025 08:56:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:57:00 CET)" (scheduled at 2025-12-24 08:56:00.239448+01:00)
+24.12.2025 08:56:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:57:00 CET)" (scheduled at 2025-12-24 08:56:00.239631+01:00)
+24.12.2025 08:56:00 - INFO [E320] E320 data: E_in=167.572, E_out=1.961, Power=472
+24.12.2025 08:56:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:57:00 CET)" executed successfully
+24.12.2025 08:56:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:57:00 CET)" executed successfully
+24.12.2025 08:56:41 - INFO [tornado.general] /home/christoph/Workspace/home-backend/app/library/handler/api_weather.py modified; restarting server
+24.12.2025 08:56:41 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:56:41 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:56:41 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:56:41 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:56:41 - INFO [apscheduler.scheduler] Added job "Fritzbox.fetch" to job store "default"
+24.12.2025 08:56:41 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+24.12.2025 08:56:41 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+24.12.2025 08:56:41 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+24.12.2025 08:56:41 - INFO [apscheduler.scheduler] Scheduler started
+24.12.2025 08:56:41 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+24.12.2025 08:56:55 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:56:55 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:56:55 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:56:55 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:56:55 - INFO [apscheduler.scheduler] Added job "Fritzbox.fetch" to job store "default"
+24.12.2025 08:56:55 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+24.12.2025 08:56:55 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+24.12.2025 08:56:55 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+24.12.2025 08:56:55 - INFO [apscheduler.scheduler] Scheduler started
+24.12.2025 08:56:55 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+24.12.2025 08:56:57 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:56:57 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.35ms
+24.12.2025 08:56:57 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 4.07ms
+24.12.2025 08:56:57 - INFO [tornado.access] 304 GET /static/js/weather.js (127.0.0.1) 0.42ms
+24.12.2025 08:56:57 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 1.08ms
+24.12.2025 08:56:57 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:56:57 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.11ms
+24.12.2025 08:56:58 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1228.04ms
+24.12.2025 08:56:58 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/partly-cloudy-day.svg (127.0.0.1) 0.35ms
+24.12.2025 08:57:18 - INFO [tornado.general] /home/christoph/Workspace/home-backend/app/library/handler/api_weather.py modified; restarting server
+24.12.2025 08:57:18 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:57:18 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:57:18 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:57:18 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 08:57:18 - INFO [apscheduler.scheduler] Added job "Fritzbox.fetch" to job store "default"
+24.12.2025 08:57:18 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+24.12.2025 08:57:18 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+24.12.2025 08:57:18 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+24.12.2025 08:57:18 - INFO [apscheduler.scheduler] Scheduler started
+24.12.2025 08:57:18 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+24.12.2025 08:58:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:58:18 CET)" (scheduled at 2025-12-24 08:58:18.820171+01:00)
+24.12.2025 08:58:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:58:18 CET)" (scheduled at 2025-12-24 08:58:18.820430+01:00)
+24.12.2025 08:58:18 - INFO [E320] E320 data: E_in=167.589, E_out=1.961, Power=403
+24.12.2025 08:58:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:59:18 CET)" executed successfully
+24.12.2025 08:58:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 08:59:18 CET)" executed successfully
+24.12.2025 08:58:51 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:58:51 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.40ms
+24.12.2025 08:58:51 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 20.71ms
+24.12.2025 08:58:51 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.65ms
+24.12.2025 08:58:51 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 08:58:51 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.40ms
+24.12.2025 08:58:51 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 2.20ms
+24.12.2025 08:58:52 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1230.00ms
+24.12.2025 08:59:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:00:18 CET)" (scheduled at 2025-12-24 08:59:18.820171+01:00)
+24.12.2025 08:59:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:00:18 CET)" (scheduled at 2025-12-24 08:59:18.820430+01:00)
+24.12.2025 08:59:19 - INFO [E320] E320 data: E_in=167.596, E_out=1.961, Power=454
+24.12.2025 08:59:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:00:18 CET)" executed successfully
+24.12.2025 08:59:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:00:18 CET)" executed successfully
+24.12.2025 09:00:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:01:18 CET)" (scheduled at 2025-12-24 09:00:18.820171+01:00)
+24.12.2025 09:00:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:01:18 CET)" (scheduled at 2025-12-24 09:00:18.820430+01:00)
+24.12.2025 09:00:18 - INFO [E320] E320 data: E_in=167.604, E_out=1.961, Power=454
+24.12.2025 09:00:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:01:18 CET)" executed successfully
+24.12.2025 09:00:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:01:18 CET)" executed successfully
+24.12.2025 09:01:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:02:18 CET)" (scheduled at 2025-12-24 09:01:18.820171+01:00)
+24.12.2025 09:01:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:02:18 CET)" (scheduled at 2025-12-24 09:01:18.820430+01:00)
+24.12.2025 09:01:18 - INFO [E320] E320 data: E_in=167.612, E_out=1.961, Power=1394
+24.12.2025 09:01:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:02:18 CET)" executed successfully
+24.12.2025 09:01:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:02:18 CET)" executed successfully
+24.12.2025 09:02:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:03:18 CET)" (scheduled at 2025-12-24 09:02:18.820171+01:00)
+24.12.2025 09:02:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:03:18 CET)" (scheduled at 2025-12-24 09:02:18.820430+01:00)
+24.12.2025 09:02:18 - INFO [E320] E320 data: E_in=167.626, E_out=1.961, Power=405
+24.12.2025 09:02:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:03:18 CET)" executed successfully
+24.12.2025 09:02:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:03:18 CET)" executed successfully
+24.12.2025 09:03:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:04:18 CET)" (scheduled at 2025-12-24 09:03:18.820171+01:00)
+24.12.2025 09:03:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:04:18 CET)" (scheduled at 2025-12-24 09:03:18.820430+01:00)
+24.12.2025 09:03:18 - INFO [E320] E320 data: E_in=167.633, E_out=1.961, Power=414
+24.12.2025 09:03:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:04:18 CET)" executed successfully
+24.12.2025 09:03:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:04:18 CET)" executed successfully
+24.12.2025 09:04:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:05:18 CET)" (scheduled at 2025-12-24 09:04:18.820171+01:00)
+24.12.2025 09:04:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:05:18 CET)" (scheduled at 2025-12-24 09:04:18.820430+01:00)
+24.12.2025 09:04:19 - INFO [E320] E320 data: E_in=167.639, E_out=1.961, Power=413
+24.12.2025 09:04:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:05:18 CET)" executed successfully
+24.12.2025 09:04:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:05:18 CET)" executed successfully
+24.12.2025 09:05:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:06:18 CET)" (scheduled at 2025-12-24 09:05:18.820171+01:00)
+24.12.2025 09:05:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:06:18 CET)" (scheduled at 2025-12-24 09:05:18.820430+01:00)
+24.12.2025 09:05:18 - INFO [E320] E320 data: E_in=167.646, E_out=1.961, Power=397
+24.12.2025 09:05:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:06:18 CET)" executed successfully
+24.12.2025 09:05:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:06:18 CET)" executed successfully
+24.12.2025 09:06:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:07:18 CET)" (scheduled at 2025-12-24 09:06:18.820171+01:00)
+24.12.2025 09:06:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:07:18 CET)" (scheduled at 2025-12-24 09:06:18.820430+01:00)
+24.12.2025 09:06:18 - INFO [E320] E320 data: E_in=167.653, E_out=1.961, Power=411
+24.12.2025 09:06:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:07:18 CET)" executed successfully
+24.12.2025 09:06:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:07:18 CET)" executed successfully
+24.12.2025 09:07:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:08:18 CET)" (scheduled at 2025-12-24 09:07:18.820171+01:00)
+24.12.2025 09:07:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:08:18 CET)" (scheduled at 2025-12-24 09:07:18.820430+01:00)
+24.12.2025 09:07:19 - INFO [E320] E320 data: E_in=167.66, E_out=1.961, Power=404
+24.12.2025 09:07:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:08:18 CET)" executed successfully
+24.12.2025 09:07:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:08:18 CET)" executed successfully
+24.12.2025 09:08:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:09:18 CET)" (scheduled at 2025-12-24 09:08:18.820171+01:00)
+24.12.2025 09:08:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:09:18 CET)" (scheduled at 2025-12-24 09:08:18.820430+01:00)
+24.12.2025 09:08:18 - INFO [E320] E320 data: E_in=167.667, E_out=1.961, Power=414
+24.12.2025 09:08:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:09:18 CET)" executed successfully
+24.12.2025 09:08:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:09:18 CET)" executed successfully
+24.12.2025 09:09:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:10:18 CET)" (scheduled at 2025-12-24 09:09:18.820171+01:00)
+24.12.2025 09:09:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:10:18 CET)" (scheduled at 2025-12-24 09:09:18.820430+01:00)
+24.12.2025 09:09:19 - INFO [E320] E320 data: E_in=167.674, E_out=1.961, Power=389
+24.12.2025 09:09:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:10:18 CET)" executed successfully
+24.12.2025 09:09:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:10:18 CET)" executed successfully
+24.12.2025 09:10:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:11:18 CET)" (scheduled at 2025-12-24 09:10:18.820171+01:00)
+24.12.2025 09:10:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:11:18 CET)" (scheduled at 2025-12-24 09:10:18.820430+01:00)
+24.12.2025 09:10:19 - INFO [E320] E320 data: E_in=167.68, E_out=1.961, Power=401
+24.12.2025 09:10:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:11:18 CET)" executed successfully
+24.12.2025 09:10:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:11:18 CET)" executed successfully
+24.12.2025 09:11:01 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.19ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 0.46ms
+24.12.2025 09:11:01 - WARNING [tornado.access] 404 GET /.well-known/appspecific/com.chrome.devtools.json (127.0.0.1) 0.99ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/inside.png (127.0.0.1) 0.47ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/humidity.png (127.0.0.1) 0.77ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/sunrise.png (127.0.0.1) 0.83ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/thermometre.png (127.0.0.1) 0.33ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/sunset.png (127.0.0.1) 0.37ms
+24.12.2025 09:11:01 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.27ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/moon_phase/6.png (127.0.0.1) 0.74ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/outside.png (127.0.0.1) 0.64ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/umbrella.png (127.0.0.1) 0.70ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/feeling.png (127.0.0.1) 0.79ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/uvindex.png (127.0.0.1) 0.41ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 0.31ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/prec.png (127.0.0.1) 0.54ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.42ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.35ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 0.64ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.73ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.79ms
+24.12.2025 09:11:01 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.35ms
+24.12.2025 09:11:01 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 0.37ms
+24.12.2025 09:11:02 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1262.32ms
+24.12.2025 09:11:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:12:18 CET)" (scheduled at 2025-12-24 09:11:18.820171+01:00)
+24.12.2025 09:11:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:12:18 CET)" (scheduled at 2025-12-24 09:11:18.820430+01:00)
+24.12.2025 09:11:18 - INFO [E320] E320 data: E_in=167.689, E_out=1.961, Power=1337
+24.12.2025 09:11:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:12:18 CET)" executed successfully
+24.12.2025 09:11:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:12:18 CET)" executed successfully
+24.12.2025 09:12:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:13:18 CET)" (scheduled at 2025-12-24 09:12:18.820171+01:00)
+24.12.2025 09:12:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:13:18 CET)" (scheduled at 2025-12-24 09:12:18.820430+01:00)
+24.12.2025 09:12:18 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 09:27:18 CET)" (scheduled at 2025-12-24 09:12:18.820565+01:00)
+24.12.2025 09:12:18 - INFO [E320] E320 data: E_in=167.701, E_out=1.961, Power=378
+24.12.2025 09:12:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:13:18 CET)" executed successfully
+24.12.2025 09:12:20 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2025-12-24 09:12:20.014434', 48, 74397.0);
+24.12.2025 09:12:20 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 09:27:18 CET)" executed successfully
+24.12.2025 09:12:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:13:18 CET)" executed successfully
+24.12.2025 09:13:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:14:18 CET)" (scheduled at 2025-12-24 09:13:18.820171+01:00)
+24.12.2025 09:13:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:14:18 CET)" (scheduled at 2025-12-24 09:13:18.820430+01:00)
+24.12.2025 09:13:18 - INFO [E320] E320 data: E_in=167.707, E_out=1.961, Power=360
+24.12.2025 09:13:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:14:18 CET)" executed successfully
+24.12.2025 09:13:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:14:18 CET)" executed successfully
+24.12.2025 09:14:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:15:18 CET)" (scheduled at 2025-12-24 09:14:18.820171+01:00)
+24.12.2025 09:14:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:15:18 CET)" (scheduled at 2025-12-24 09:14:18.820430+01:00)
+24.12.2025 09:14:18 - INFO [E320] E320 data: E_in=167.713, E_out=1.961, Power=359
+24.12.2025 09:14:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:15:18 CET)" executed successfully
+24.12.2025 09:14:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:15:18 CET)" executed successfully
+24.12.2025 09:15:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:16:18 CET)" (scheduled at 2025-12-24 09:15:18.820171+01:00)
+24.12.2025 09:15:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:16:18 CET)" (scheduled at 2025-12-24 09:15:18.820430+01:00)
+24.12.2025 09:15:18 - INFO [E320] E320 data: E_in=167.72, E_out=1.961, Power=396
+24.12.2025 09:15:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:16:18 CET)" executed successfully
+24.12.2025 09:15:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:16:18 CET)" executed successfully
+24.12.2025 09:16:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:17:18 CET)" (scheduled at 2025-12-24 09:16:18.820171+01:00)
+24.12.2025 09:16:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:17:18 CET)" (scheduled at 2025-12-24 09:16:18.820430+01:00)
+24.12.2025 09:16:18 - INFO [E320] E320 data: E_in=167.726, E_out=1.961, Power=419
+24.12.2025 09:16:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:17:18 CET)" executed successfully
+24.12.2025 09:16:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:17:18 CET)" executed successfully
+24.12.2025 09:17:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:18:18 CET)" (scheduled at 2025-12-24 09:17:18.820171+01:00)
+24.12.2025 09:17:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:18:18 CET)" (scheduled at 2025-12-24 09:17:18.820430+01:00)
+24.12.2025 09:17:19 - INFO [E320] E320 data: E_in=167.733, E_out=1.961, Power=407
+24.12.2025 09:17:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:18:18 CET)" executed successfully
+24.12.2025 09:17:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:18:18 CET)" executed successfully
+24.12.2025 09:18:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:19:18 CET)" (scheduled at 2025-12-24 09:18:18.820171+01:00)
+24.12.2025 09:18:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:19:18 CET)" (scheduled at 2025-12-24 09:18:18.820430+01:00)
+24.12.2025 09:18:18 - INFO [E320] E320 data: E_in=167.74, E_out=1.961, Power=439
+24.12.2025 09:18:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:19:18 CET)" executed successfully
+24.12.2025 09:18:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:19:18 CET)" executed successfully
+24.12.2025 09:19:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:20:18 CET)" (scheduled at 2025-12-24 09:19:18.820171+01:00)
+24.12.2025 09:19:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:20:18 CET)" (scheduled at 2025-12-24 09:19:18.820430+01:00)
+24.12.2025 09:19:18 - INFO [E320] E320 data: E_in=167.746, E_out=1.961, Power=320
+24.12.2025 09:19:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:20:18 CET)" executed successfully
+24.12.2025 09:19:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:20:18 CET)" executed successfully
+24.12.2025 09:20:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:21:18 CET)" (scheduled at 2025-12-24 09:20:18.820171+01:00)
+24.12.2025 09:20:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:21:18 CET)" (scheduled at 2025-12-24 09:20:18.820430+01:00)
+24.12.2025 09:20:18 - INFO [E320] E320 data: E_in=167.752, E_out=1.961, Power=457
+24.12.2025 09:20:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:21:18 CET)" executed successfully
+24.12.2025 09:20:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:21:18 CET)" executed successfully
+24.12.2025 09:21:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:22:18 CET)" (scheduled at 2025-12-24 09:21:18.820171+01:00)
+24.12.2025 09:21:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:22:18 CET)" (scheduled at 2025-12-24 09:21:18.820430+01:00)
+24.12.2025 09:21:18 - INFO [E320] E320 data: E_in=167.762, E_out=1.961, Power=1384
+24.12.2025 09:21:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:22:18 CET)" executed successfully
+24.12.2025 09:21:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:22:18 CET)" executed successfully
+24.12.2025 09:22:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:23:18 CET)" (scheduled at 2025-12-24 09:22:18.820171+01:00)
+24.12.2025 09:22:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:23:18 CET)" (scheduled at 2025-12-24 09:22:18.820430+01:00)
+24.12.2025 09:22:18 - INFO [E320] E320 data: E_in=167.774, E_out=1.961, Power=309
+24.12.2025 09:22:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:23:18 CET)" executed successfully
+24.12.2025 09:22:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:23:18 CET)" executed successfully
+24.12.2025 09:23:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:24:18 CET)" (scheduled at 2025-12-24 09:23:18.820171+01:00)
+24.12.2025 09:23:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:24:18 CET)" (scheduled at 2025-12-24 09:23:18.820430+01:00)
+24.12.2025 09:23:18 - INFO [E320] E320 data: E_in=167.779, E_out=1.961, Power=321
+24.12.2025 09:23:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:24:18 CET)" executed successfully
+24.12.2025 09:23:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:24:18 CET)" executed successfully
+24.12.2025 09:24:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:25:18 CET)" (scheduled at 2025-12-24 09:24:18.820171+01:00)
+24.12.2025 09:24:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:25:18 CET)" (scheduled at 2025-12-24 09:24:18.820430+01:00)
+24.12.2025 09:24:18 - INFO [E320] E320 data: E_in=167.784, E_out=1.961, Power=338
+24.12.2025 09:24:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:25:18 CET)" executed successfully
+24.12.2025 09:24:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:25:18 CET)" executed successfully
+24.12.2025 09:25:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:26:18 CET)" (scheduled at 2025-12-24 09:25:18.820171+01:00)
+24.12.2025 09:25:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:26:18 CET)" (scheduled at 2025-12-24 09:25:18.820430+01:00)
+24.12.2025 09:25:18 - INFO [E320] E320 data: E_in=167.789, E_out=1.961, Power=316
+24.12.2025 09:25:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:26:18 CET)" executed successfully
+24.12.2025 09:25:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:26:18 CET)" executed successfully
+24.12.2025 09:26:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:27:18 CET)" (scheduled at 2025-12-24 09:26:18.820171+01:00)
+24.12.2025 09:26:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:27:18 CET)" (scheduled at 2025-12-24 09:26:18.820430+01:00)
+24.12.2025 09:26:19 - INFO [E320] E320 data: E_in=167.795, E_out=1.961, Power=318
+24.12.2025 09:26:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:27:18 CET)" executed successfully
+24.12.2025 09:26:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:27:18 CET)" executed successfully
+24.12.2025 09:27:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:28:18 CET)" (scheduled at 2025-12-24 09:27:18.820171+01:00)
+24.12.2025 09:27:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:28:18 CET)" (scheduled at 2025-12-24 09:27:18.820430+01:00)
+24.12.2025 09:27:18 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 09:42:18 CET)" (scheduled at 2025-12-24 09:27:18.820565+01:00)
+24.12.2025 09:27:18 - INFO [E320] E320 data: E_in=167.8, E_out=1.961, Power=310
+24.12.2025 09:27:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:28:18 CET)" executed successfully
+24.12.2025 09:27:20 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2025-12-24 09:27:20.000554', 47, 74397.0);
+24.12.2025 09:27:20 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 09:42:18 CET)" executed successfully
+24.12.2025 09:27:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:28:18 CET)" executed successfully
+24.12.2025 09:28:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:29:18 CET)" (scheduled at 2025-12-24 09:28:18.820171+01:00)
+24.12.2025 09:28:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:29:18 CET)" (scheduled at 2025-12-24 09:28:18.820430+01:00)
+24.12.2025 09:28:18 - INFO [E320] E320 data: E_in=167.805, E_out=1.961, Power=353
+24.12.2025 09:28:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:29:18 CET)" executed successfully
+24.12.2025 09:28:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:29:18 CET)" executed successfully
+24.12.2025 09:29:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:30:18 CET)" (scheduled at 2025-12-24 09:29:18.820171+01:00)
+24.12.2025 09:29:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:30:18 CET)" (scheduled at 2025-12-24 09:29:18.820430+01:00)
+24.12.2025 09:29:19 - INFO [E320] E320 data: E_in=167.811, E_out=1.961, Power=334
+24.12.2025 09:29:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:30:18 CET)" executed successfully
+24.12.2025 09:29:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:30:18 CET)" executed successfully
+24.12.2025 09:30:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:31:18 CET)" (scheduled at 2025-12-24 09:30:18.820171+01:00)
+24.12.2025 09:30:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:31:18 CET)" (scheduled at 2025-12-24 09:30:18.820430+01:00)
+24.12.2025 09:30:18 - INFO [E320] E320 data: E_in=167.817, E_out=1.961, Power=339
+24.12.2025 09:30:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:31:18 CET)" executed successfully
+24.12.2025 09:30:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:31:18 CET)" executed successfully
+24.12.2025 09:31:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:32:18 CET)" (scheduled at 2025-12-24 09:31:18.820171+01:00)
+24.12.2025 09:31:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:32:18 CET)" (scheduled at 2025-12-24 09:31:18.820430+01:00)
+24.12.2025 09:31:18 - INFO [E320] E320 data: E_in=167.825, E_out=1.961, Power=1285
+24.12.2025 09:31:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:32:18 CET)" executed successfully
+24.12.2025 09:31:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:32:18 CET)" executed successfully
+24.12.2025 09:32:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:33:18 CET)" (scheduled at 2025-12-24 09:32:18.820171+01:00)
+24.12.2025 09:32:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:33:18 CET)" (scheduled at 2025-12-24 09:32:18.820430+01:00)
+24.12.2025 09:32:19 - INFO [E320] E320 data: E_in=167.836, E_out=1.961, Power=335
+24.12.2025 09:32:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:33:18 CET)" executed successfully
+24.12.2025 09:32:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:33:18 CET)" executed successfully
+24.12.2025 09:33:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:34:18 CET)" (scheduled at 2025-12-24 09:33:18.820171+01:00)
+24.12.2025 09:33:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:34:18 CET)" (scheduled at 2025-12-24 09:33:18.820430+01:00)
+24.12.2025 09:33:18 - INFO [E320] E320 data: E_in=167.841, E_out=1.961, Power=368
+24.12.2025 09:33:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:34:18 CET)" executed successfully
+24.12.2025 09:33:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:34:18 CET)" executed successfully
+24.12.2025 09:34:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:35:18 CET)" (scheduled at 2025-12-24 09:34:18.820171+01:00)
+24.12.2025 09:34:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:35:18 CET)" (scheduled at 2025-12-24 09:34:18.820430+01:00)
+24.12.2025 09:34:18 - INFO [E320] E320 data: E_in=167.847, E_out=1.961, Power=334
+24.12.2025 09:34:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:35:18 CET)" executed successfully
+24.12.2025 09:34:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:35:18 CET)" executed successfully
+24.12.2025 09:35:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:36:18 CET)" (scheduled at 2025-12-24 09:35:18.820171+01:00)
+24.12.2025 09:35:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:36:18 CET)" (scheduled at 2025-12-24 09:35:18.820430+01:00)
+24.12.2025 09:35:19 - INFO [E320] E320 data: E_in=167.853, E_out=1.961, Power=338
+24.12.2025 09:35:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:36:18 CET)" executed successfully
+24.12.2025 09:35:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:36:18 CET)" executed successfully
+24.12.2025 09:36:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:37:18 CET)" (scheduled at 2025-12-24 09:36:18.820171+01:00)
+24.12.2025 09:36:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:37:18 CET)" (scheduled at 2025-12-24 09:36:18.820430+01:00)
+24.12.2025 09:36:18 - INFO [E320] E320 data: E_in=167.858, E_out=1.961, Power=342
+24.12.2025 09:36:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:37:18 CET)" executed successfully
+24.12.2025 09:36:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:37:18 CET)" executed successfully
+24.12.2025 09:37:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:38:18 CET)" (scheduled at 2025-12-24 09:37:18.820171+01:00)
+24.12.2025 09:37:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:38:18 CET)" (scheduled at 2025-12-24 09:37:18.820430+01:00)
+24.12.2025 09:37:18 - INFO [E320] E320 data: E_in=167.864, E_out=1.961, Power=315
+24.12.2025 09:37:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:38:18 CET)" executed successfully
+24.12.2025 09:37:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:38:18 CET)" executed successfully
+24.12.2025 09:38:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:39:18 CET)" (scheduled at 2025-12-24 09:38:18.820171+01:00)
+24.12.2025 09:38:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:39:18 CET)" (scheduled at 2025-12-24 09:38:18.820430+01:00)
+24.12.2025 09:38:18 - INFO [E320] E320 data: E_in=167.869, E_out=1.961, Power=318
+24.12.2025 09:38:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:39:18 CET)" executed successfully
+24.12.2025 09:38:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:39:18 CET)" executed successfully
+24.12.2025 09:39:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:40:18 CET)" (scheduled at 2025-12-24 09:39:18.820171+01:00)
+24.12.2025 09:39:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:40:18 CET)" (scheduled at 2025-12-24 09:39:18.820430+01:00)
+24.12.2025 09:39:18 - INFO [E320] E320 data: E_in=167.875, E_out=1.961, Power=311
+24.12.2025 09:39:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:40:18 CET)" executed successfully
+24.12.2025 09:39:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:40:18 CET)" executed successfully
+24.12.2025 09:40:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:41:18 CET)" (scheduled at 2025-12-24 09:40:18.820171+01:00)
+24.12.2025 09:40:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:41:18 CET)" (scheduled at 2025-12-24 09:40:18.820430+01:00)
+24.12.2025 09:40:18 - INFO [E320] E320 data: E_in=167.88, E_out=1.961, Power=312
+24.12.2025 09:40:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:41:18 CET)" executed successfully
+24.12.2025 09:40:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:41:18 CET)" executed successfully
+24.12.2025 09:41:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:42:18 CET)" (scheduled at 2025-12-24 09:41:18.820171+01:00)
+24.12.2025 09:41:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:42:18 CET)" (scheduled at 2025-12-24 09:41:18.820430+01:00)
+24.12.2025 09:41:18 - INFO [E320] E320 data: E_in=167.887, E_out=1.961, Power=1283
+24.12.2025 09:41:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:42:18 CET)" executed successfully
+24.12.2025 09:41:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:42:18 CET)" executed successfully
+24.12.2025 09:42:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:43:18 CET)" (scheduled at 2025-12-24 09:42:18.820171+01:00)
+24.12.2025 09:42:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:43:18 CET)" (scheduled at 2025-12-24 09:42:18.820430+01:00)
+24.12.2025 09:42:18 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 09:57:18 CET)" (scheduled at 2025-12-24 09:42:18.820565+01:00)
+24.12.2025 09:42:18 - INFO [E320] E320 data: E_in=167.898, E_out=1.961, Power=254
+24.12.2025 09:42:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:43:18 CET)" executed successfully
+24.12.2025 09:42:20 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2025-12-24 09:42:20.018434', 47, 74398.0);
+24.12.2025 09:42:20 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 09:57:18 CET)" executed successfully
+24.12.2025 09:42:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:43:18 CET)" executed successfully
+24.12.2025 09:43:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:44:18 CET)" (scheduled at 2025-12-24 09:43:18.820171+01:00)
+24.12.2025 09:43:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:44:18 CET)" (scheduled at 2025-12-24 09:43:18.820430+01:00)
+24.12.2025 09:43:18 - INFO [E320] E320 data: E_in=167.902, E_out=1.961, Power=263
+24.12.2025 09:43:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:44:18 CET)" executed successfully
+24.12.2025 09:43:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:44:18 CET)" executed successfully
+24.12.2025 09:44:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:45:18 CET)" (scheduled at 2025-12-24 09:44:18.820171+01:00)
+24.12.2025 09:44:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:45:18 CET)" (scheduled at 2025-12-24 09:44:18.820430+01:00)
+24.12.2025 09:44:18 - INFO [E320] E320 data: E_in=167.906, E_out=1.961, Power=249
+24.12.2025 09:44:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:45:18 CET)" executed successfully
+24.12.2025 09:44:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:45:18 CET)" executed successfully
+24.12.2025 09:45:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:46:18 CET)" (scheduled at 2025-12-24 09:45:18.820171+01:00)
+24.12.2025 09:45:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:46:18 CET)" (scheduled at 2025-12-24 09:45:18.820430+01:00)
+24.12.2025 09:45:19 - INFO [E320] E320 data: E_in=167.91, E_out=1.961, Power=244
+24.12.2025 09:45:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:46:18 CET)" executed successfully
+24.12.2025 09:45:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:46:18 CET)" executed successfully
+24.12.2025 09:46:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:47:18 CET)" (scheduled at 2025-12-24 09:46:18.820171+01:00)
+24.12.2025 09:46:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:47:18 CET)" (scheduled at 2025-12-24 09:46:18.820430+01:00)
+24.12.2025 09:46:18 - INFO [E320] E320 data: E_in=167.915, E_out=1.961, Power=258
+24.12.2025 09:46:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:47:18 CET)" executed successfully
+24.12.2025 09:46:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:47:18 CET)" executed successfully
+24.12.2025 09:47:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:48:18 CET)" (scheduled at 2025-12-24 09:47:18.820171+01:00)
+24.12.2025 09:47:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:48:18 CET)" (scheduled at 2025-12-24 09:47:18.820430+01:00)
+24.12.2025 09:47:18 - INFO [E320] E320 data: E_in=167.919, E_out=1.961, Power=253
+24.12.2025 09:47:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:48:18 CET)" executed successfully
+24.12.2025 09:47:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:48:18 CET)" executed successfully
+24.12.2025 09:48:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:49:18 CET)" (scheduled at 2025-12-24 09:48:18.820171+01:00)
+24.12.2025 09:48:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:49:18 CET)" (scheduled at 2025-12-24 09:48:18.820430+01:00)
+24.12.2025 09:48:18 - INFO [E320] E320 data: E_in=167.923, E_out=1.961, Power=290
+24.12.2025 09:48:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:49:18 CET)" executed successfully
+24.12.2025 09:48:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:49:18 CET)" executed successfully
+24.12.2025 09:49:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:50:18 CET)" (scheduled at 2025-12-24 09:49:18.820171+01:00)
+24.12.2025 09:49:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:50:18 CET)" (scheduled at 2025-12-24 09:49:18.820430+01:00)
+24.12.2025 09:49:18 - INFO [E320] E320 data: E_in=167.929, E_out=1.961, Power=370
+24.12.2025 09:49:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:50:18 CET)" executed successfully
+24.12.2025 09:49:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:50:18 CET)" executed successfully
+24.12.2025 09:50:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:51:18 CET)" (scheduled at 2025-12-24 09:50:18.820171+01:00)
+24.12.2025 09:50:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:51:18 CET)" (scheduled at 2025-12-24 09:50:18.820430+01:00)
+24.12.2025 09:50:18 - INFO [E320] E320 data: E_in=167.935, E_out=1.961, Power=382
+24.12.2025 09:50:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:51:18 CET)" executed successfully
+24.12.2025 09:50:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:51:18 CET)" executed successfully
+24.12.2025 09:51:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:52:18 CET)" (scheduled at 2025-12-24 09:51:18.820171+01:00)
+24.12.2025 09:51:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:52:18 CET)" (scheduled at 2025-12-24 09:51:18.820430+01:00)
+24.12.2025 09:51:19 - INFO [E320] E320 data: E_in=167.941, E_out=1.961, Power=268
+24.12.2025 09:51:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:52:18 CET)" executed successfully
+24.12.2025 09:51:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:52:18 CET)" executed successfully
+24.12.2025 09:52:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:53:18 CET)" (scheduled at 2025-12-24 09:52:18.820171+01:00)
+24.12.2025 09:52:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:53:18 CET)" (scheduled at 2025-12-24 09:52:18.820430+01:00)
+24.12.2025 09:52:18 - INFO [E320] E320 data: E_in=167.953, E_out=1.961, Power=274
+24.12.2025 09:52:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:53:18 CET)" executed successfully
+24.12.2025 09:52:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:53:18 CET)" executed successfully
+24.12.2025 09:53:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:54:18 CET)" (scheduled at 2025-12-24 09:53:18.820171+01:00)
+24.12.2025 09:53:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:54:18 CET)" (scheduled at 2025-12-24 09:53:18.820430+01:00)
+24.12.2025 09:53:18 - INFO [E320] E320 data: E_in=167.958, E_out=1.961, Power=283
+24.12.2025 09:53:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:54:18 CET)" executed successfully
+24.12.2025 09:53:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:54:18 CET)" executed successfully
+24.12.2025 09:54:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:55:18 CET)" (scheduled at 2025-12-24 09:54:18.820171+01:00)
+24.12.2025 09:54:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:55:18 CET)" (scheduled at 2025-12-24 09:54:18.820430+01:00)
+24.12.2025 09:54:19 - INFO [E320] E320 data: E_in=167.963, E_out=1.961, Power=270
+24.12.2025 09:54:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:55:18 CET)" executed successfully
+24.12.2025 09:54:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:55:18 CET)" executed successfully
+24.12.2025 09:55:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:56:18 CET)" (scheduled at 2025-12-24 09:55:18.820171+01:00)
+24.12.2025 09:55:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:56:18 CET)" (scheduled at 2025-12-24 09:55:18.820430+01:00)
+24.12.2025 09:55:18 - INFO [E320] E320 data: E_in=167.968, E_out=1.961, Power=325
+24.12.2025 09:55:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:56:18 CET)" executed successfully
+24.12.2025 09:55:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:56:18 CET)" executed successfully
+24.12.2025 09:56:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:57:18 CET)" (scheduled at 2025-12-24 09:56:18.820171+01:00)
+24.12.2025 09:56:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:57:18 CET)" (scheduled at 2025-12-24 09:56:18.820430+01:00)
+24.12.2025 09:56:19 - INFO [E320] E320 data: E_in=167.973, E_out=1.961, Power=315
+24.12.2025 09:56:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:57:18 CET)" executed successfully
+24.12.2025 09:56:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:57:18 CET)" executed successfully
+24.12.2025 09:57:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:58:18 CET)" (scheduled at 2025-12-24 09:57:18.820171+01:00)
+24.12.2025 09:57:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:58:18 CET)" (scheduled at 2025-12-24 09:57:18.820430+01:00)
+24.12.2025 09:57:18 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 10:12:18 CET)" (scheduled at 2025-12-24 09:57:18.820565+01:00)
+24.12.2025 09:57:19 - INFO [E320] E320 data: E_in=167.978, E_out=1.961, Power=303
+24.12.2025 09:57:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:58:18 CET)" executed successfully
+24.12.2025 09:57:20 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2025-12-24 09:57:20.081912', 46, 74399.0);
+24.12.2025 09:57:20 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 10:12:18 CET)" executed successfully
+24.12.2025 09:57:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:58:18 CET)" executed successfully
+24.12.2025 09:58:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:59:18 CET)" (scheduled at 2025-12-24 09:58:18.820171+01:00)
+24.12.2025 09:58:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:59:18 CET)" (scheduled at 2025-12-24 09:58:18.820430+01:00)
+24.12.2025 09:58:18 - INFO [E320] E320 data: E_in=167.983, E_out=1.961, Power=312
+24.12.2025 09:58:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:59:18 CET)" executed successfully
+24.12.2025 09:58:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 09:59:18 CET)" executed successfully
+24.12.2025 09:59:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:00:18 CET)" (scheduled at 2025-12-24 09:59:18.820171+01:00)
+24.12.2025 09:59:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:00:18 CET)" (scheduled at 2025-12-24 09:59:18.820430+01:00)
+24.12.2025 09:59:18 - INFO [E320] E320 data: E_in=167.988, E_out=1.961, Power=295
+24.12.2025 09:59:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:00:18 CET)" executed successfully
+24.12.2025 09:59:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:00:18 CET)" executed successfully
+24.12.2025 10:00:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:01:18 CET)" (scheduled at 2025-12-24 10:00:18.820171+01:00)
+24.12.2025 10:00:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:01:18 CET)" (scheduled at 2025-12-24 10:00:18.820430+01:00)
+24.12.2025 10:00:18 - INFO [E320] E320 data: E_in=167.993, E_out=1.961, Power=305
+24.12.2025 10:00:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:01:18 CET)" executed successfully
+24.12.2025 10:00:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:01:18 CET)" executed successfully
+24.12.2025 10:01:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:02:18 CET)" (scheduled at 2025-12-24 10:01:18.820171+01:00)
+24.12.2025 10:01:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:02:18 CET)" (scheduled at 2025-12-24 10:01:18.820430+01:00)
+24.12.2025 10:01:18 - INFO [E320] E320 data: E_in=167.998, E_out=1.961, Power=333
+24.12.2025 10:01:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:02:18 CET)" executed successfully
+24.12.2025 10:01:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:02:18 CET)" executed successfully
+24.12.2025 10:02:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:03:18 CET)" (scheduled at 2025-12-24 10:02:18.820171+01:00)
+24.12.2025 10:02:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:03:18 CET)" (scheduled at 2025-12-24 10:02:18.820430+01:00)
+24.12.2025 10:02:18 - INFO [E320] E320 data: E_in=168.011, E_out=1.961, Power=337
+24.12.2025 10:02:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:03:18 CET)" executed successfully
+24.12.2025 10:02:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:03:18 CET)" executed successfully
+24.12.2025 10:03:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:04:18 CET)" (scheduled at 2025-12-24 10:03:18.820171+01:00)
+24.12.2025 10:03:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:04:18 CET)" (scheduled at 2025-12-24 10:03:18.820430+01:00)
+24.12.2025 10:03:18 - INFO [E320] E320 data: E_in=168.016, E_out=1.961, Power=326
+24.12.2025 10:03:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:04:18 CET)" executed successfully
+24.12.2025 10:03:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:04:18 CET)" executed successfully
+24.12.2025 10:04:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:05:18 CET)" (scheduled at 2025-12-24 10:04:18.820171+01:00)
+24.12.2025 10:04:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:05:18 CET)" (scheduled at 2025-12-24 10:04:18.820430+01:00)
+24.12.2025 10:04:18 - INFO [E320] E320 data: E_in=168.036, E_out=1.961, Power=1868
+24.12.2025 10:04:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:05:18 CET)" executed successfully
+24.12.2025 10:04:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:05:18 CET)" executed successfully
+24.12.2025 10:05:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:06:18 CET)" (scheduled at 2025-12-24 10:05:18.820171+01:00)
+24.12.2025 10:05:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:06:18 CET)" (scheduled at 2025-12-24 10:05:18.820430+01:00)
+24.12.2025 10:05:18 - INFO [E320] E320 data: E_in=168.068, E_out=1.961, Power=1893
+24.12.2025 10:05:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:06:18 CET)" executed successfully
+24.12.2025 10:05:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:06:18 CET)" executed successfully
+24.12.2025 10:06:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:07:18 CET)" (scheduled at 2025-12-24 10:06:18.820171+01:00)
+24.12.2025 10:06:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:07:18 CET)" (scheduled at 2025-12-24 10:06:18.820430+01:00)
+24.12.2025 10:06:18 - INFO [E320] E320 data: E_in=168.099, E_out=1.961, Power=1855
+24.12.2025 10:06:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:07:18 CET)" executed successfully
+24.12.2025 10:06:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:07:18 CET)" executed successfully
+24.12.2025 10:07:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:08:18 CET)" (scheduled at 2025-12-24 10:07:18.820171+01:00)
+24.12.2025 10:07:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:08:18 CET)" (scheduled at 2025-12-24 10:07:18.820430+01:00)
+24.12.2025 10:07:18 - INFO [E320] E320 data: E_in=168.112, E_out=1.961, Power=443
+24.12.2025 10:07:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:08:18 CET)" executed successfully
+24.12.2025 10:07:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:08:18 CET)" executed successfully
+24.12.2025 10:08:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:09:18 CET)" (scheduled at 2025-12-24 10:08:18.820171+01:00)
+24.12.2025 10:08:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:09:18 CET)" (scheduled at 2025-12-24 10:08:18.820430+01:00)
+24.12.2025 10:08:18 - INFO [E320] E320 data: E_in=168.121, E_out=1.961, Power=419
+24.12.2025 10:08:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:09:18 CET)" executed successfully
+24.12.2025 10:08:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:09:18 CET)" executed successfully
+24.12.2025 10:09:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:10:18 CET)" (scheduled at 2025-12-24 10:09:18.820171+01:00)
+24.12.2025 10:09:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:10:18 CET)" (scheduled at 2025-12-24 10:09:18.820430+01:00)
+24.12.2025 10:09:18 - INFO [E320] E320 data: E_in=168.13, E_out=1.961, Power=430
+24.12.2025 10:09:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:10:18 CET)" executed successfully
+24.12.2025 10:09:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:10:18 CET)" executed successfully
+24.12.2025 10:10:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:11:18 CET)" (scheduled at 2025-12-24 10:10:18.820171+01:00)
+24.12.2025 10:10:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:11:18 CET)" (scheduled at 2025-12-24 10:10:18.820430+01:00)
+24.12.2025 10:10:18 - INFO [E320] E320 data: E_in=168.139, E_out=1.961, Power=385
+24.12.2025 10:10:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:11:18 CET)" executed successfully
+24.12.2025 10:10:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:11:18 CET)" executed successfully
+24.12.2025 10:11:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:12:18 CET)" (scheduled at 2025-12-24 10:11:18.820171+01:00)
+24.12.2025 10:11:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:12:18 CET)" (scheduled at 2025-12-24 10:11:18.820430+01:00)
+24.12.2025 10:11:18 - INFO [E320] E320 data: E_in=168.147, E_out=1.961, Power=360
+24.12.2025 10:11:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:12:18 CET)" executed successfully
+24.12.2025 10:11:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:12:18 CET)" executed successfully
+24.12.2025 10:12:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:13:18 CET)" (scheduled at 2025-12-24 10:12:18.820171+01:00)
+24.12.2025 10:12:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:13:18 CET)" (scheduled at 2025-12-24 10:12:18.820430+01:00)
+24.12.2025 10:12:18 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 10:27:18 CET)" (scheduled at 2025-12-24 10:12:18.820565+01:00)
+24.12.2025 10:12:18 - INFO [E320] E320 data: E_in=168.163, E_out=1.961, Power=212
+24.12.2025 10:12:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:13:18 CET)" executed successfully
+24.12.2025 10:12:20 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2025-12-24 10:12:20.264532', 46, 74399.0);
+24.12.2025 10:12:20 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 10:27:18 CET)" executed successfully
+24.12.2025 10:12:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:13:18 CET)" executed successfully
+24.12.2025 10:13:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:14:18 CET)" (scheduled at 2025-12-24 10:13:18.820171+01:00)
+24.12.2025 10:13:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:14:18 CET)" (scheduled at 2025-12-24 10:13:18.820430+01:00)
+24.12.2025 10:13:18 - INFO [E320] E320 data: E_in=168.169, E_out=1.961, Power=146
+24.12.2025 10:13:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:14:18 CET)" executed successfully
+24.12.2025 10:13:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:14:18 CET)" executed successfully
+24.12.2025 10:14:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:15:18 CET)" (scheduled at 2025-12-24 10:14:18.820171+01:00)
+24.12.2025 10:14:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:15:18 CET)" (scheduled at 2025-12-24 10:14:18.820430+01:00)
+24.12.2025 10:14:18 - INFO [E320] E320 data: E_in=168.174, E_out=1.961, Power=136
+24.12.2025 10:14:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:15:18 CET)" executed successfully
+24.12.2025 10:14:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:15:18 CET)" executed successfully
+24.12.2025 10:15:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:16:18 CET)" (scheduled at 2025-12-24 10:15:18.820171+01:00)
+24.12.2025 10:15:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:16:18 CET)" (scheduled at 2025-12-24 10:15:18.820430+01:00)
+24.12.2025 10:15:18 - INFO [E320] E320 data: E_in=168.179, E_out=1.961, Power=148
+24.12.2025 10:15:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:16:18 CET)" executed successfully
+24.12.2025 10:15:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:16:18 CET)" executed successfully
+24.12.2025 10:16:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:17:18 CET)" (scheduled at 2025-12-24 10:16:18.820171+01:00)
+24.12.2025 10:16:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:17:18 CET)" (scheduled at 2025-12-24 10:16:18.820430+01:00)
+24.12.2025 10:16:18 - INFO [E320] E320 data: E_in=168.183, E_out=1.961, Power=244
+24.12.2025 10:16:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:17:18 CET)" executed successfully
+24.12.2025 10:16:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:17:18 CET)" executed successfully
+24.12.2025 10:17:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:18:18 CET)" (scheduled at 2025-12-24 10:17:18.820171+01:00)
+24.12.2025 10:17:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:18:18 CET)" (scheduled at 2025-12-24 10:17:18.820430+01:00)
+24.12.2025 10:17:18 - INFO [E320] E320 data: E_in=168.187, E_out=1.961, Power=251
+24.12.2025 10:17:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:18:18 CET)" executed successfully
+24.12.2025 10:17:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:18:18 CET)" executed successfully
+24.12.2025 10:18:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:19:18 CET)" (scheduled at 2025-12-24 10:18:18.820171+01:00)
+24.12.2025 10:18:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:19:18 CET)" (scheduled at 2025-12-24 10:18:18.820430+01:00)
+24.12.2025 10:18:18 - INFO [E320] E320 data: E_in=168.192, E_out=1.961, Power=302
+24.12.2025 10:18:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:19:18 CET)" executed successfully
+24.12.2025 10:18:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:19:18 CET)" executed successfully
+24.12.2025 10:19:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:20:18 CET)" (scheduled at 2025-12-24 10:19:18.820171+01:00)
+24.12.2025 10:19:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:20:18 CET)" (scheduled at 2025-12-24 10:19:18.820430+01:00)
+24.12.2025 10:19:19 - INFO [E320] E320 data: E_in=168.196, E_out=1.961, Power=266
+24.12.2025 10:19:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:20:18 CET)" executed successfully
+24.12.2025 10:19:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:20:18 CET)" executed successfully
+24.12.2025 10:20:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:21:18 CET)" (scheduled at 2025-12-24 10:20:18.820171+01:00)
+24.12.2025 10:20:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:21:18 CET)" (scheduled at 2025-12-24 10:20:18.820430+01:00)
+24.12.2025 10:20:18 - INFO [E320] E320 data: E_in=168.2, E_out=1.961, Power=258
+24.12.2025 10:20:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:21:18 CET)" executed successfully
+24.12.2025 10:20:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:21:18 CET)" executed successfully
+24.12.2025 10:21:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:22:18 CET)" (scheduled at 2025-12-24 10:21:18.820171+01:00)
+24.12.2025 10:21:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:22:18 CET)" (scheduled at 2025-12-24 10:21:18.820430+01:00)
+24.12.2025 10:21:18 - INFO [E320] E320 data: E_in=168.205, E_out=1.961, Power=272
+24.12.2025 10:21:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:22:18 CET)" executed successfully
+24.12.2025 10:21:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:22:18 CET)" executed successfully
+24.12.2025 10:22:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:23:18 CET)" (scheduled at 2025-12-24 10:22:18.820171+01:00)
+24.12.2025 10:22:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:23:18 CET)" (scheduled at 2025-12-24 10:22:18.820430+01:00)
+24.12.2025 10:22:19 - INFO [E320] E320 data: E_in=168.217, E_out=1.961, Power=1241
+24.12.2025 10:22:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:23:18 CET)" executed successfully
+24.12.2025 10:22:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:23:18 CET)" executed successfully
+24.12.2025 10:23:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:24:18 CET)" (scheduled at 2025-12-24 10:23:18.820171+01:00)
+24.12.2025 10:23:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:24:18 CET)" (scheduled at 2025-12-24 10:23:18.820430+01:00)
+24.12.2025 10:23:18 - INFO [E320] E320 data: E_in=168.222, E_out=1.961, Power=261
+24.12.2025 10:23:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:24:18 CET)" executed successfully
+24.12.2025 10:23:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:24:18 CET)" executed successfully
+24.12.2025 10:24:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:25:18 CET)" (scheduled at 2025-12-24 10:24:18.820171+01:00)
+24.12.2025 10:24:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:25:18 CET)" (scheduled at 2025-12-24 10:24:18.820430+01:00)
+24.12.2025 10:24:18 - INFO [E320] E320 data: E_in=168.226, E_out=1.961, Power=259
+24.12.2025 10:24:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:25:18 CET)" executed successfully
+24.12.2025 10:24:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:25:18 CET)" executed successfully
+24.12.2025 10:25:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:26:18 CET)" (scheduled at 2025-12-24 10:25:18.820171+01:00)
+24.12.2025 10:25:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:26:18 CET)" (scheduled at 2025-12-24 10:25:18.820430+01:00)
+24.12.2025 10:25:18 - INFO [E320] E320 data: E_in=168.231, E_out=1.961, Power=299
+24.12.2025 10:25:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:26:18 CET)" executed successfully
+24.12.2025 10:25:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:26:18 CET)" executed successfully
+24.12.2025 10:26:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:27:18 CET)" (scheduled at 2025-12-24 10:26:18.820171+01:00)
+24.12.2025 10:26:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:27:18 CET)" (scheduled at 2025-12-24 10:26:18.820430+01:00)
+24.12.2025 10:26:18 - INFO [E320] E320 data: E_in=168.236, E_out=1.961, Power=308
+24.12.2025 10:26:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:27:18 CET)" executed successfully
+24.12.2025 10:26:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:27:18 CET)" executed successfully
+24.12.2025 10:27:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:28:18 CET)" (scheduled at 2025-12-24 10:27:18.820171+01:00)
+24.12.2025 10:27:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:28:18 CET)" (scheduled at 2025-12-24 10:27:18.820430+01:00)
+24.12.2025 10:27:18 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 10:42:18 CET)" (scheduled at 2025-12-24 10:27:18.820565+01:00)
+24.12.2025 10:27:18 - INFO [E320] E320 data: E_in=168.241, E_out=1.961, Power=302
+24.12.2025 10:27:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:28:18 CET)" executed successfully
+24.12.2025 10:27:20 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2025-12-24 10:27:20.311956', 46, 74399.0);
+24.12.2025 10:27:20 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 10:42:18 CET)" executed successfully
+24.12.2025 10:27:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:28:18 CET)" executed successfully
+24.12.2025 10:28:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:29:18 CET)" (scheduled at 2025-12-24 10:28:18.820171+01:00)
+24.12.2025 10:28:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:29:18 CET)" (scheduled at 2025-12-24 10:28:18.820430+01:00)
+24.12.2025 10:28:18 - INFO [E320] E320 data: E_in=168.246, E_out=1.961, Power=313
+24.12.2025 10:28:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:29:18 CET)" executed successfully
+24.12.2025 10:28:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:29:18 CET)" executed successfully
+24.12.2025 10:29:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:30:18 CET)" (scheduled at 2025-12-24 10:29:18.820171+01:00)
+24.12.2025 10:29:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:30:18 CET)" (scheduled at 2025-12-24 10:29:18.820430+01:00)
+24.12.2025 10:29:18 - INFO [E320] E320 data: E_in=168.252, E_out=1.961, Power=649
+24.12.2025 10:29:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:30:18 CET)" executed successfully
+24.12.2025 10:29:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:30:18 CET)" executed successfully
+24.12.2025 10:30:00 - INFO [apscheduler.executors.default] Running job "Database.cleanup (trigger: cron[hour='10', minute='30'], next run at: 2025-12-25 10:30:00 CET)" (scheduled at 2025-12-24 10:30:00+01:00)
+24.12.2025 10:30:00 - INFO [apscheduler.executors.default] Job "Database.cleanup (trigger: cron[hour='10', minute='30'], next run at: 2025-12-25 10:30:00 CET)" executed successfully
+24.12.2025 10:30:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:31:18 CET)" (scheduled at 2025-12-24 10:30:18.820171+01:00)
+24.12.2025 10:30:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:31:18 CET)" (scheduled at 2025-12-24 10:30:18.820430+01:00)
+24.12.2025 10:30:18 - INFO [E320] E320 data: E_in=168.294, E_out=1.961, Power=2522
+24.12.2025 10:30:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:31:18 CET)" executed successfully
+24.12.2025 10:30:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:31:18 CET)" executed successfully
+24.12.2025 10:31:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:32:18 CET)" (scheduled at 2025-12-24 10:31:18.820171+01:00)
+24.12.2025 10:31:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:32:18 CET)" (scheduled at 2025-12-24 10:31:18.820430+01:00)
+24.12.2025 10:31:18 - INFO [E320] E320 data: E_in=168.335, E_out=1.961, Power=2511
+24.12.2025 10:31:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:32:18 CET)" executed successfully
+24.12.2025 10:31:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:32:18 CET)" executed successfully
+24.12.2025 10:32:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:33:18 CET)" (scheduled at 2025-12-24 10:32:18.820171+01:00)
+24.12.2025 10:32:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:33:18 CET)" (scheduled at 2025-12-24 10:32:18.820430+01:00)
+24.12.2025 10:32:18 - INFO [E320] E320 data: E_in=168.381, E_out=1.961, Power=3491
+24.12.2025 10:32:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:33:18 CET)" executed successfully
+24.12.2025 10:32:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:33:18 CET)" executed successfully
+24.12.2025 10:33:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:34:18 CET)" (scheduled at 2025-12-24 10:33:18.820171+01:00)
+24.12.2025 10:33:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:34:18 CET)" (scheduled at 2025-12-24 10:33:18.820430+01:00)
+24.12.2025 10:33:18 - INFO [E320] E320 data: E_in=168.427, E_out=1.961, Power=2514
+24.12.2025 10:33:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:34:18 CET)" executed successfully
+24.12.2025 10:33:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:34:18 CET)" executed successfully
+24.12.2025 10:34:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:35:18 CET)" (scheduled at 2025-12-24 10:34:18.820171+01:00)
+24.12.2025 10:34:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:35:18 CET)" (scheduled at 2025-12-24 10:34:18.820430+01:00)
+24.12.2025 10:34:18 - INFO [E320] E320 data: E_in=168.468, E_out=1.961, Power=2414
+24.12.2025 10:34:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:35:18 CET)" executed successfully
+24.12.2025 10:34:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:35:18 CET)" executed successfully
+24.12.2025 10:35:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:36:18 CET)" (scheduled at 2025-12-24 10:35:18.820171+01:00)
+24.12.2025 10:35:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:36:18 CET)" (scheduled at 2025-12-24 10:35:18.820430+01:00)
+24.12.2025 10:35:18 - INFO [E320] E320 data: E_in=168.508, E_out=1.961, Power=2446
+24.12.2025 10:35:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:36:18 CET)" executed successfully
+24.12.2025 10:35:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:36:18 CET)" executed successfully
+24.12.2025 10:36:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:37:18 CET)" (scheduled at 2025-12-24 10:36:18.820171+01:00)
+24.12.2025 10:36:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:37:18 CET)" (scheduled at 2025-12-24 10:36:18.820430+01:00)
+24.12.2025 10:36:18 - INFO [E320] E320 data: E_in=168.548, E_out=1.961, Power=2431
+24.12.2025 10:36:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:37:18 CET)" executed successfully
+24.12.2025 10:36:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:37:18 CET)" executed successfully
+24.12.2025 10:37:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:38:18 CET)" (scheduled at 2025-12-24 10:37:18.820171+01:00)
+24.12.2025 10:37:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:38:18 CET)" (scheduled at 2025-12-24 10:37:18.820430+01:00)
+24.12.2025 10:37:18 - INFO [E320] E320 data: E_in=168.576, E_out=1.961, Power=921
+24.12.2025 10:37:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:38:18 CET)" executed successfully
+24.12.2025 10:37:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:38:18 CET)" executed successfully
+24.12.2025 10:38:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:39:18 CET)" (scheduled at 2025-12-24 10:38:18.820171+01:00)
+24.12.2025 10:38:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:39:18 CET)" (scheduled at 2025-12-24 10:38:18.820430+01:00)
+24.12.2025 10:38:18 - INFO [E320] E320 data: E_in=168.591, E_out=1.961, Power=936
+24.12.2025 10:38:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:39:18 CET)" executed successfully
+24.12.2025 10:38:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:39:18 CET)" executed successfully
+24.12.2025 10:39:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:40:18 CET)" (scheduled at 2025-12-24 10:39:18.820171+01:00)
+24.12.2025 10:39:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:40:18 CET)" (scheduled at 2025-12-24 10:39:18.820430+01:00)
+24.12.2025 10:39:18 - INFO [E320] E320 data: E_in=168.607, E_out=1.961, Power=947
+24.12.2025 10:39:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:40:18 CET)" executed successfully
+24.12.2025 10:39:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:40:18 CET)" executed successfully
+24.12.2025 10:40:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:41:18 CET)" (scheduled at 2025-12-24 10:40:18.820171+01:00)
+24.12.2025 10:40:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:41:18 CET)" (scheduled at 2025-12-24 10:40:18.820430+01:00)
+24.12.2025 10:40:18 - INFO [E320] E320 data: E_in=168.625, E_out=1.961, Power=1251
+24.12.2025 10:40:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:41:18 CET)" executed successfully
+24.12.2025 10:40:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:41:18 CET)" executed successfully
+24.12.2025 10:41:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:42:18 CET)" (scheduled at 2025-12-24 10:41:18.820171+01:00)
+24.12.2025 10:41:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:42:18 CET)" (scheduled at 2025-12-24 10:41:18.820430+01:00)
+24.12.2025 10:41:18 - INFO [E320] E320 data: E_in=168.646, E_out=1.961, Power=1247
+24.12.2025 10:41:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:42:18 CET)" executed successfully
+24.12.2025 10:41:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:42:18 CET)" executed successfully
+24.12.2025 10:42:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:43:18 CET)" (scheduled at 2025-12-24 10:42:18.820171+01:00)
+24.12.2025 10:42:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:43:18 CET)" (scheduled at 2025-12-24 10:42:18.820430+01:00)
+24.12.2025 10:42:18 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 10:57:18 CET)" (scheduled at 2025-12-24 10:42:18.820565+01:00)
+24.12.2025 10:42:18 - INFO [E320] E320 data: E_in=168.667, E_out=1.961, Power=1242
+24.12.2025 10:42:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:43:18 CET)" executed successfully
+24.12.2025 10:42:20 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2025-12-24 10:42:20.330183', 46, 74399.0);
+24.12.2025 10:42:20 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 10:57:18 CET)" executed successfully
+24.12.2025 10:42:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:43:18 CET)" executed successfully
+24.12.2025 10:43:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:44:18 CET)" (scheduled at 2025-12-24 10:43:18.820171+01:00)
+24.12.2025 10:43:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:44:18 CET)" (scheduled at 2025-12-24 10:43:18.820430+01:00)
+24.12.2025 10:43:18 - INFO [E320] E320 data: E_in=168.695, E_out=1.961, Power=1218
+24.12.2025 10:43:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:44:18 CET)" executed successfully
+24.12.2025 10:43:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:44:18 CET)" executed successfully
+24.12.2025 10:44:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:45:18 CET)" (scheduled at 2025-12-24 10:44:18.820171+01:00)
+24.12.2025 10:44:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:45:18 CET)" (scheduled at 2025-12-24 10:44:18.820430+01:00)
+24.12.2025 10:44:18 - INFO [E320] E320 data: E_in=168.715, E_out=1.961, Power=1235
+24.12.2025 10:44:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:45:18 CET)" executed successfully
+24.12.2025 10:44:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:45:18 CET)" executed successfully
+24.12.2025 10:45:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:46:18 CET)" (scheduled at 2025-12-24 10:45:18.820171+01:00)
+24.12.2025 10:45:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:46:18 CET)" (scheduled at 2025-12-24 10:45:18.820430+01:00)
+24.12.2025 10:45:18 - INFO [E320] E320 data: E_in=168.74, E_out=1.961, Power=2411
+24.12.2025 10:45:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:46:18 CET)" executed successfully
+24.12.2025 10:45:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:46:18 CET)" executed successfully
+24.12.2025 10:46:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:47:18 CET)" (scheduled at 2025-12-24 10:46:18.820171+01:00)
+24.12.2025 10:46:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:47:18 CET)" (scheduled at 2025-12-24 10:46:18.820430+01:00)
+24.12.2025 10:46:18 - INFO [E320] E320 data: E_in=168.78, E_out=1.961, Power=2425
+24.12.2025 10:46:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:47:18 CET)" executed successfully
+24.12.2025 10:46:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:47:18 CET)" executed successfully
+24.12.2025 10:47:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:48:18 CET)" (scheduled at 2025-12-24 10:47:18.820171+01:00)
+24.12.2025 10:47:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:48:18 CET)" (scheduled at 2025-12-24 10:47:18.820430+01:00)
+24.12.2025 10:47:19 - INFO [E320] E320 data: E_in=168.82, E_out=1.961, Power=2423
+24.12.2025 10:47:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:48:18 CET)" executed successfully
+24.12.2025 10:47:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:48:18 CET)" executed successfully
+24.12.2025 10:48:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:49:18 CET)" (scheduled at 2025-12-24 10:48:18.820171+01:00)
+24.12.2025 10:48:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:49:18 CET)" (scheduled at 2025-12-24 10:48:18.820430+01:00)
+24.12.2025 10:48:18 - INFO [E320] E320 data: E_in=168.861, E_out=1.961, Power=2416
+24.12.2025 10:48:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:49:18 CET)" executed successfully
+24.12.2025 10:48:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:49:18 CET)" executed successfully
+24.12.2025 10:49:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:50:18 CET)" (scheduled at 2025-12-24 10:49:18.820171+01:00)
+24.12.2025 10:49:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:50:18 CET)" (scheduled at 2025-12-24 10:49:18.820430+01:00)
+24.12.2025 10:49:18 - INFO [E320] E320 data: E_in=168.892, E_out=1.961, Power=1046
+24.12.2025 10:49:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:50:18 CET)" executed successfully
+24.12.2025 10:49:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:50:18 CET)" executed successfully
+24.12.2025 10:50:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:51:18 CET)" (scheduled at 2025-12-24 10:50:18.820171+01:00)
+24.12.2025 10:50:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:51:18 CET)" (scheduled at 2025-12-24 10:50:18.820430+01:00)
+24.12.2025 10:50:19 - INFO [E320] E320 data: E_in=168.908, E_out=1.961, Power=901
+24.12.2025 10:50:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:51:18 CET)" executed successfully
+24.12.2025 10:50:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:51:18 CET)" executed successfully
+24.12.2025 10:51:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:52:18 CET)" (scheduled at 2025-12-24 10:51:18.820171+01:00)
+24.12.2025 10:51:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:52:18 CET)" (scheduled at 2025-12-24 10:51:18.820430+01:00)
+24.12.2025 10:51:18 - INFO [E320] E320 data: E_in=168.923, E_out=1.961, Power=907
+24.12.2025 10:51:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:52:18 CET)" executed successfully
+24.12.2025 10:51:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:52:18 CET)" executed successfully
+24.12.2025 10:52:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:53:18 CET)" (scheduled at 2025-12-24 10:52:18.820171+01:00)
+24.12.2025 10:52:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:53:18 CET)" (scheduled at 2025-12-24 10:52:18.820430+01:00)
+24.12.2025 10:52:18 - INFO [E320] E320 data: E_in=168.938, E_out=1.961, Power=902
+24.12.2025 10:52:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:53:18 CET)" executed successfully
+24.12.2025 10:52:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:53:18 CET)" executed successfully
+24.12.2025 10:53:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:54:18 CET)" (scheduled at 2025-12-24 10:53:18.820171+01:00)
+24.12.2025 10:53:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:54:18 CET)" (scheduled at 2025-12-24 10:53:18.820430+01:00)
+24.12.2025 10:53:19 - INFO [E320] E320 data: E_in=168.951, E_out=1.961, Power=296
+24.12.2025 10:53:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:54:18 CET)" executed successfully
+24.12.2025 10:53:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:54:18 CET)" executed successfully
+24.12.2025 10:54:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:55:18 CET)" (scheduled at 2025-12-24 10:54:18.820171+01:00)
+24.12.2025 10:54:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:55:18 CET)" (scheduled at 2025-12-24 10:54:18.820430+01:00)
+24.12.2025 10:54:18 - INFO [E320] E320 data: E_in=168.955, E_out=1.961, Power=292
+24.12.2025 10:54:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:55:18 CET)" executed successfully
+24.12.2025 10:54:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:55:18 CET)" executed successfully
+24.12.2025 10:55:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:56:18 CET)" (scheduled at 2025-12-24 10:55:18.820171+01:00)
+24.12.2025 10:55:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:56:18 CET)" (scheduled at 2025-12-24 10:55:18.820430+01:00)
+24.12.2025 10:55:18 - INFO [E320] E320 data: E_in=168.96, E_out=1.961, Power=257
+24.12.2025 10:55:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:56:18 CET)" executed successfully
+24.12.2025 10:55:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:56:18 CET)" executed successfully
+24.12.2025 10:56:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:57:18 CET)" (scheduled at 2025-12-24 10:56:18.820171+01:00)
+24.12.2025 10:56:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:57:18 CET)" (scheduled at 2025-12-24 10:56:18.820430+01:00)
+24.12.2025 10:56:18 - INFO [E320] E320 data: E_in=168.964, E_out=1.961, Power=258
+24.12.2025 10:56:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:57:18 CET)" executed successfully
+24.12.2025 10:56:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:57:18 CET)" executed successfully
+24.12.2025 10:57:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:58:18 CET)" (scheduled at 2025-12-24 10:57:18.820171+01:00)
+24.12.2025 10:57:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:58:18 CET)" (scheduled at 2025-12-24 10:57:18.820430+01:00)
+24.12.2025 10:57:18 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 11:12:18 CET)" (scheduled at 2025-12-24 10:57:18.820565+01:00)
+24.12.2025 10:57:19 - INFO [E320] E320 data: E_in=168.968, E_out=1.961, Power=243
+24.12.2025 10:57:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:58:18 CET)" executed successfully
+24.12.2025 10:57:20 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2025-12-24 10:57:20.255385', 46, 74399.0);
+24.12.2025 10:57:20 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 11:12:18 CET)" executed successfully
+24.12.2025 10:57:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:58:18 CET)" executed successfully
+24.12.2025 10:58:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:59:18 CET)" (scheduled at 2025-12-24 10:58:18.820171+01:00)
+24.12.2025 10:58:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:59:18 CET)" (scheduled at 2025-12-24 10:58:18.820430+01:00)
+24.12.2025 10:58:18 - INFO [E320] E320 data: E_in=168.973, E_out=1.961, Power=261
+24.12.2025 10:58:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:59:18 CET)" executed successfully
+24.12.2025 10:58:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 10:59:18 CET)" executed successfully
+24.12.2025 10:59:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:00:18 CET)" (scheduled at 2025-12-24 10:59:18.820171+01:00)
+24.12.2025 10:59:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:00:18 CET)" (scheduled at 2025-12-24 10:59:18.820430+01:00)
+24.12.2025 10:59:18 - INFO [E320] E320 data: E_in=168.977, E_out=1.961, Power=245
+24.12.2025 10:59:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:00:18 CET)" executed successfully
+24.12.2025 10:59:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:00:18 CET)" executed successfully
+24.12.2025 11:00:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:01:18 CET)" (scheduled at 2025-12-24 11:00:18.820171+01:00)
+24.12.2025 11:00:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:01:18 CET)" (scheduled at 2025-12-24 11:00:18.820430+01:00)
+24.12.2025 11:00:18 - INFO [E320] E320 data: E_in=168.981, E_out=1.961, Power=234
+24.12.2025 11:00:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:01:18 CET)" executed successfully
+24.12.2025 11:00:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:01:18 CET)" executed successfully
+24.12.2025 11:01:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:02:18 CET)" (scheduled at 2025-12-24 11:01:18.820171+01:00)
+24.12.2025 11:01:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:02:18 CET)" (scheduled at 2025-12-24 11:01:18.820430+01:00)
+24.12.2025 11:01:18 - INFO [E320] E320 data: E_in=168.985, E_out=1.961, Power=294
+24.12.2025 11:01:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:02:18 CET)" executed successfully
+24.12.2025 11:01:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:02:18 CET)" executed successfully
+24.12.2025 11:02:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:03:18 CET)" (scheduled at 2025-12-24 11:02:18.820171+01:00)
+24.12.2025 11:02:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:03:18 CET)" (scheduled at 2025-12-24 11:02:18.820430+01:00)
+24.12.2025 11:02:18 - INFO [E320] E320 data: E_in=168.99, E_out=1.961, Power=305
+24.12.2025 11:02:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:03:18 CET)" executed successfully
+24.12.2025 11:02:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:03:18 CET)" executed successfully
+24.12.2025 11:03:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:04:18 CET)" (scheduled at 2025-12-24 11:03:18.820171+01:00)
+24.12.2025 11:03:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:04:18 CET)" (scheduled at 2025-12-24 11:03:18.820430+01:00)
+24.12.2025 11:03:19 - INFO [E320] E320 data: E_in=169.003, E_out=1.961, Power=298
+24.12.2025 11:03:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:04:18 CET)" executed successfully
+24.12.2025 11:03:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:04:18 CET)" executed successfully
+24.12.2025 11:04:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:05:18 CET)" (scheduled at 2025-12-24 11:04:18.820171+01:00)
+24.12.2025 11:04:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:05:18 CET)" (scheduled at 2025-12-24 11:04:18.820430+01:00)
+24.12.2025 11:04:18 - INFO [E320] E320 data: E_in=169.008, E_out=1.961, Power=296
+24.12.2025 11:04:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:05:18 CET)" executed successfully
+24.12.2025 11:04:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:05:18 CET)" executed successfully
+24.12.2025 11:05:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:06:18 CET)" (scheduled at 2025-12-24 11:05:18.820171+01:00)
+24.12.2025 11:05:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:06:18 CET)" (scheduled at 2025-12-24 11:05:18.820430+01:00)
+24.12.2025 11:05:18 - INFO [E320] E320 data: E_in=169.013, E_out=1.961, Power=302
+24.12.2025 11:05:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:06:18 CET)" executed successfully
+24.12.2025 11:05:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:06:18 CET)" executed successfully
+24.12.2025 11:06:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:07:18 CET)" (scheduled at 2025-12-24 11:06:18.820171+01:00)
+24.12.2025 11:06:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:07:18 CET)" (scheduled at 2025-12-24 11:06:18.820430+01:00)
+24.12.2025 11:06:18 - INFO [E320] E320 data: E_in=169.019, E_out=1.961, Power=324
+24.12.2025 11:06:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:07:18 CET)" executed successfully
+24.12.2025 11:06:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:07:18 CET)" executed successfully
+24.12.2025 11:07:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:08:18 CET)" (scheduled at 2025-12-24 11:07:18.820171+01:00)
+24.12.2025 11:07:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:08:18 CET)" (scheduled at 2025-12-24 11:07:18.820430+01:00)
+24.12.2025 11:07:18 - INFO [E320] E320 data: E_in=169.024, E_out=1.961, Power=342
+24.12.2025 11:07:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:08:18 CET)" executed successfully
+24.12.2025 11:07:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:08:18 CET)" executed successfully
+24.12.2025 11:08:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:09:18 CET)" (scheduled at 2025-12-24 11:08:18.820171+01:00)
+24.12.2025 11:08:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:09:18 CET)" (scheduled at 2025-12-24 11:08:18.820430+01:00)
+24.12.2025 11:08:18 - INFO [E320] E320 data: E_in=169.03, E_out=1.961, Power=355
+24.12.2025 11:08:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:09:18 CET)" executed successfully
+24.12.2025 11:08:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:09:18 CET)" executed successfully
+24.12.2025 11:09:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:10:18 CET)" (scheduled at 2025-12-24 11:09:18.820171+01:00)
+24.12.2025 11:09:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:10:18 CET)" (scheduled at 2025-12-24 11:09:18.820430+01:00)
+24.12.2025 11:09:19 - INFO [E320] E320 data: E_in=169.035, E_out=1.961, Power=313
+24.12.2025 11:09:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:10:18 CET)" executed successfully
+24.12.2025 11:09:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:10:18 CET)" executed successfully
+24.12.2025 11:10:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:11:18 CET)" (scheduled at 2025-12-24 11:10:18.820171+01:00)
+24.12.2025 11:10:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:11:18 CET)" (scheduled at 2025-12-24 11:10:18.820430+01:00)
+24.12.2025 11:10:18 - INFO [E320] E320 data: E_in=169.04, E_out=1.961, Power=322
+24.12.2025 11:10:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:11:18 CET)" executed successfully
+24.12.2025 11:10:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:11:18 CET)" executed successfully
+24.12.2025 11:11:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:12:18 CET)" (scheduled at 2025-12-24 11:11:18.820171+01:00)
+24.12.2025 11:11:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:12:18 CET)" (scheduled at 2025-12-24 11:11:18.820430+01:00)
+24.12.2025 11:11:18 - INFO [E320] E320 data: E_in=169.046, E_out=1.961, Power=311
+24.12.2025 11:11:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:12:18 CET)" executed successfully
+24.12.2025 11:11:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:12:18 CET)" executed successfully
+24.12.2025 11:12:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:13:18 CET)" (scheduled at 2025-12-24 11:12:18.820171+01:00)
+24.12.2025 11:12:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:13:18 CET)" (scheduled at 2025-12-24 11:12:18.820430+01:00)
+24.12.2025 11:12:18 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 11:27:18 CET)" (scheduled at 2025-12-24 11:12:18.820565+01:00)
+24.12.2025 11:12:18 - INFO [E320] E320 data: E_in=169.051, E_out=1.961, Power=302
+24.12.2025 11:12:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:13:18 CET)" executed successfully
+24.12.2025 11:12:20 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2025-12-24 11:12:20.454998', 46, 74399.0);
+24.12.2025 11:12:20 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2025-12-24 11:27:18 CET)" executed successfully
+24.12.2025 11:12:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:13:18 CET)" executed successfully
+24.12.2025 11:13:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:14:18 CET)" (scheduled at 2025-12-24 11:13:18.820171+01:00)
+24.12.2025 11:13:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:14:18 CET)" (scheduled at 2025-12-24 11:13:18.820430+01:00)
+24.12.2025 11:13:18 - INFO [E320] E320 data: E_in=169.063, E_out=1.961, Power=1287
+24.12.2025 11:13:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:14:18 CET)" executed successfully
+24.12.2025 11:13:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:14:18 CET)" executed successfully
+24.12.2025 11:14:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:15:18 CET)" (scheduled at 2025-12-24 11:14:18.820171+01:00)
+24.12.2025 11:14:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:15:18 CET)" (scheduled at 2025-12-24 11:14:18.820430+01:00)
+24.12.2025 11:14:18 - INFO [E320] E320 data: E_in=169.07, E_out=1.961, Power=314
+24.12.2025 11:14:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:15:18 CET)" executed successfully
+24.12.2025 11:14:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:15:18 CET)" executed successfully
+24.12.2025 11:15:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:16:18 CET)" (scheduled at 2025-12-24 11:15:18.820171+01:00)
+24.12.2025 11:15:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:16:18 CET)" (scheduled at 2025-12-24 11:15:18.820430+01:00)
+24.12.2025 11:15:19 - INFO [E320] E320 data: E_in=169.106, E_out=1.961, Power=2185
+24.12.2025 11:15:19 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:16:18 CET)" executed successfully
+24.12.2025 11:15:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:16:18 CET)" executed successfully
+24.12.2025 11:16:18 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:17:18 CET)" (scheduled at 2025-12-24 11:16:18.820171+01:00)
+24.12.2025 11:16:18 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:17:18 CET)" (scheduled at 2025-12-24 11:16:18.820430+01:00)
+24.12.2025 11:16:18 - INFO [E320] E320 data: E_in=169.143, E_out=1.961, Power=2222
+24.12.2025 11:16:18 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:17:18 CET)" executed successfully
+24.12.2025 11:16:22 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 11:17:18 CET)" executed successfully
+24.12.2025 13:26:53 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:26:53 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:26:53 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:26:53 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:26:53 - INFO [apscheduler.scheduler] Added job "Fritzbox.fetch" to job store "default"
+24.12.2025 13:26:53 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+24.12.2025 13:26:53 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+24.12.2025 13:26:53 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+24.12.2025 13:26:53 - INFO [apscheduler.scheduler] Scheduler started
+24.12.2025 13:26:53 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+24.12.2025 13:27:38 - INFO [HOMEPAGE_HANDLER] ... rendering Homepage!
+24.12.2025 13:27:38 - INFO [tornado.access] 304 GET / (127.0.0.1) 1.93ms
+24.12.2025 13:27:38 - INFO [API_ZOE_BATTERY_HANDLER] ... requesting zoe battery status via json api!
+24.12.2025 13:27:38 - INFO [tornado.access] 200 GET /api/zoe/battery/current.json (127.0.0.1) 12.90ms
+24.12.2025 13:27:38 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.43ms
+24.12.2025 13:27:42 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 2.27ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 6.43ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/weather/sunrise.png (127.0.0.1) 1.29ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/weather/humidity.png (127.0.0.1) 1.42ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/js/weather.js (127.0.0.1) 1.56ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/weather/thermometre.png (127.0.0.1) 1.87ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/weather/sunset.png (127.0.0.1) 2.28ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/weather/inside.png (127.0.0.1) 0.87ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/moon_phase/6.png (127.0.0.1) 0.38ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/weather/outside.png (127.0.0.1) 0.53ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/weather/feeling.png (127.0.0.1) 0.66ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/weather/uvindex.png (127.0.0.1) 0.96ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/weather/umbrella.png (127.0.0.1) 0.77ms
+24.12.2025 13:27:42 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 1.00ms
+24.12.2025 13:27:43 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1363.84ms
+24.12.2025 13:27:43 - INFO [tornado.access] 304 GET /static/img/weather/arrow_down.png (127.0.0.1) 1.07ms
+24.12.2025 13:27:43 - INFO [tornado.access] 304 GET /static/img/weather/arrow_up.png (127.0.0.1) 1.30ms
+24.12.2025 13:27:43 - INFO [tornado.access] 304 GET /static/img/weather/prec.png (127.0.0.1) 1.58ms
+24.12.2025 13:27:43 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 1.79ms
+24.12.2025 13:27:43 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 2.05ms
+24.12.2025 13:27:43 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:27:43 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.15ms
+24.12.2025 13:27:43 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 1.29ms
+24.12.2025 13:27:43 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 0.37ms
+24.12.2025 13:27:43 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/partly-cloudy-day.svg (127.0.0.1) 0.46ms
+24.12.2025 13:27:53 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:27:53 CET)" (scheduled at 2025-12-24 13:27:53.353774+01:00)
+24.12.2025 13:27:53 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:27:53 CET)" (scheduled at 2025-12-24 13:27:53.354344+01:00)
+24.12.2025 13:27:53 - INFO [E320] E320 data: E_in=170.528, E_out=1.961, Power=314
+24.12.2025 13:27:53 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:28:53 CET)" executed successfully
+24.12.2025 13:27:56 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:28:53 CET)" executed successfully
+24.12.2025 13:28:03 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1311.79ms
+24.12.2025 13:28:53 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:29:53 CET)" (scheduled at 2025-12-24 13:28:53.353774+01:00)
+24.12.2025 13:28:53 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:29:53 CET)" (scheduled at 2025-12-24 13:28:53.354344+01:00)
+24.12.2025 13:28:53 - INFO [E320] E320 data: E_in=170.533, E_out=1.961, Power=283
+24.12.2025 13:28:53 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:29:53 CET)" executed successfully
+24.12.2025 13:28:56 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:29:53 CET)" executed successfully
+24.12.2025 13:29:53 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:30:53 CET)" (scheduled at 2025-12-24 13:29:53.353774+01:00)
+24.12.2025 13:29:53 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:30:53 CET)" (scheduled at 2025-12-24 13:29:53.354344+01:00)
+24.12.2025 13:29:53 - INFO [E320] E320 data: E_in=170.538, E_out=1.961, Power=295
+24.12.2025 13:29:53 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:30:53 CET)" executed successfully
+24.12.2025 13:29:56 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:30:53 CET)" executed successfully
+24.12.2025 13:30:53 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:31:53 CET)" (scheduled at 2025-12-24 13:30:53.353774+01:00)
+24.12.2025 13:30:53 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:31:53 CET)" (scheduled at 2025-12-24 13:30:53.354344+01:00)
+24.12.2025 13:30:53 - INFO [E320] E320 data: E_in=170.543, E_out=1.961, Power=302
+24.12.2025 13:30:53 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:31:53 CET)" executed successfully
+24.12.2025 13:30:56 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:31:53 CET)" executed successfully
+24.12.2025 13:31:53 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:32:53 CET)" (scheduled at 2025-12-24 13:31:53.353774+01:00)
+24.12.2025 13:31:53 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:32:53 CET)" (scheduled at 2025-12-24 13:31:53.354344+01:00)
+24.12.2025 13:31:53 - INFO [E320] E320 data: E_in=170.548, E_out=1.961, Power=311
+24.12.2025 13:31:53 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:32:53 CET)" executed successfully
+24.12.2025 13:31:56 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:32:53 CET)" executed successfully
+24.12.2025 13:32:09 - INFO [tornado.general] /home/christoph/Workspace/home-backend/app/library/handler/api_weather.py modified; restarting server
+24.12.2025 13:32:10 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:32:10 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:32:10 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:32:10 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:32:10 - INFO [apscheduler.scheduler] Added job "Fritzbox.fetch" to job store "default"
+24.12.2025 13:32:10 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+24.12.2025 13:32:10 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+24.12.2025 13:32:10 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+24.12.2025 13:32:10 - INFO [apscheduler.scheduler] Scheduler started
+24.12.2025 13:32:10 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+24.12.2025 13:32:29 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.36ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/css/weather.css (127.0.0.1) 3.32ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/thermometre.png (127.0.0.1) 0.95ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/humidity.png (127.0.0.1) 1.03ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/sunrise.png (127.0.0.1) 1.13ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/sunset.png (127.0.0.1) 1.16ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/inside.png (127.0.0.1) 0.36ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/js/weather.js (127.0.0.1) 0.22ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/moon_phase/6.png (127.0.0.1) 0.47ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/outside.png (127.0.0.1) 0.48ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/umbrella.png (127.0.0.1) 0.73ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/feeling.png (127.0.0.1) 0.86ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/uvindex.png (127.0.0.1) 1.00ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/rain.svg (127.0.0.1) 1.08ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/arrow_down.png (127.0.0.1) 0.42ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/arrow_up.png (127.0.0.1) 0.32ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/prec.png (127.0.0.1) 3.02ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/cloudy.svg (127.0.0.1) 3.13ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/snow.svg (127.0.0.1) 3.24ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/showers-day.svg (127.0.0.1) 3.33ms
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /static/img/weather/weather_icons/fog.svg (127.0.0.1) 0.29ms
+24.12.2025 13:32:29 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:32:29 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 0.85ms
+24.12.2025 13:32:30 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1266.26ms
+24.12.2025 13:32:30 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 1.02ms
+24.12.2025 13:33:10 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:33:10 CET)" (scheduled at 2025-12-24 13:33:10.218652+01:00)
+24.12.2025 13:33:10 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:33:10 CET)" (scheduled at 2025-12-24 13:33:10.218873+01:00)
+24.12.2025 13:33:10 - INFO [E320] E320 data: E_in=170.555, E_out=1.961, Power=354
+24.12.2025 13:33:10 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:34:10 CET)" executed successfully
+24.12.2025 13:33:13 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:34:10 CET)" executed successfully
+24.12.2025 13:33:26 - INFO [tornado.general] /home/christoph/Workspace/home-backend/app/library/handler/api_weather.py modified; restarting server
+24.12.2025 13:36:01 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:36:01 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:36:01 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:36:01 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+24.12.2025 13:36:01 - INFO [apscheduler.scheduler] Added job "Fritzbox.fetch" to job store "default"
+24.12.2025 13:36:01 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+24.12.2025 13:36:01 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+24.12.2025 13:36:01 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+24.12.2025 13:36:01 - INFO [apscheduler.scheduler] Scheduler started
+24.12.2025 13:36:01 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+24.12.2025 13:36:04 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:36:04 - INFO [tornado.access] 200 GET /weather (127.0.0.1) 1.75ms
+24.12.2025 13:36:04 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+24.12.2025 13:36:04 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 0.98ms
+24.12.2025 13:36:05 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1326.28ms
+24.12.2025 13:37:01 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:37:01 CET)" (scheduled at 2025-12-24 13:37:01.166185+01:00)
+24.12.2025 13:37:01 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:37:01 CET)" (scheduled at 2025-12-24 13:37:01.166382+01:00)
+24.12.2025 13:37:01 - INFO [E320] E320 data: E_in=170.585, E_out=1.961, Power=332
+24.12.2025 13:37:01 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:38:01 CET)" executed successfully
+24.12.2025 13:37:04 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:38:01 CET)" executed successfully
+24.12.2025 13:38:01 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:39:01 CET)" (scheduled at 2025-12-24 13:38:01.166185+01:00)
+24.12.2025 13:38:01 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:39:01 CET)" (scheduled at 2025-12-24 13:38:01.166382+01:00)
+24.12.2025 13:38:01 - INFO [E320] E320 data: E_in=170.59, E_out=1.961, Power=320
+24.12.2025 13:38:01 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:39:01 CET)" executed successfully
+24.12.2025 13:38:04 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:39:01 CET)" executed successfully
+24.12.2025 13:39:01 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:40:01 CET)" (scheduled at 2025-12-24 13:39:01.166185+01:00)
+24.12.2025 13:39:01 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:40:01 CET)" (scheduled at 2025-12-24 13:39:01.166382+01:00)
+24.12.2025 13:39:01 - INFO [E320] E320 data: E_in=170.595, E_out=1.961, Power=314
+24.12.2025 13:39:01 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:40:01 CET)" executed successfully
+24.12.2025 13:39:04 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:40:01 CET)" executed successfully
+24.12.2025 13:40:01 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:41:01 CET)" (scheduled at 2025-12-24 13:40:01.166185+01:00)
+24.12.2025 13:40:01 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:41:01 CET)" (scheduled at 2025-12-24 13:40:01.166382+01:00)
+24.12.2025 13:40:01 - INFO [E320] E320 data: E_in=170.6, E_out=1.961, Power=304
+24.12.2025 13:40:01 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:41:01 CET)" executed successfully
+24.12.2025 13:40:05 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2025-12-24 13:41:01 CET)" executed successfully

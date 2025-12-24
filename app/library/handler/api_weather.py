@@ -6,6 +6,7 @@ import logging
 import requests
 import json
 from datetime import datetime
+import pytz
 
 
 class ApiWeather(RequestHandler):
@@ -58,6 +59,7 @@ class ApiWeather(RequestHandler):
             page = requests.get(FORECAST_URL, headers=headers)
             json_obj = json.loads(page.content.decode('utf-8'))
             for day in json_obj['result']['daily']:
+                print(day)
                 day_condition = {
                     'day' : day['timestamp'],
                     'condition' : CONDITIONS.get(day['weatherTypeID']),
@@ -66,7 +68,9 @@ class ApiWeather(RequestHandler):
                     'prec_amount' : day['precSum'],
                     'prec_text' : self.get_precipitation_text(day['weatherTypeID']),
                     'prec_prob' : self.get_precipitation_probability(json_obj['result']['hourly'],day),
-                    'icon' : ICONS.get(day['weatherTypeID'])
+                    'icon' : ICONS.get(day['weatherTypeID']),
+                    'sunrise' : self.convert_to_local_timestamp(day['sunrise']),
+                    'sunset' : self.convert_to_local_timestamp(day['sunset'])
                 }
                 forecast.append(day_condition)
             return forecast
@@ -81,6 +85,12 @@ class ApiWeather(RequestHandler):
                 if hour['precRisk'] > prec_prob:
                     prec_prob = hour['precRisk']
         return prec_prob
+
+    def convert_to_local_timestamp(self, utc_timestamp):
+        berlin_tz = pytz.timezone('Europe/Berlin')
+        utc_dt = datetime.fromtimestamp(utc_timestamp, pytz.UTC)
+        berlin_dt = utc_dt.astimezone(berlin_tz)
+        return int(berlin_dt.timestamp() * 1000)
 
     def get_precipitation_text(self, type_id):
         prec_text = ''        
