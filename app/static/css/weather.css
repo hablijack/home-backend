@@ -244,7 +244,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     hyphens: auto;
-    width: 175px;
+    width: 137px;
 }
 
 #sunrise-image {
@@ -340,6 +340,71 @@ body {
     left: 97px;
     font-size: 24px;
     font-weight: bold;
+}
+
+/* UV Index Danger Levels */
+.uv-index-container {
+    position: absolute;
+    top: 5px;
+    left: 85px;
+    width: 150px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.uv-index-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.uv-index-label {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: white;
+    margin-left: 8px;
+}
+
+/* UV Index Monochrome Coding */
+.uv-low {
+    background-color: #f0f0f0; /* Light gray */
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.uv-moderate {
+    background-color: #d0d0d0; /* Light-medium gray */
+    color: #333;
+    border: 1px solid #aaa;
+}
+
+.uv-high {
+    background-color: #a0a0a0; /* Medium gray */
+    color: white;
+    border: 1px solid #888;
+}
+
+.uv-very-high {
+    background-color: #707070; /* Medium-dark gray */
+    color: white;
+    border: 1px solid #555;
+}
+
+.uv-extreme {
+    background-color: #404040; /* Dark gray */
+    color: white;
+    border: 1px solid #222;
+}
+
+/* Position adjustment for new container */
+#uv-index .uv-icon {
+    left: 10px;
 }
 
 /* Forecast cards */

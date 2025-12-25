@@ -6,6 +6,7 @@ from library.handler.homepage import Homepage
 from library.handler.api_zoe_battery import ApiZoeBattery
 from library.handler.api_house_temp_current import ApiHouseTempCurrent
 from library.handler.api_weather import ApiWeather
+from library.handler.api_openmeteo import ApiOpenMeteo
 from library.handler.weather import Weather
 from library.handler.health import Health
 from tornado.web import Application
@@ -30,6 +31,7 @@ class Webserver():
         app = Application([
             (r"/", Homepage),
             (r"/api/weather", ApiWeather),
+            (r"/api/openmeteo", ApiOpenMeteo),
             (r"/weather", Weather),
             (r"/health", Health),
             (r"/api/zoe/battery/current.json", ApiZoeBattery, dict(database=self.database)),

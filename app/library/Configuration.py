@@ -47,3 +47,6 @@ class Configuration:
 
     def zoe_vehicle_id(self):
         return os.getenv('ZOE_VEHICLE_ID')
+    
+    def openweathermap_api_key(self):
+        return os.getenv('OPENWEATHERMAP_API_KEY')

@@ -10,6 +10,16 @@ var Weatherstation = (function () {
         });
     };
 
+    var fetchOpenMeteoData = function () {
+        return fetch('/api/openmeteo').then(function (response) {
+            if (response.ok) {
+                return response.json();
+            } else {
+                return Promise.reject(response);
+            }
+        });
+    };
+
     var updateElement = function (selector, content) {
         var element = document.querySelector(selector);
         if (element) {
@@ -46,7 +56,8 @@ var Weatherstation = (function () {
     return {
         init: async function () {
             var weatherData = await fetchWeatherData();
-            Weatherstation.updateAll(weatherData);
+            var openMeteoData = await fetchOpenMeteoData();
+            Weatherstation.updateAll(weatherData, openMeteoData);
         },
 
         updateCurrentWeather: function (data) {
@@ -101,9 +112,73 @@ var Weatherstation = (function () {
             });
         },
 
-        updateAll: function (data) {
+        updateAll: function (data, openMeteoData) {
             this.updateCurrentWeather(data);
             this.updateForecast(data);
+            this.updateOpenMeteoData(openMeteoData);
+        },
+
+        updateUVIndex: function (uvIndex) {
+            var uvNumber = document.querySelector('#uv-index-number');
+            var uvLabel = document.querySelector('#uv-index-label');
+            
+            if (uvNumber && uvLabel) {
+                uvNumber.innerHTML = uvIndex.toFixed(1);
+                uvNumber.classList.remove('loading');
+                
+                // Determine UV index level and apply appropriate styling
+                var level = '';
+                var cssClass = '';
+                
+                if (uvIndex <= 2) {
+                    level = 'Low';
+                    cssClass = 'uv-low';
+                } else if (uvIndex <= 5) {
+                    level = 'Moderate';
+                    cssClass = 'uv-moderate';
+                } else if (uvIndex <= 7) {
+                    level = 'High';
+                    cssClass = 'uv-high';
+                } else if (uvIndex <= 10) {
+                    level = 'Very High';
+                    cssClass = 'uv-very-high';
+                } else {
+                    level = 'Extreme';
+                    cssClass = 'uv-extreme';
+                }
+                
+                uvLabel.innerHTML = level;
+                uvLabel.className = 'uv-index-label ' + cssClass;
+            }
+        },
+
+        updateOpenMeteoData: function (data) {
+            if (data && data.weather && data.weather.current) {
+                var current = data.weather.current;
+                
+                // Update current outside temperature
+                if (current.temperature !== undefined && current.temperature !== null) {
+                    updateElement('#current-outside .temperature', Math.round(current.temperature));
+                }
+                
+                // Update humidity
+                if (current.humidity !== undefined && current.humidity !== null) {
+                    updateElement('#current-outside .humidity', Math.round(current.humidity));
+                }
+                
+                // Update feels like temperature
+                if (current.feels_like !== undefined && current.feels_like !== null) {
+                    updateElement('#feels-like-value .loading', Math.round(current.feels_like));
+                }
+                
+                // Update UV index if available
+                if (current.uv_index !== undefined && current.uv_index !== null && current.uv_index > 0) {
+                    this.updateUVIndex(current.uv_index);
+                } else if (data.weather.daily && data.weather.daily.uv_index_max) {
+                    // Fallback to daily max UV index
+                    this.updateUVIndex(data.weather.daily.uv_index_max);
+                }
+            }
         }
     };
 
