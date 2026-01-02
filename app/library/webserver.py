@@ -8,6 +8,8 @@ from library.handler.api_house_temp_current import ApiHouseTempCurrent
 from library.handler.api_weather import ApiWeather
 from library.handler.api_openmeteo import ApiOpenMeteo
 from library.handler.weather import Weather
+from library.handler.energy import Energy
+from library.handler.api_energy import ApiEnergy
 from library.handler.health import Health
 from tornado.web import Application
 import os
@@ -33,6 +35,8 @@ class Webserver():
             (r"/api/weather", ApiWeather),
             (r"/api/openmeteo", ApiOpenMeteo),
             (r"/weather", Weather),
+            (r"/energy", Energy),
+            (r"/api/energy", ApiEnergy),
             (r"/health", Health),
             (r"/api/zoe/battery/current.json", ApiZoeBattery, dict(database=self.database)),
             (r"/api/house/temp/current.json", ApiHouseTempCurrent, dict(database=self.database)),

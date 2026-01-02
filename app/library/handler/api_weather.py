@@ -52,14 +52,43 @@ class ApiWeather(RequestHandler):
             15 : 'fog.svg',
             16 : 'partly-cloudy-day.svg',
         }
+        MOON_PHASES = {
+            'new': 0,
+            'waxing_crescent': 1,
+            'first_quarter': 2,
+            'waxing_gibbous': 3,
+            'full': 4,
+            'waning_gibbous': 5,
+            'last_quarter': 6,
+            'waning_crescent': 7
+        }
+        MOON_PHASES = {
+            'new': 0,
+            'waxing_crescent': 1,
+            'first_quarter': 2,
+            'waxing_gibbous': 3,
+            'full': 4,
+            'waning_gibbous': 5,
+            'last_quarter': 6,
+            'waning_crescent': 7
+        }
 
         try:
             forecast = []
             headers = {'User-Agent': 'Mozilla/5.0'}
             page = requests.get(FORECAST_URL, headers=headers)
             json_obj = json.loads(page.content.decode('utf-8'))
+            print(json_obj)
             for day in json_obj['result']['daily']:
-                print(day)
+                # Extract moon phase data
+                moon_phase_index = 0
+                moon_phase_name = 'Neumond'
+                if 'moon' in day and 'phase' in day['moon']:
+                    moon_phase_index = MOON_PHASES.get(day['moon']['phase'], 0)
+                    moon_phase_names = ['Neumond', 'Zunehmende Sichel', 'Viertelmond', 'Zunehmender Mond', 
+                                       'Vollmond', 'Abnehmender Mond', 'Letztes Viertel', 'Abnehmende Sichel']
+                    moon_phase_name = moon_phase_names[moon_phase_index]
+
                 day_condition = {
                     'day' : day['timestamp'],
                     'condition' : CONDITIONS.get(day['weatherTypeID']),
@@ -70,12 +99,14 @@ class ApiWeather(RequestHandler):
                     'prec_prob' : self.get_precipitation_probability(json_obj['result']['hourly'],day),
                     'icon' : ICONS.get(day['weatherTypeID']),
                     'sunrise' : self.convert_to_local_timestamp(day['sunrise']),
-                    'sunset' : self.convert_to_local_timestamp(day['sunset'])
+                    'sunset' : self.convert_to_local_timestamp(day['sunset']),
+                    'moon_phase_index' : moon_phase_index,
+                    'moon_phase_name' : moon_phase_name
                 }
                 forecast.append(day_condition)
             return forecast
         except Exception as e:
-            return e.message
+            return str(e)
 
 
     def get_precipitation_probability(self, hourly_forecast, day):

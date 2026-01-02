@@ -53,6 +53,8 @@ var Weatherstation = (function () {
         return days[date.getDay()];
     };
 
+    
+
     return {
         init: async function () {
             var weatherData = await fetchWeatherData();
@@ -115,7 +117,7 @@ var Weatherstation = (function () {
         updateAll: function (data, openMeteoData) {
             this.updateCurrentWeather(data);
             this.updateForecast(data);
-            this.updateOpenMeteoData(openMeteoData);
+            this.updateOpenMeteoData(openMeteoData, data);
         },
 
         updateUVIndex: function (uvIndex) {
@@ -152,7 +154,7 @@ var Weatherstation = (function () {
             }
         },
 
-        updateOpenMeteoData: function (data) {
+        updateOpenMeteoData: function (data, weatherData) {
             if (data && data.weather && data.weather.current) {
                 var current = data.weather.current;
                 
@@ -178,6 +180,24 @@ var Weatherstation = (function () {
                     // Fallback to daily max UV index
                     this.updateUVIndex(data.weather.daily.uv_index_max);
                 }
+            }
+            
+            // Update moon phase with API data
+            this.updateMoonPhase(weatherData);
+        },
+
+        updateMoonPhase: function (weatherData) {
+            // Use moon phase data from API instead of calculating it
+            if (weatherData && weatherData.weather && weatherData.weather[0]) {
+                var currentWeather = weatherData.weather[0];
+                var moonPhaseIndex = currentWeather.moon_phase_index || 0;
+                var moonPhaseName = currentWeather.moon_phase_name || 'Neumond';
+                
+                // Update moon phase text
+                updateElement('#moon-phase-text', moonPhaseName);
+                
+                // Update moon phase icon
+                updateImage('.moon-icon', '/static/img/moon_phase/' + moonPhaseIndex + '.svg');
             }
         }
     };

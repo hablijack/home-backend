@@ -11,9 +11,9 @@ jobs:
       - run:
           name: Build and push Docker Image to Dockerhub
           command: |
-            docker build -t hablijack/home-backend:1.7.6 .
+            docker build -t hablijack/home-backend:1.8.0 .
             echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
-            docker push hablijack/home-backend:1.7.6
+            docker push hablijack/home-backend:1.8.0
 
 workflows:
   version: 2

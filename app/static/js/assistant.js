@@ -2,7 +2,7 @@ var Frontend = (function () {
 
   var drawZoeChart = function (data) {
     var options = {
-      series: [data.battery_percent],
+      series: [data.battery_level],
       chart: {
         height: 150,
         type: "radialBar",

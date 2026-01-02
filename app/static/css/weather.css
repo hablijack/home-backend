@@ -240,11 +240,11 @@ body {
 #condition-name {
     position: absolute;
     top: 0;
-    left: 10px;
-    font-size: 20px;
+    left: 7px;
+    font-size: 18px;
     font-weight: bold;
     hyphens: auto;
-    width: 137px;
+    width: 159px;
 }
 
 #sunrise-image {
@@ -274,19 +274,20 @@ body {
 /* Moon phase */
 .moon-icon {
     position: absolute;
-    bottom: 8px;
-    right: 10px;
+    bottom: 6px;
+    right: 19px;
     font-size: 13px;
     line-height: 11px;
 }
 
 #moon-phase-text {
     position: absolute;
-    bottom: 83px;
-    right: 29px;
+    bottom: 78px;
+    right: 1px;
     font-size: 13px;
     line-height: 11px;
     text-align: center;
+    width: 114px;
 }
 
 /* Feels like display */
@@ -412,7 +413,7 @@ body {
     position: absolute;
     top: 0;
     width: 153px;
-    height: 228px;
+    height: 227px;
     border: 1px solid black;
     border-radius: 9px;
     background-color: white;

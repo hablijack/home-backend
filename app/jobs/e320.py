@@ -23,6 +23,5 @@ class E320():
                 
                 insert_stmt = sql.generate_e320_insert_stmt(e_in, e_out, power)
                 database.execute(insert_stmt)
-                logger.info(f"E320 data: E_in={e_in}, E_out={e_out}, Power={power}")
         except Exception as e:
             logger.error("Error: %s. Cannot get E320 data." % e)
