@@ -55,3 +55,22 @@ class Sql():
 
     def generate_e320_all_entries_query(self):
         return 'SELECT timestamp, e_in, e_out, power FROM e320 WHERE DATE(timestamp) = current_date order by timestamp ASC;'
+
+    def generate_phone_calls_insert_stmt(self, call_id, caller_number, caller_name, call_date, call_duration):
+        insert_stmt = 'INSERT INTO "phone_calls" ("timestamp","call_id","caller_number","caller_name","call_date","call_duration") VALUES (\'{}\', {}, \'{}\', \'{}\', \'{}\', \'{}\');'
+        return insert_stmt.format(dt.now(), call_id, caller_number, caller_name, call_date, call_duration)
+
+    def generate_phone_calls_table_stmt(self):
+        return 'CREATE TABLE IF NOT EXISTS "phone_calls" ("id" BIGSERIAL NOT NULL,"timestamp" TIMESTAMP WITH TIME ZONE NOT NULL,"call_id" INTEGER NOT NULL,"caller_number" VARCHAR(50),"caller_name" VARCHAR(100),"call_date" VARCHAR(50),"call_duration" VARCHAR(20),PRIMARY KEY ("id"));'
+
+    def generate_phone_calls_index_stmt(self):
+        return 'CREATE INDEX IF NOT EXISTS phone_calls_index ON phone_calls (timestamp);'
+
+    def generate_phone_calls_cleanup_stmt(self):
+        return 'DELETE FROM phone_calls WHERE timestamp < now() - interval \'7 days\';'
+
+    def generate_phone_calls_last_entry_query(self):
+        return 'SELECT caller_number, caller_name, call_date, call_duration FROM phone_calls ORDER BY "timestamp" DESC LIMIT 1;'
+
+    def generate_phone_calls_all_entries_query(self):
+        return 'SELECT timestamp, caller_number, caller_name, call_date, call_duration FROM phone_calls WHERE DATE(timestamp) = current_date order by timestamp ASC;'

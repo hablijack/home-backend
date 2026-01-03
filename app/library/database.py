@@ -31,6 +31,8 @@ class Database():
             cur.close()
     
     def read(self, select_statement):
+        cur = None
+        records = None
         try:
             cur = self.conn.cursor()
             cur.execute(select_statement)
@@ -40,7 +42,8 @@ class Database():
             self.conn.rollback()
             records = None
         finally:
-            cur.close()
+            if cur:
+                cur.close()
             return records
             
 
@@ -54,6 +57,10 @@ class Database():
             cleanup_statement = sql.generate_zoe_cleanup_stmt()
             database.execute(cleanup_statement)
             cleanup_statement = sql.generate_e320_cleanup_stmt()
+            database.execute(cleanup_statement)
+            cleanup_statement = sql.generate_phone_calls_cleanup_stmt()
+            database.execute(cleanup_statement)
+            cleanup_statement = sql.generate_phone_calls_cleanup_stmt()
             database.execute(cleanup_statement)
         except Exception as error:
             logger.error(f"Error: '{error}'")
@@ -76,6 +83,11 @@ class Database():
             table_statement = sql.generate_e320_table_stmt()
             database.execute(table_statement)
             index_statement = sql.generate_e320_index_stmt()
+            database.execute(index_statement)
+            
+            table_statement = sql.generate_phone_calls_table_stmt()
+            database.execute(table_statement)
+            index_statement = sql.generate_phone_calls_index_stmt()
             database.execute(index_statement)
             
             logger.info("Database tables initialized successfully")

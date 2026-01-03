@@ -6,6 +6,7 @@ from jobs.homeAutomation import HomeAutomation
 
 from jobs.zoe import Zoe
 from jobs.e320 import E320
+from jobs.phone import Phone
 from library.database import Database
 from library.Configuration import Configuration
 
@@ -23,9 +24,11 @@ class Scheduler():
 
     def register_jobs(self):
         if self.config.scheduler_active():
+            Phone.fetch(self.database)
             self.scheduler.add_job(HomeAutomation.fetch, 'interval', [self.database], minutes=1)
             self.scheduler.add_job(E320.fetch, 'interval', [self.database], minutes=1)
             self.scheduler.add_job(Zoe.fetch, 'interval', [self.database], minutes=15)
+            self.scheduler.add_job(Phone.fetch, 'interval', [self.database], minutes=1)
             self.scheduler.add_job(Database.cleanup, 'cron', [self.database], hour='10', minute='30')
         else: 
             pass
