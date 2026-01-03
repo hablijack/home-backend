@@ -78,7 +78,6 @@ class ApiWeather(RequestHandler):
             headers = {'User-Agent': 'Mozilla/5.0'}
             page = requests.get(FORECAST_URL, headers=headers)
             json_obj = json.loads(page.content.decode('utf-8'))
-            print(json_obj)
             for day in json_obj['result']['daily']:
                 # Extract moon phase data
                 moon_phase_index = 0

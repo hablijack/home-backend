@@ -8,14 +8,14 @@ from library.Configuration import Configuration
 from library.sql import Sql
 
 
-class Fritzbox():
+class HomeAutomation():
 
     @staticmethod
     def fetch(database):
         config = Configuration()
         insert = ""
         sql = Sql()
-        logger = logging.getLogger("Fritzbox")
+        logger = logging.getLogger("HomeAutomation")
         try:
             fc = FritzConnection(address=config.fritz_api_ip(), user=config.fritz_api_user(), password=config.fritz_api_pass())
             fh = FritzHomeAutomation(fc)
@@ -29,4 +29,4 @@ class Fritzbox():
             insert = sql.generate_solarpanel_insert_stmt(garage_temp, overall_status, garage_power)     
             database.execute(insert)
         except Exception as e:
-            logger.error("Error: %s. Cannot get Fritzbox data." % e)
+            logger.error("Error: %s. Cannot get HomeAutomation data." % e)

@@ -5465,3 +5465,181 @@ ValueError: not enough values to unpack (expected 2, got 1)
 02.01.2026 16:11:14 - INFO [API_ZOE_BATTERY_HANDLER] ... requesting zoe battery status via json api!
 02.01.2026 16:11:14 - INFO [tornado.access] 200 GET /api/zoe/battery/current.json (127.0.0.1) 11.77ms
 02.01.2026 16:11:14 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 0.72ms
+03.01.2026 11:29:00 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:29:00 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:29:00 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:29:00 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:29:00 - INFO [apscheduler.scheduler] Added job "Fritzbox.fetch" to job store "default"
+03.01.2026 11:29:00 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+03.01.2026 11:29:00 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+03.01.2026 11:29:00 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+03.01.2026 11:29:00 - INFO [apscheduler.scheduler] Scheduler started
+03.01.2026 11:29:00 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+03.01.2026 11:29:06 - INFO [HOMEPAGE_HANDLER] ... rendering Homepage!
+03.01.2026 11:29:06 - INFO [tornado.access] 304 GET / (127.0.0.1) 1.53ms
+03.01.2026 11:29:06 - INFO [tornado.access] 304 GET /static/js/ext/moment-with-locales.min.js (127.0.0.1) 5.53ms
+03.01.2026 11:29:06 - INFO [tornado.access] 304 GET /static/js/ext/apexcharts.min.js (127.0.0.1) 3.14ms
+03.01.2026 11:29:06 - INFO [tornado.access] 304 GET /static/js/assistant.js (127.0.0.1) 3.36ms
+03.01.2026 11:29:06 - INFO [API_ZOE_BATTERY_HANDLER] ... requesting zoe battery status via json api!
+03.01.2026 11:29:06 - INFO [tornado.access] 200 GET /api/zoe/battery/current.json (127.0.0.1) 20.85ms
+03.01.2026 11:29:07 - WARNING [tornado.access] 404 GET /favicon.ico (127.0.0.1) 10.81ms
+03.01.2026 11:29:11 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+03.01.2026 11:29:11 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 3.31ms
+03.01.2026 11:29:11 - INFO [tornado.access] 304 GET /static/css/weather.css (127.0.0.1) 0.48ms
+03.01.2026 11:29:11 - INFO [tornado.access] 304 GET /static/js/weather.js (127.0.0.1) 0.44ms
+03.01.2026 11:29:13 - INFO [tornado.access] 200 GET /api/weather (127.0.0.1) 1345.78ms
+03.01.2026 11:29:13 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+03.01.2026 11:29:13 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 0.83ms
+03.01.2026 11:29:13 - INFO [tornado.access] 200 GET /api/openmeteo (127.0.0.1) 106.63ms
+03.01.2026 11:29:13 - INFO [tornado.access] 304 GET /static/img/weather/weather_icons/partly-cloudy-day.svg (127.0.0.1) 0.54ms
+03.01.2026 11:29:13 - INFO [tornado.access] 304 GET /static/img/moon_phase/4.svg (127.0.0.1) 0.39ms
+03.01.2026 11:30:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:30:00 CET)" (scheduled at 2026-01-03 11:30:00.329358+01:00)
+03.01.2026 11:30:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:30:00 CET)" (scheduled at 2026-01-03 11:30:00.329825+01:00)
+03.01.2026 11:30:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:31:00 CET)" executed successfully
+03.01.2026 11:30:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:31:00 CET)" executed successfully
+03.01.2026 11:31:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:32:00 CET)" (scheduled at 2026-01-03 11:31:00.329358+01:00)
+03.01.2026 11:31:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:32:00 CET)" (scheduled at 2026-01-03 11:31:00.329825+01:00)
+03.01.2026 11:31:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:32:00 CET)" executed successfully
+03.01.2026 11:31:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:32:00 CET)" executed successfully
+03.01.2026 11:32:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:33:00 CET)" (scheduled at 2026-01-03 11:32:00.329358+01:00)
+03.01.2026 11:32:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:33:00 CET)" (scheduled at 2026-01-03 11:32:00.329825+01:00)
+03.01.2026 11:32:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:33:00 CET)" executed successfully
+03.01.2026 11:32:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:33:00 CET)" executed successfully
+03.01.2026 11:33:00 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:34:00 CET)" (scheduled at 2026-01-03 11:33:00.329358+01:00)
+03.01.2026 11:33:00 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:34:00 CET)" (scheduled at 2026-01-03 11:33:00.329825+01:00)
+03.01.2026 11:33:00 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:34:00 CET)" executed successfully
+03.01.2026 11:33:03 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:34:00 CET)" executed successfully
+03.01.2026 11:33:40 - INFO [tornado.general] /home/christoph/Workspace/home-backend/app/library/handler/api_weather.py modified; restarting server
+03.01.2026 11:33:40 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:33:40 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:33:40 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:33:40 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:33:40 - INFO [apscheduler.scheduler] Added job "Fritzbox.fetch" to job store "default"
+03.01.2026 11:33:40 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+03.01.2026 11:33:40 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+03.01.2026 11:33:40 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+03.01.2026 11:33:40 - INFO [apscheduler.scheduler] Scheduler started
+03.01.2026 11:33:40 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+03.01.2026 11:33:43 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+03.01.2026 11:33:43 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.37ms
+03.01.2026 11:33:43 - INFO [WEATHER_PAGE_HANDLER] ... rendering Weather Page!
+03.01.2026 11:33:43 - INFO [tornado.access] 304 GET /weather (127.0.0.1) 1.07ms
+03.01.2026 11:33:44 - INFO [tornado.access] 304 GET /api/weather (127.0.0.1) 1423.94ms
+03.01.2026 11:33:44 - INFO [tornado.access] 200 GET /api/openmeteo (127.0.0.1) 74.79ms
+03.01.2026 11:34:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:34:40 CET)" (scheduled at 2026-01-03 11:34:40.689517+01:00)
+03.01.2026 11:34:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:34:40 CET)" (scheduled at 2026-01-03 11:34:40.689736+01:00)
+03.01.2026 11:34:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:35:40 CET)" executed successfully
+03.01.2026 11:34:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:35:40 CET)" executed successfully
+03.01.2026 11:35:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:36:40 CET)" (scheduled at 2026-01-03 11:35:40.689517+01:00)
+03.01.2026 11:35:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:36:40 CET)" (scheduled at 2026-01-03 11:35:40.689736+01:00)
+03.01.2026 11:35:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:36:40 CET)" executed successfully
+03.01.2026 11:35:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:36:40 CET)" executed successfully
+03.01.2026 11:36:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:37:40 CET)" (scheduled at 2026-01-03 11:36:40.689517+01:00)
+03.01.2026 11:36:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:37:40 CET)" (scheduled at 2026-01-03 11:36:40.689736+01:00)
+03.01.2026 11:36:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:37:40 CET)" executed successfully
+03.01.2026 11:36:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:37:40 CET)" executed successfully
+03.01.2026 11:37:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:38:40 CET)" (scheduled at 2026-01-03 11:37:40.689517+01:00)
+03.01.2026 11:37:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:38:40 CET)" (scheduled at 2026-01-03 11:37:40.689736+01:00)
+03.01.2026 11:37:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:38:40 CET)" executed successfully
+03.01.2026 11:37:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:38:40 CET)" executed successfully
+03.01.2026 11:38:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:39:40 CET)" (scheduled at 2026-01-03 11:38:40.689517+01:00)
+03.01.2026 11:38:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:39:40 CET)" (scheduled at 2026-01-03 11:38:40.689736+01:00)
+03.01.2026 11:38:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:39:40 CET)" executed successfully
+03.01.2026 11:38:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:39:40 CET)" executed successfully
+03.01.2026 11:39:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:40:40 CET)" (scheduled at 2026-01-03 11:39:40.689517+01:00)
+03.01.2026 11:39:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:40:40 CET)" (scheduled at 2026-01-03 11:39:40.689736+01:00)
+03.01.2026 11:39:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:40:40 CET)" executed successfully
+03.01.2026 11:39:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:40:40 CET)" executed successfully
+03.01.2026 11:40:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:41:40 CET)" (scheduled at 2026-01-03 11:40:40.689517+01:00)
+03.01.2026 11:40:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:41:40 CET)" (scheduled at 2026-01-03 11:40:40.689736+01:00)
+03.01.2026 11:40:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:41:40 CET)" executed successfully
+03.01.2026 11:40:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:41:40 CET)" executed successfully
+03.01.2026 11:41:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:42:40 CET)" (scheduled at 2026-01-03 11:41:40.689517+01:00)
+03.01.2026 11:41:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:42:40 CET)" (scheduled at 2026-01-03 11:41:40.689736+01:00)
+03.01.2026 11:41:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:42:40 CET)" executed successfully
+03.01.2026 11:41:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:42:40 CET)" executed successfully
+03.01.2026 11:42:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:43:40 CET)" (scheduled at 2026-01-03 11:42:40.689517+01:00)
+03.01.2026 11:42:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:43:40 CET)" (scheduled at 2026-01-03 11:42:40.689736+01:00)
+03.01.2026 11:42:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:43:40 CET)" executed successfully
+03.01.2026 11:42:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:43:40 CET)" executed successfully
+03.01.2026 11:43:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:44:40 CET)" (scheduled at 2026-01-03 11:43:40.689517+01:00)
+03.01.2026 11:43:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:44:40 CET)" (scheduled at 2026-01-03 11:43:40.689736+01:00)
+03.01.2026 11:43:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:44:40 CET)" executed successfully
+03.01.2026 11:43:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:44:40 CET)" executed successfully
+03.01.2026 11:44:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:45:40 CET)" (scheduled at 2026-01-03 11:44:40.689517+01:00)
+03.01.2026 11:44:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:45:40 CET)" (scheduled at 2026-01-03 11:44:40.689736+01:00)
+03.01.2026 11:44:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:45:40 CET)" executed successfully
+03.01.2026 11:44:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:45:40 CET)" executed successfully
+03.01.2026 11:45:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:46:40 CET)" (scheduled at 2026-01-03 11:45:40.689517+01:00)
+03.01.2026 11:45:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:46:40 CET)" (scheduled at 2026-01-03 11:45:40.689736+01:00)
+03.01.2026 11:45:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:46:40 CET)" executed successfully
+03.01.2026 11:45:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:46:40 CET)" executed successfully
+03.01.2026 11:46:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:47:40 CET)" (scheduled at 2026-01-03 11:46:40.689517+01:00)
+03.01.2026 11:46:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:47:40 CET)" (scheduled at 2026-01-03 11:46:40.689736+01:00)
+03.01.2026 11:46:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:47:40 CET)" executed successfully
+03.01.2026 11:46:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:47:40 CET)" executed successfully
+03.01.2026 11:47:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:48:40 CET)" (scheduled at 2026-01-03 11:47:40.689517+01:00)
+03.01.2026 11:47:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:48:40 CET)" (scheduled at 2026-01-03 11:47:40.689736+01:00)
+03.01.2026 11:47:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:48:40 CET)" executed successfully
+03.01.2026 11:47:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:48:40 CET)" executed successfully
+03.01.2026 11:48:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:49:40 CET)" (scheduled at 2026-01-03 11:48:40.689517+01:00)
+03.01.2026 11:48:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:49:40 CET)" (scheduled at 2026-01-03 11:48:40.689736+01:00)
+03.01.2026 11:48:40 - INFO [apscheduler.executors.default] Running job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2026-01-03 12:03:40 CET)" (scheduled at 2026-01-03 11:48:40.689840+01:00)
+03.01.2026 11:48:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:49:40 CET)" executed successfully
+03.01.2026 11:48:42 - INFO [Zoe] INSERT INTO "zoe" ("timestamp","battery_level","total_mileage") VALUES ('2026-01-03 11:48:42.172838', 86, 74681.0);
+03.01.2026 11:48:42 - INFO [apscheduler.executors.default] Job "Zoe.fetch (trigger: interval[0:15:00], next run at: 2026-01-03 12:03:40 CET)" executed successfully
+03.01.2026 11:48:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:49:40 CET)" executed successfully
+03.01.2026 11:49:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:50:40 CET)" (scheduled at 2026-01-03 11:49:40.689517+01:00)
+03.01.2026 11:49:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:50:40 CET)" (scheduled at 2026-01-03 11:49:40.689736+01:00)
+03.01.2026 11:49:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:50:40 CET)" executed successfully
+03.01.2026 11:49:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:50:40 CET)" executed successfully
+03.01.2026 11:50:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:51:40 CET)" (scheduled at 2026-01-03 11:50:40.689517+01:00)
+03.01.2026 11:50:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:51:40 CET)" (scheduled at 2026-01-03 11:50:40.689736+01:00)
+03.01.2026 11:50:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:51:40 CET)" executed successfully
+03.01.2026 11:50:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:51:40 CET)" executed successfully
+03.01.2026 11:51:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:52:40 CET)" (scheduled at 2026-01-03 11:51:40.689517+01:00)
+03.01.2026 11:51:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:52:40 CET)" (scheduled at 2026-01-03 11:51:40.689736+01:00)
+03.01.2026 11:51:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:52:40 CET)" executed successfully
+03.01.2026 11:51:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:52:40 CET)" executed successfully
+03.01.2026 11:52:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:53:40 CET)" (scheduled at 2026-01-03 11:52:40.689517+01:00)
+03.01.2026 11:52:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:53:40 CET)" (scheduled at 2026-01-03 11:52:40.689736+01:00)
+03.01.2026 11:52:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:53:40 CET)" executed successfully
+03.01.2026 11:52:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:53:40 CET)" executed successfully
+03.01.2026 11:53:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:54:40 CET)" (scheduled at 2026-01-03 11:53:40.689517+01:00)
+03.01.2026 11:53:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:54:40 CET)" (scheduled at 2026-01-03 11:53:40.689736+01:00)
+03.01.2026 11:53:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:54:40 CET)" executed successfully
+03.01.2026 11:53:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:54:40 CET)" executed successfully
+03.01.2026 11:54:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:55:40 CET)" (scheduled at 2026-01-03 11:54:40.689517+01:00)
+03.01.2026 11:54:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:55:40 CET)" (scheduled at 2026-01-03 11:54:40.689736+01:00)
+03.01.2026 11:54:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:55:40 CET)" executed successfully
+03.01.2026 11:54:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:55:40 CET)" executed successfully
+03.01.2026 11:55:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:56:40 CET)" (scheduled at 2026-01-03 11:55:40.689517+01:00)
+03.01.2026 11:55:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:56:40 CET)" (scheduled at 2026-01-03 11:55:40.689736+01:00)
+03.01.2026 11:55:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:56:40 CET)" executed successfully
+03.01.2026 11:55:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:56:40 CET)" executed successfully
+03.01.2026 11:56:40 - INFO [apscheduler.executors.default] Running job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:57:40 CET)" (scheduled at 2026-01-03 11:56:40.689517+01:00)
+03.01.2026 11:56:40 - INFO [apscheduler.executors.default] Running job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:57:40 CET)" (scheduled at 2026-01-03 11:56:40.689736+01:00)
+03.01.2026 11:56:40 - INFO [apscheduler.executors.default] Job "E320.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:57:40 CET)" executed successfully
+03.01.2026 11:56:44 - INFO [apscheduler.executors.default] Job "Fritzbox.fetch (trigger: interval[0:01:00], next run at: 2026-01-03 11:57:40 CET)" executed successfully
+03.01.2026 11:57:26 - INFO [tornado.general] /home/christoph/Workspace/home-backend/app/library/scheduler.py modified; restarting server
+03.01.2026 11:57:26 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:57:26 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:57:26 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:57:26 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:57:26 - INFO [apscheduler.scheduler] Added job "HomeAutomation.fetch" to job store "default"
+03.01.2026 11:57:26 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+03.01.2026 11:57:26 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+03.01.2026 11:57:26 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+03.01.2026 11:57:26 - INFO [apscheduler.scheduler] Scheduler started
+03.01.2026 11:57:26 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
+03.01.2026 11:57:35 - INFO [tornado.general] /home/christoph/Workspace/home-backend/app/jobs/homeAutomation.py modified; restarting server
+03.01.2026 11:57:35 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:57:35 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:57:35 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:57:35 - INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+03.01.2026 11:57:35 - INFO [apscheduler.scheduler] Added job "HomeAutomation.fetch" to job store "default"
+03.01.2026 11:57:35 - INFO [apscheduler.scheduler] Added job "E320.fetch" to job store "default"
+03.01.2026 11:57:35 - INFO [apscheduler.scheduler] Added job "Zoe.fetch" to job store "default"
+03.01.2026 11:57:35 - INFO [apscheduler.scheduler] Added job "Database.cleanup" to job store "default"
+03.01.2026 11:57:35 - INFO [apscheduler.scheduler] Scheduler started
+03.01.2026 11:57:35 - INFO [WEBSERVER] [#] HomeAssistant is serving under 127.0.0.1:8080 ...
