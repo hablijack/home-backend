@@ -6,3 +6,5 @@ renault-api==0.5.3
 psycopg2-binary==2.9.11
 pytz==2025.2
 lxml==6.0.2
+python-telegram-bot==22.6
+aiohttp==3.13.3
