@@ -22,19 +22,18 @@ class Scheduler:
     def start(self):
         self.scheduler.start()
 
-
-def register_jobs(self):
-    if self.config.scheduler_active():
-        Phone.fetch(self.database)
-        TelegramJob.start(self.database)  # Start Telegram bot service
-        self.scheduler.add_job(
-            HomeAutomation.fetch, "interval", [self.database], minutes=1
-        )
-        self.scheduler.add_job(E320.fetch, "interval", [self.database], minutes=1)
-        self.scheduler.add_job(Zoe.fetch, "interval", [self.database], minutes=15)
-        self.scheduler.add_job(Phone.fetch, "interval", [self.database], minutes=15)
-        self.scheduler.add_job(
-            Database.cleanup, "cron", [self.database], hour="10", minute="30"
-        )
-    else:
-        pass
+    def register_jobs(self):
+        if self.config.scheduler_active():
+            Phone.fetch(self.database)
+            TelegramJob.start(self.database)  # Start Telegram bot service
+            self.scheduler.add_job(
+                HomeAutomation.fetch, "interval", [self.database], minutes=1
+            )
+            self.scheduler.add_job(E320.fetch, "interval", [self.database], minutes=1)
+            self.scheduler.add_job(Zoe.fetch, "interval", [self.database], minutes=15)
+            self.scheduler.add_job(Phone.fetch, "interval", [self.database], minutes=15)
+            self.scheduler.add_job(
+                Database.cleanup, "cron", [self.database], hour="10", minute="30"
+            )
+        else:
+            pass
