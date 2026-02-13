@@ -77,7 +77,9 @@ class TelegramBot:
     def start(self):
         """Start the bot in a way that's compatible with existing sync code"""
         try:
-            asyncio.run(self.start_bot())
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            loop.run_until_complete(self.start_bot())
         except KeyboardInterrupt:
             self.logger.info("Telegram bot stopped by user")
         except Exception as e:
