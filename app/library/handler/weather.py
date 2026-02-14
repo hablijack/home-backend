@@ -1,15 +1,18 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-from tornado.web import RequestHandler
 import logging
+import os
+from fastapi import Request
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
+
+logger = logging.getLogger("MAIN")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "templates"))
 
 
-class Weather(RequestHandler):
-
-    def initialize(self):
-        self.logger = logging.getLogger('WEATHER_PAGE_HANDLER')
-
-    def get(self):
-        self.logger.info("... rendering Weather Page!")
-        self.render('weather.html')
+class Weather:
+    async def get(self, request: Request):
+        logger.info("... rendering Weather Page!")
+        return templates.TemplateResponse("weather.html", {"request": request})

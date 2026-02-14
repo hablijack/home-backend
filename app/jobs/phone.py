@@ -47,7 +47,6 @@ class Phone():
                             call['date'],
                             call['duration']
                         )
-                        logger.info(insert_stmt)
                         database.execute(insert_stmt)
                     
         except Exception as e:

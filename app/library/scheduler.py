@@ -7,7 +7,6 @@ from jobs.homeAutomation import HomeAutomation
 from jobs.zoe import Zoe
 from jobs.e320 import E320
 from jobs.phone import Phone
-from jobs.telegram import TelegramJob
 from library.database import Database
 from library.Configuration import Configuration
 
@@ -25,7 +24,6 @@ class Scheduler:
     def register_jobs(self):
         if self.config.scheduler_active():
             Phone.fetch(self.database)
-            TelegramJob.start(self.database)  # Start Telegram bot service
             self.scheduler.add_job(
                 HomeAutomation.fetch, "interval", [self.database], minutes=1
             )
