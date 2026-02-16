@@ -23,8 +23,33 @@ class TelegramBot:
             raise ValueError("TELEGRAM_BOT_TOKEN environment variable is required")
 
     def message_handler(self, update: Update, context):
-        """Handle incoming Telegram messages"""
+        """Handle incoming Telegram messages only when mentioned"""
         try:
+            if not update.message or not update.message.text:
+                return
+
+            if not update.message.entities:
+                return
+
+            bot_username = (
+                context.bot.username.lower() if context.bot.username else None
+            )
+            if not bot_username:
+                return
+
+            mentioned = False
+            for entity in update.message.entities:
+                if entity.type == "mention":
+                    mention_text = update.message.text[
+                        entity.offset : entity.offset + entity.length
+                    ]
+                    if mention_text[1:].lower() == bot_username:
+                        mentioned = True
+                        break
+
+            if not mentioned:
+                return
+
             user_message = update.message.text
             user_name = update.effective_user.full_name or "User"
 
