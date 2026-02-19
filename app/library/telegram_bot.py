@@ -22,58 +22,75 @@ class TelegramBot:
             self.logger.error("TELEGRAM_BOT_TOKEN not configured")
             raise ValueError("TELEGRAM_BOT_TOKEN environment variable is required")
 
-    def message_handler(self, update: Update, context):
-        """Handle incoming Telegram messages only when mentioned"""
-        try:
-            if not update.message or not update.message.text:
-                return
 
-            if not update.message.entities:
-                return
+def message_handler(self, update: Update, context):
+    """Handle incoming Telegram messages with context and mention checks"""
+    try:
+        if not update.message or not update.message.text:
+            return
 
-            bot_username = (
-                context.bot.username.lower() if context.bot.username else None
-            )
-            if not bot_username:
-                return
+        user_message = update.message.text
+        user_name = update.effective_user.full_name or "User"
+        bot_username = context.bot.username.lower() if context.bot.username else None
+        if not bot_username:
+            return
 
-            mentioned = False
-            for entity in update.message.entities:
+        chat_type = update.effective_chat.type
+        mentioned = False
+
+        # Private Chat → immer antworten
+        if chat_type == "private":
+            mentioned = True
+        else:
+            # Gruppen → nur antworten, wenn Bot erwähnt wurde
+            for entity in update.message.entities or []:
                 if entity.type == "mention":
-                    mention_text = update.message.text[
+                    mention_text = user_message[
                         entity.offset : entity.offset + entity.length
                     ]
                     if mention_text[1:].lower() == bot_username:
                         mentioned = True
                         break
 
-            if not mentioned:
-                return
+        if not mentioned:
+            return
 
-            user_message = update.message.text
-            user_name = update.effective_user.full_name or "User"
+        # @BotName aus der Nachricht entfernen
+        clean_text = user_message
+        for entity in update.message.entities or []:
+            if entity.type == "mention":
+                mention_text = user_message[
+                    entity.offset : entity.offset + entity.length
+                ]
+                if mention_text[1:].lower() == bot_username:
+                    clean_text = clean_text.replace(mention_text, "")
 
-            self.logger.info(f"Received message from {user_name}: {user_message}")
+        user_message = clean_text.strip()
 
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-            response = loop.run_until_complete(
-                self.ollama_client.generate_response(user_message)
+        self.logger.info(f"Received message from {user_name}: {user_message}")
+
+        # Event Loop korrekt erstellen und Ollama mit chat_id aufrufen
+        chat_id = update.effective_chat.id
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        response = loop.run_until_complete(
+            self.ollama_client.generate_response(chat_id, user_message)
+        )
+        loop.close()
+
+        # Antwort senden
+        update.message.reply_text(response)
+        self.logger.info(f"Sent response to {user_name}: {response[:50]}...")
+
+
+    except Exception as e:
+        self.logger.error(f"Error handling message: {e}")
+        try:
+            update.message.reply_text(
+                "Sorry, ich konnte deine Nachricht gerade nicht verarbeiten."
             )
-            loop.close()
-
-            update.message.reply_text(response)
-
-            self.logger.info(f"Sent response to {user_name}: {response[:50]}...")
-
-        except Exception as e:
-            self.logger.error(f"Error handling message: {e}")
-            try:
-                update.message.reply_text(
-                    "Sorry, I encountered an error processing your message."
-                )
-            except:
-                pass
+        except:
+            pass
 
     def start(self):
         """Start the bot in a background thread"""
