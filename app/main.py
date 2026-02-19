@@ -91,48 +91,55 @@ async def start_command(update: Update, context):
 
 async def message_handler(update: Update, context):
     try:
+        # Grunddaten
         user_message = update.message.text
+        chat_id = update.effective_chat.id  # Chat-ID für Kontexte
         user = update.effective_user
         user_name = user.full_name if user else "User"
         logger.info(f"Received message from {user_name}: {user_message}")
 
+        # Erste Rückmeldung an Nutzer
         sent_message = await update.message.reply_text("🤖 Generiere Antwort...")
         current_text = ""
         last_edit_time = 0
 
+        # Callback für Streaming
         async def on_chunk(chunk: str):
             nonlocal current_text, last_edit_time
+            if not chunk:
+                return
             current_text += chunk
             import time
-
-            current_time = time.time()
-            if current_time - last_edit_time > 1.5:
+            now = time.time()
+            if now - last_edit_time > 1.5:  # Telegram Rate-Limit
                 try:
                     await sent_message.edit_text(current_text)
-                    last_edit_time = current_time
+                    last_edit_time = now
                 except Exception:
                     pass
 
+        # Ollama Streaming aufrufen
         try:
-            result = await ollama_client.stream_response(user_message, on_chunk)
+            result = await ollama_client.stream_response(chat_id, user_message, on_chunk)
             if result:
-                await sent_message.edit_text(result)
+                await sent_message.edit_text(result)  # Endgültige Antwort
             else:
-                await sent_message.edit_text("Sorry, I could not generate a response.")
+                await sent_message.edit_text("Sorry, ich konnte keine Antwort generieren.")
         except Exception as e:
             logger.error(f"Ollama streaming error: {e}")
             await sent_message.edit_text(
-                "Sorry, I encountered an error generating a response."
+                "Entschuldigung, beim Generieren der Antwort ist ein Fehler aufgetreten."
             )
 
         logger.info(f"Sent response to {user_name}: {current_text[:50]}...")
+
     except Exception as e:
         logger.error(f"Error handling message: {e}")
         try:
             await update.message.reply_text(
-                "Sorry, I encountered an error processing your message."
+                "Entschuldigung, beim Verarbeiten deiner Nachricht ist ein Fehler aufgetreten."
             )
-        except:
+        except Exception:
             pass
 
 
