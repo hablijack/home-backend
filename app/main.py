@@ -34,7 +34,7 @@ import uvicorn
 
 from library.Configuration import Configuration
 from library.database import Database
-from library.ollama_client import OllamaClient
+from library.llama_client import LlamaClient
 from library.sql import Sql
 
 config = Configuration()
@@ -48,7 +48,7 @@ except Exception as e:
     logger.warning(f"Database connection failed: {e}")
 
 scheduler = AsyncIOScheduler(timezone="Europe/Berlin")
-ollama_client = OllamaClient()
+llama_client = LlamaClient()
 sql = Sql()
 
 telegram_app = None
@@ -110,6 +110,7 @@ async def message_handler(update: Update, context):
                 return
             current_text += chunk
             import time
+
             now = time.time()
             if now - last_edit_time > 1.5:  # Telegram Rate-Limit
                 try:
@@ -118,15 +119,17 @@ async def message_handler(update: Update, context):
                 except Exception:
                     pass
 
-        # Ollama Streaming aufrufen
+        # Llama with Tools aufrufen
         try:
-            result = await ollama_client.stream_response(chat_id, user_message, on_chunk)
+            result = await llama_client.chat_with_tools(chat_id, user_message)
             if result:
-                await sent_message.edit_text(result)  # Endgültige Antwort
+                await sent_message.edit_text(result)
             else:
-                await sent_message.edit_text("Sorry, ich konnte keine Antwort generieren.")
+                await sent_message.edit_text(
+                    "Sorry, ich konnte keine Antwort generieren."
+                )
         except Exception as e:
-            logger.error(f"Ollama streaming error: {e}")
+            logger.error(f"Llama streaming error: {e}")
             await sent_message.edit_text(
                 "Entschuldigung, beim Generieren der Antwort ist ein Fehler aufgetreten."
             )

@@ -54,8 +54,17 @@ class Configuration:
     def telegram_bot_token(self):
         return os.getenv("TELEGRAM_BOT_TOKEN")
 
-    def ollama_host(self):
-        return os.getenv("OLLAMA_HOST", "http://localhost:11434")
+    def llama_host_gemma(self):
+        return os.getenv("LLAMA_HOST_GEMMA", "http://localhost:11434")
 
-    def ollama_model(self):
-        return os.getenv("OLLAMA_MODEL", "llama3.2")
+    def llama_model_gemma(self):
+        return os.getenv("LLAMA_MODEL_GEMMA", "gemma-3-4b")
+
+    def llama_host_nomic(self):
+        return os.getenv("LLAMA_HOST_NOMIC", "http://localhost:11435")
+
+    def prompt_firewall_disabled(self):
+        return os.getenv("PROMPT_FIREWALL_DISABLED", "false").lower() == "true"
+
+    def tavily_api_key(self):
+        return os.getenv("TAVILY_API_KEY")
