@@ -2,7 +2,7 @@ tornado==6.5.5
 fritzconnection==1.15.1
 APScheduler==3.11.2
 python-dotenv==1.2.2
-renault-api==0.5.6
+renault-api==0.5.7
 psycopg2-binary==2.9.11
 pytz==2026.1.post1
 lxml==6.0.2
