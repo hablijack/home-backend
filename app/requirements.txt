@@ -9,7 +9,7 @@ lxml==6.0.2
 python-telegram-bot==22.7
 aiohttp==3.13.5
 fastapi==0.135.3
-uvicorn==0.43.0
+uvicorn==0.44.0
 jinja2==3.1.6
 beautifulsoup4==4.14.3
 tavily-python
