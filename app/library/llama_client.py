@@ -4,8 +4,6 @@ import logging
 import time
 from library.Configuration import Configuration
 from library.tools import AVAILABLE_TOOLS, get_tool_schemas
-from library.prompt_firewall import PromptFirewall
-
 
 class LlamaClient:
     CONTEXT_TTL = 180
@@ -25,7 +23,6 @@ class LlamaClient:
         self.host = self.config.llama_host_gemma()
         self.model = self.config.llama_model_gemma()
         self.tools = get_tool_schemas()
-        self.firewall = PromptFirewall(self.config)
 
         self.conversations = {}
 
@@ -179,15 +176,6 @@ class LlamaClient:
 
     async def chat_with_tools(self, chat_id: int, user_message: str) -> str:
         try:
-            firewall_result = await self.firewall.check(user_message)
-            if not firewall_result.allowed:
-                self.logger.warning(
-                    f"Blocked prompt from chat {chat_id}: "
-                    f"category={firewall_result.category}, "
-                    f"similarity={firewall_result.similarity:.3f}"
-                )
-                return self.firewall.block_message
-
             self._cleanup_old_contexts()
             now = time.time()
 

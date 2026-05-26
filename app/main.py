@@ -91,9 +91,24 @@ async def start_command(update: Update, context):
 
 async def message_handler(update: Update, context):
     try:
-        # Grunddaten
+        chat_id = update.effective_chat.id
+        user_id = update.effective_user.id if update.effective_user else None
+
+        is_private = update.effective_chat.type == "private"
+
+        if is_private:
+            allowed_user_ids = config.telegram_allowed_user_ids()
+            if allowed_user_ids and user_id not in allowed_user_ids:
+                await update.message.reply_text(
+                    "This bot is restricted and you don't have permission to use it!"
+                )
+                return
+        else:
+            allowed_chat_ids = config.telegram_allowed_chat_ids()
+            if allowed_chat_ids and chat_id not in allowed_chat_ids:
+                return
+
         user_message = update.message.text
-        chat_id = update.effective_chat.id  # Chat-ID für Kontexte
         user = update.effective_user
         user_name = user.full_name if user else "User"
         logger.info(f"Received message from {user_name}: {user_message}")
@@ -153,8 +168,13 @@ async def run_bot():
         telegram_app.add_handler(CommandHandler("start", start_command))
 
         async def group_message_handler(update: Update, context):
-            if update.message and update.message.text:
-                await message_handler(update, context)
+            if not update.message or not update.message.text:
+                return
+            bot_username = context.bot.username
+            text = update.message.text
+            if f"@{bot_username}" not in text:
+                return
+            await message_handler(update, context)
 
         telegram_app.add_handler(
             MessageHandler(filters.TEXT & ~filters.COMMAND, message_handler)

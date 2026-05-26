@@ -58,13 +58,15 @@ class Configuration:
         return os.getenv("LLAMA_HOST_GEMMA", "http://localhost:11434")
 
     def llama_model_gemma(self):
-        return os.getenv("LLAMA_MODEL_GEMMA", "gemma-3-4b")
-
-    def llama_host_nomic(self):
-        return os.getenv("LLAMA_HOST_NOMIC", "http://localhost:11435")
-
-    def prompt_firewall_disabled(self):
-        return os.getenv("PROMPT_FIREWALL_DISABLED", "false").lower() == "true"
+        return os.getenv("LLAMA_MODEL_GEMMA", "gemma-4-e2b-it-q4_k_m.gguf")
 
     def tavily_api_key(self):
         return os.getenv("TAVILY_API_KEY")
+
+    def telegram_allowed_chat_ids(self):
+        raw = os.getenv("TELEGRAM_ALLOWED_CHAT_IDS", "")
+        return [int(x.strip()) for x in raw.split(",") if x.strip()] if raw else []
+
+    def telegram_allowed_user_ids(self):
+        raw = os.getenv("TELEGRAM_ALLOWED_USER_IDS", "")
+        return [int(x.strip()) for x in raw.split(",") if x.strip()] if raw else []
