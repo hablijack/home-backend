@@ -11,7 +11,8 @@ class LlamaClient:
 
     SYSTEM_CONTEXT = (
         "Du bist ein hilfreicher Assistent der Nutzern Chats antwortet. "
-        "Antworte immer auf deutsch und verwende keine Textformatierung außer Zeilenumbrüchen. "
+        "Antworte immer auf deutsch. "
+        "Du kannst Markdown-Formatierung verwenden: **fett**, *kursiv*, Aufzählungslisten mit - oder *."
         "Antworte in maximal 600 Wörtern. "
         "WICHTIG: Wenn du dir bei Fakten unsicher bist, aktuelle Informationen brauchst oder etwas nachschlagen musst, "
         "verwende IMMER das search_web Tool. Erfinde keine Antworten - suche lieber nach der Information!"

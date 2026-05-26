@@ -129,7 +129,7 @@ async def message_handler(update: Update, context):
             now = time.time()
             if now - last_edit_time > 1.5:  # Telegram Rate-Limit
                 try:
-                    await sent_message.edit_text(current_text)
+                    await sent_message.edit_text(current_text, parse_mode="MarkdownV2")
                     last_edit_time = now
                 except Exception:
                     pass
@@ -138,7 +138,7 @@ async def message_handler(update: Update, context):
         try:
             result = await llama_client.chat_with_tools(chat_id, user_message)
             if result:
-                await sent_message.edit_text(result)
+                await sent_message.edit_text(result, parse_mode="MarkdownV2")
             else:
                 await sent_message.edit_text(
                     "Sorry, ich konnte keine Antwort generieren."
