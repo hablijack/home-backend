@@ -45,6 +45,14 @@ logger = logging.getLogger("MAIN")
 def _escape_markdown_v2(text: str) -> str:
     return re.sub(r"([\\\]\[.!(){}~`>#+|=])", r"\\\1", text)
 
+
+def _sanitize_markdown_v2(text: str) -> str:
+    text = _escape_markdown_v2(text)
+    for marker in ["**", "__"]:
+        if text.count(marker) % 2 != 0:
+            text += marker
+    return text
+
 db = None
 try:
     db = Database()
@@ -134,7 +142,7 @@ async def message_handler(update: Update, context):
             now = time.time()
             if now - last_edit_time > 1.5:  # Telegram Rate-Limit
                 try:
-                    await sent_message.edit_text(_escape_markdown_v2(current_text), parse_mode="MarkdownV2")
+                    await sent_message.edit_text(_sanitize_markdown_v2(current_text), parse_mode="MarkdownV2")
                     last_edit_time = now
                 except Exception:
                     pass
@@ -143,7 +151,7 @@ async def message_handler(update: Update, context):
         try:
             result = await llama_client.chat_with_tools(chat_id, user_message)
             if result:
-                await sent_message.edit_text(_escape_markdown_v2(result), parse_mode="MarkdownV2")
+                await sent_message.edit_text(_sanitize_markdown_v2(result), parse_mode="MarkdownV2")
             else:
                 await sent_message.edit_text(
                     "Sorry, ich konnte keine Antwort generieren."
