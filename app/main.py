@@ -43,7 +43,7 @@ logger = logging.getLogger("MAIN")
 
 
 def _escape_markdown_v2(text: str) -> str:
-    return re.sub(r"([\\\]\[.!(){}~`>#+|=])", r"\\\1", text)
+    return re.sub(r"([\\\]\[.!(){}~`>#+\-=|])", r"\\\1", text)
 
 
 def _sanitize_markdown_v2(text: str) -> str:
