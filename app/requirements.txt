@@ -1,4 +1,4 @@
-tornado==6.5.6
+tornado==6.5.7
 fritzconnection==1.15.1
 APScheduler==3.11.2
 python-dotenv==1.2.2
