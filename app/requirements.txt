@@ -4,7 +4,7 @@ APScheduler==3.11.3
 python-dotenv==1.2.2
 renault-api==0.5.12
 psycopg2-binary==2.9.12
-pytz==2026.2
+pytz==2026.3.post1
 lxml==6.1.1
 python-telegram-bot==22.8
 aiohttp==3.14.3
