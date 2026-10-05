@@ -1,7 +1,7 @@
 tornado==6.5.10
 fritzconnection==1.15.1
 APScheduler==3.11.3
-python-dotenv==1.2.3
+python-dotenv==1.2.4
 renault-api==0.5.13
 psycopg2-binary==2.9.13
 pytz==2026.4
